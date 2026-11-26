@@ -1,0 +1,61 @@
+[excited] Welcome to N D R Ed Tech!
+
+First, E T L!
+
+E T L అంటే Extract, Transform, Load.
+
+Data ని extract చేసి, warehouse లోకి వెళ్లే ముందే transform చేసి, తర్వాత load చేస్తాం.
+
+Second, E L T!
+
+E L T అంటే Extract, Load, Transform.
+
+ముందు raw data ని direct గా warehouse లోకి load చేస్తాం. Transformation warehouse లోనే జరుగుతుంది.
+
+Cloud warehouses కి scalable compute ఉంటుంది. అందుకే modern data teams లో E L T popular.
+
+ఇప్పుడు Modern Data Stack లో four layers చూద్దాం.
+
+First, Sources – databases, applications and files.
+
+Second, Ingestion – data ని Snowflake లోకి load చేసే Snowpipe లాంటి tools.
+
+Third, Warehouse – Snowflake.
+
+Fourth, Transformation – D B T.
+
+Finally, Power B I or Tableau లాంటి B I tools reports create చేస్తాయి.
+
+ఒక Banking project example తీసుకుందాం.
+
+S Q L Server నుంచి data A W S S three కి వస్తుంది. ఆ files Snowpipe తో Snowflake RAW schema లోకి load అవుతాయి.
+
+ఇప్పుడు D B T output కోసం ఒక separate schema create చేద్దాం:
+
+CREATE SCHEMA BANK underscore D B dot RAW.
+
+CREATE SCHEMA BANK underscore D B dot ANALYTICS.
+
+Raw data RAW schema లో safe గా ఉంటుంది.
+
+D B T models ANALYTICS schema లో business-ready tables create చేస్తాయి.
+
+Raw data ఉంటుంది కాబట్టి, logic మార్చినప్పుడు data ని మళ్లీ process చేయచ్చు.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+E T L – Transform before loading.
+
+E L T – Load first, transform inside the warehouse.
+
+D B T – The transformation layer of the modern data stack.
+
+ఇది మన Thirty Days of D B T series లో Day Two!
+
+Next video లో D B T Core vs D B T Cloud and Installation గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

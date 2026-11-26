@@ -1,0 +1,88 @@
+she:
+[curious] Ra, Friday evening production ki deploy chesthara?
+he:
+[shock] Ayyo! Weekend antha family tho panic aa? 😂
+she:
+[playfully sarcastic] Mari code ni review cheyyakunda direct ga production ki push chesthe?
+he:
+[panicking] Monday morning dashboard break ayyi manager phone chesthadu ra!
+she:
+[confident] Anduke Git, pull requests and CI checks! Automatic ga test chesthundhi!
+he:
+[excited] Ante production ki vellakamunde friend check chesinattu!
+she:
+[energetic] Exactly!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt project antha code kabatti, Git lo store chestham.
+
+Standard workflow enti ante…
+
+First, main branch lo production-ready code untundhi.
+
+Second, developer oka feature branch create chesi, changes chesthadu.
+
+Third, pull request create chesthadu. Team members code review chesthaaru.
+
+Fourth, CI check run avuthundhi. Idi mana changes ni automatic ga test chesthundhi.
+
+Fifth, review and checks pass ayithe, code ni main loki merge chestham.
+
+Sixth, production run ee main branch code ni use chesthundhi.
+
+CI lo mana changed models and vaati downstream models ni matrame build cheyyadam Slim CI antaru. Idi production artifacts tho compare chesthundhi.
+
+CI kosam separate schema use chestham. Dheenivalla production data safe.
+
+dbt Cloud lo CI built-in. dbt Core ki GitHub Actions laanti tools use cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana .gitignore lo ee folders add chestham:
+
+target/
+dbt_packages/
+logs/
+
+Ippudu pull request meeda CI lo ee command run chestham:
+
+dbt build --select state:modified+ --defer --state prod_artifacts --target ci
+
+Ee command only changed models and vaati downstream models ni build chesi test chesthundhi.
+
+Unchanged models ni production nunchi refer chesthundhi.
+
+Ye test fail ayina, pull request merge cheyyakudadhu. Anthe! Production safe!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Git – Stores and versions the dbt project.
+
+Pull request – Code review before merge.
+
+CI – Automatically builds and tests the changes.
+
+Slim CI – Builds only the changed models and their children.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Seven!
+
+Next video lo Orchestrating dbt gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

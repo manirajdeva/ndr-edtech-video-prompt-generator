@@ -1,0 +1,67 @@
+[excited] Welcome to N D R Ed Tech!
+
+First, Singular Tests!
+
+Singular test అంటే tests folder లో save చేసే ఒక S Q L file.
+
+ఆ S Q L query failing rows ని return చేయాలి. Zero rows అయితే pass.
+
+ఒక specific business rule కోసం singular tests best.
+
+Second, Custom Generic Tests!
+
+Same rule ని చాలా models and columns మీద use చేయాలి అనుకుంటే, generic test create చేస్తాం.
+
+Generic test ఒక reusable test. ఇది test block తో define చేస్తాం, and schema Y M L లో normal built-in test లాగా use చేస్తాం.
+
+Singular test one time use కోసం, generic test reusable గా use కోసం.
+
+ఒక Banking project example తీసుకుందాం.
+
+First, singular test.
+
+tests folder లో no underscore negative underscore amount dot S Q L file create చేస్తాం:
+
+SELECT star
+FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces
+WHERE TRANSACTION underscore AMOUNT less than or equal to zero
+
+ఇది zero or negative amount ఉన్న rows ని return చేస్తుంది. అలా rows ఉంటే test fail అవుతుంది.
+
+ఇప్పుడు custom generic test.
+
+tests slash generic folder లో positive underscore value dot S Q L file create చేస్తాం:
+
+curly percent test positive underscore value open bracket model, column underscore name close bracket percent curly
+
+SELECT star
+FROM double curly braces model double curly braces
+WHERE double curly braces column underscore name double curly braces less than or equal to zero
+
+curly percent endtest percent curly
+
+ఇప్పుడు schema Y M L లో ఈ test ని use చేస్తాం:
+
+dash name colon TRANSACTION underscore AMOUNT
+tests colon
+dash positive underscore value
+
+ఇప్పుడు D B T test run చేస్తే, ఈ test కూడా run అవుతుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Singular test – A S Q L file in the tests folder that returns failing rows.
+
+Custom generic test – A reusable test defined with a test block.
+
+Both pass when they return zero rows.
+
+ఇది మన Thirty Days of D B T series లో Day Thirteen!
+
+Next video లో D B T Documentation and Lineage గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

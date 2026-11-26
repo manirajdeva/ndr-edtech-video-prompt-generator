@@ -1,0 +1,61 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T projects లో models ని mainly three layers గా organize చేస్తాం.
+
+First, Staging layer!
+
+Raw source table కి one to one model ఉంటుంది. ఇక్కడ columns rename చేస్తాం, data types cast చేస్తాం, simple cleaning చేస్తాం. Naming convention S T G underscore.
+
+Second, Intermediate layer!
+
+ఇక్కడ business logic and joins ఉంటాయి. Naming convention int underscore.
+
+Third, Marts layer!
+
+Business-ready tables. Reports and dashboards ఈ layer నుంచి data తీసుకుంటాయి. Naming conventions dim underscore and F C T underscore.
+
+Dim అంటే dimension tables, like customers. F C T అంటే fact tables, like transactions.
+
+ఈ layers కి separate folders create చేస్తాం, and D B T underscore project dot Y M L లో materialization set చేస్తాం.
+
+ఒక Banking project example తీసుకుందాం.
+
+models slash staging slash S T G underscore customers dot S Q L లో:
+
+SELECT
+CUSTOMER underscore I D,
+UPPER open bracket CUSTOMER underscore NAME close bracket AS CUSTOMER underscore NAME,
+CITY,
+CREATED underscore DATE
+FROM double curly braces source open bracket bank underscore raw, customer close bracket double curly braces
+
+ఇప్పుడు D B T underscore project dot Y M L లో layer wise materialization set చేస్తాం:
+
+models colon
+bank underscore project colon
+staging colon
+plus materialized colon view
+marts colon
+plus materialized colon table
+
+ఇప్పుడు staging models views గా, marts models tables గా create అవుతాయి.
+
+ఇది project ని clean గా, maintain చేయడానికి easy గా ఉంచుతుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Staging – One model per source table, light cleaning.
+
+Intermediate – Joins and business logic.
+
+Marts – Business-ready dim and F C T tables.
+
+ఇది మన Thirty Days of D B T series లో Day Ten!
+
+Next video లో D B T Seeds గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

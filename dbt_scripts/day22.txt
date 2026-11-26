@@ -1,0 +1,91 @@
+she:
+[panicking] Arey! Table malli create ayyindhi, reporting team ki permissions poyayi!
+he:
+[confused] Permissions poyaya? Ekkadiki vellayi?
+she:
+[tired] Kotha intiki maaru ayyaka, old house key ki em use? Adhi laantidhi!
+he:
+[curious] Mari manual ga prathi sari GRANT run cheyyala?
+she:
+[playfully sarcastic] Nuvvu prathi roju key duplicate chesi andariki ivvava?
+he:
+[shock] Ayyo! Naaku peddha pani! 😂
+she:
+[confident] Anduke dbt hooks and grants! Automatic ga permissions!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo idi Hooks and Grants tho possible.
+
+Hooks ante dbt run lo konni points daggara automatic ga SQL statements run chese feature.
+
+Mainly four types of hooks untayi.
+
+First, pre-hook – model run avvadaniki mundhu SQL run chesthundhi.
+
+Second, post-hook – model build ayyaka SQL run chesthundhi.
+
+Third, on-run-start – dbt run start ayye mundhu.
+
+Fourth, on-run-end – dbt run complete ayyaka.
+
+Permissions kosam inka simple option undhi, adhe grants config.
+
+Grants config lo ye role ki ye privilege ivvalo cheppochu. dbt model build ayyaka aa grants apply chesthundhi.
+
+Mana Snowflake RBAC concepts ikkada use avuthayi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+First, post-hook tho:
+
+{{ config(
+    materialized='table',
+    post_hook="GRANT SELECT ON {{ this }} TO ROLE REPORTING_ROLE"
+) }}
+
+Ippudu grants config tho:
+
+{{ config(
+    materialized='table',
+    grants={'select': ['REPORTING_ROLE']}
+) }}
+
+dbt_project.yml lo on-run-end hook:
+
+on-run-end:
+  - "GRANT USAGE ON SCHEMA {{ target.schema }} TO ROLE REPORTING_ROLE"
+
+Ippudu dbt run complete ayyaka, reporting role ki permissions automatic ga vasthayi.
+
+Manual ga GRANT run cheyyalsina avasaram ledhu!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+pre-hook and post-hook – SQL before and after a model.
+
+on-run-start and on-run-end – SQL at the start and end of a run.
+
+grants config – The simple way to give privileges to roles.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Two!
+
+Next video lo dbt Node Selection gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

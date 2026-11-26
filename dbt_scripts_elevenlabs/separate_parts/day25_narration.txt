@@ -1,0 +1,67 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో important commands ని ఒక సారి చూద్దాం.
+
+First, D B T debug – connection check.
+
+Second, D B T deps – packages install.
+
+Third, D B T seed – C S V seeds load.
+
+Fourth, D B T run – models build.
+
+Fifth, D B T test – tests run.
+
+Sixth, D B T snapshot – snapshots update.
+
+Seventh, D B T compile – compiled S Q L generate, run చేయకుండా.
+
+Eighth, D B T docs generate and D B T docs serve – documentation.
+
+ఇప్పుడు most important command, D B T build.
+
+D B T build seeds, models, snapshots and tests అన్ని dependency order లో run చేస్తుంది.
+
+ఒక model కి test fail అయితే, ఆ model మీద depend అయ్యే downstream models skip అవుతాయి. దీనివల్ల bad data dashboard వరకు వెళ్లడు!
+
+Production కోసం D B T build best choice.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన daily production run sequence:
+
+D B T deps
+
+D B T build dash dash target prod
+
+ఇప్పుడు S T G underscore transactions లో not underscore null test fail అయింది అనుకోండి.
+
+ఆ model fail అయినప్పుడు, దాని మీద depend అయ్యే F C T underscore transactions model skip అవుతుంది.
+
+Dashboard లో wrong data కి బదులు, last good data ఉంటుంది. ఆ failure ని fix చేసి, మళ్లీ run చేయచ్చు.
+
+Debugging కోసం:
+
+D B T compile dash dash select F C T underscore transactions
+
+Compiled S Q L target folder లో ఉంటుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+D B T run – Builds models.
+
+D B T test – Runs tests.
+
+D B T build – Runs seeds, models, snapshots and tests together, in order.
+
+If a test fails, downstream models are skipped.
+
+ఇది మన Thirty Days of D B T series లో Day Twenty-Five!
+
+Next video లో Performance and Cost Optimization on Snowflake గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

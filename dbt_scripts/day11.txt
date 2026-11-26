@@ -1,0 +1,83 @@
+she:
+[curious] Ra, tea shop ki saamaan ye vehicle lo teesukuvasthav?
+he:
+[playfully sarcastic] Cycle lo ra! Chinna saamaan kada!
+she:
+[confident] Mari fifty rows unna branch codes list kosam Snowpipe, S3, pedda pipeline pettala?
+he:
+[shock] Ayyo! Tea shop ki Tesla car pampinchinattu undhi ra! 😂
+she:
+[excited] Anduke dbt lo seeds! Small CSV ni direct ga load cheyyachu!
+he:
+[curious] Ante cycle lo teesukelle laga easy aa?
+she:
+[energetic] Exactly! dbt seed ante cycle delivery!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo Seeds ante small CSV files ni dbt project nunchi direct ga Snowflake table ga load cheyyadam.
+
+Seed files ni project lo seeds folder lo save chestham.
+
+dbt seed command run chesthe, prathi CSV file oka table ga create avuthundhi.
+
+Aa table ni models lo ref function tho use cheyyachu.
+
+Seeds ni ye data kosam use cheyyali? Branch codes, country codes, status mappings laanti small and static reference data kosam.
+
+Important point enti ante…
+
+Seeds pedda data files kosam kaadu. Customer or transaction data lanti large or frequently changing data ni seeds ga load cheyyakudadhu. Avi ingestion tools tho load cheyyali.
+
+Seed CSV files Git lo version control lo untayi. Anduke changes track cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+seeds folder lo branch_codes.csv file create chestham:
+
+BRANCH_CODE,BRANCH_NAME,CITY
+HYD01,Hyderabad Main,Hyderabad
+BLR01,Bengaluru Central,Bengaluru
+CHE01,Chennai Main,Chennai
+
+Ippudu seed load cheddham:
+
+dbt seed
+
+Ippudu Snowflake lo BRANCH_CODES table create avuthundhi.
+
+Aa table ni model lo ila use chestham:
+
+SELECT * FROM {{ ref('branch_codes') }}
+
+Ippudu branch details ni customer data tho join cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Seed – A small CSV file loaded as a table.
+
+dbt seed – Loads the seed files into Snowflake.
+
+Use seeds only for small, static reference data.
+
+Idi mana Thirty Days of dbt series lo Day Eleven!
+
+Next video lo dbt Generic Tests gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

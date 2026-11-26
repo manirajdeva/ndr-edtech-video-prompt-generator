@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, Friday evening production కి deploy చేస్తారా?
+MALE: [shocked] అయ్యో! Weekend అంతా family తో panic ఆ? [laughs]
+FEMALE: [sarcastic] మరి code ని review చేయకుండా direct గా production కి push చేస్తే?
+MALE: [panicked] Monday morning dashboard break అయ్యి manager phone చేస్తాడు రా!
+FEMALE: [confident] అందుకే Git, pull requests and C I checks! Automatic గా test చేస్తుంది!
+MALE: [excited] అంటే production కి వెళ్లకముందే friend check చేసినట్టు!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

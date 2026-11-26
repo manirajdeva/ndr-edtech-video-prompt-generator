@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, సాంబార్ లో salt check చేయకుండా guests కి serve చేస్తావా?
+MALE: [shocked] అయ్యో! కొంచెం ఎక్కువ అయితే? Guests ఏం అనుకుంటారు!
+FEMALE: [sarcastic] మరి dashboard కి duplicate CUSTOMER underscore I D తో data పంపించేస్తే?
+MALE: [panicked] Manager customers double ఏంటి? అని అడుగుతాడు రా!
+FEMALE: [confident] అందుకే D B T tests! Unique, not underscore null, accepted underscore values, relationships!
+MALE: [excited] అంటే salt tasting లాగా data tasting ఆ?
+FEMALE: [excited] Exactly! Test fail అయితే, వెంటనే తెలిసిపోతుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

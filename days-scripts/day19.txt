@@ -1,0 +1,68 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka situation imagine cheyyandi!
+
+Mee company lo daily millions of transaction records unnayi.
+
+Prathi sari monthly report generate cheyyalante same calculations malli malli execute cheyyalsi vastundhi!
+
+Ila repeated calculations avoid cheyyadaniki Snowflake lo oka powerful feature undhi!
+
+Adhe Materialized View!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Materialized View ante pre-computed query results ni store chese database object.
+
+Normal View lo SQL query definition matrame store avuthundhi.
+
+Kaani Materialized View lo query results physically store avuthayi.
+
+Underlying table data change ayinappudu, Snowflake Materialized View ni automatically maintain chesthundhi.
+
+Dheenivalla repeated and expensive queries ki performance improve avvachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS table lo millions of records unnayi.
+
+Manaki daily transaction summary kavali.
+
+Prathi sari GROUP BY calculation execute cheyyakunda, Materialized View create cheyyachu.
+
+SQL command chuddam!
+
+CREATE MATERIALIZED VIEW DAILY_TXN_SUMMARY AS
+SELECT
+    TRANSACTION_DATE,
+    COUNT(*) AS TOTAL_TRANSACTIONS
+FROM TRANSACTIONS
+GROUP BY TRANSACTION_DATE;
+
+Ippudu daily transaction summary query cheyyadaniki Materialized View ni use cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Normal View – Stores SQL query definition.
+
+Materialized View – Stores pre-computed query results and Snowflake maintains it automatically.
+
+Idi mana Thirty Days of Snowflake series lo Day Nineteen!
+
+Next video lo Snowflake RBAC – Roles and Privileges gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

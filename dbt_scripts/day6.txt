@@ -1,0 +1,84 @@
+she:
+[curious] Ra, Maggi chese time entha?
+he:
+[confident] Two minutes ra! Fast!
+she:
+[playfully sarcastic] Mari manager "customer wise total table kavali" antey, nuvvu CREATE TABLE rasi, insert rasi, refresh chesi… two hours padutundhi!
+he:
+[tired] Avunu ra… Maggi kanna SQL kashtam!
+she:
+[excited] dbt lo ayithe oka SELECT rasthe chalu! CREATE statement dbt rasthundhi!
+he:
+[shock] Nijanga? Ante dbt run ante two-minute Maggi aa?
+she:
+[energetic] Almost ra! Models folder lo SELECT rasi, dbt run chesthe view ready!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo oka model ante models folder lo unna oka SQL file.
+
+Aa file lo manam okka SELECT statement matrame rastham. CREATE TABLE or CREATE VIEW rayalsina avasaram ledhu.
+
+Model name ante file name.
+
+dbt run command run chesinappudu dbt aa SELECT ki CREATE statement jodinchi Snowflake lo run chesthundhi.
+
+By default dbt models ni views ga create chesthundhi.
+
+dbt compile chesthe, dbt generate chesina final SQL target folder lo save avuthundhi. Debugging kosam idi chala useful.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS table lo prathi customer total transaction amount kavali.
+
+models folder lo customer_total.sql file create chestham:
+
+SELECT
+    CUSTOMER_ID,
+    SUM(TRANSACTION_AMOUNT) AS TOTAL_AMOUNT
+FROM BANK_DB.RAW.TRANSACTIONS
+GROUP BY CUSTOMER_ID
+
+Ippudu model run cheddham:
+
+dbt run
+
+Okka model matrame run cheyyalante:
+
+dbt run --select customer_total
+
+Ippudu Snowflake lo result check cheddham:
+
+SELECT * FROM BANK_DB.DBT_DEV.CUSTOMER_TOTAL;
+
+Anthe! Manam CREATE VIEW statement rayakundane view create ayyindhi!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Model – One SQL file with one SELECT statement.
+
+dbt run – Builds the models in Snowflake.
+
+By default, models are created as views.
+
+Idi mana Thirty Days of dbt series lo Day Six!
+
+Next video lo dbt Materializations gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

@@ -1,0 +1,8 @@
+FEMALE: [serious] రా, ఈ table ఎక్కడ నుంచి వచ్చింది? CUSTOMER underscore I D అంటే ఏం?
+MALE: [confused] నాకు కూడా తెలియదు రా! Excel sheet లో documentation ఉంది!
+FEMALE: [sarcastic] ఆ Excel sheet five years పాత! పెళ్లి సంబంధం photo లాగా outdated!
+MALE: [shocked] అయ్యో! అప్పుడే కొత్త join అయిన వాళ్లకి ఏం అర్థం అవుతుంది? [laughs]
+FEMALE: [confident] అందుకే D B T documentation! Code తో పాటు docs, automatic గా update!
+MALE: [excited] Lineage graph కూడా ఉంటుంది ఆ?
+FEMALE: [excited] Yes రా! Data flow అంతా visual గా చూడచ్చు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,32 @@
+FEMALE: [curious] రా, సాంబార్ చేసే ముందు ఏం చేస్తాం?
+MALE: [confident] పప్పు ఉడికించాలి! తర్వాత తాలింపు వేయాలి!
+FEMALE: [sarcastic] పప్పు ఉడకముందే తాలింపు వేస్తే?
+MALE: [shocked] అయ్యో! సాంబార్ భయంకరం అయిపోతుంది! [laughs]
+FEMALE: [confident] ఇదే D B T లో కూడా! Model B, Model A మీద depend అవుతుంది!
+MALE: [curious] మరి D B T కి order ఎలా తెలుస్తుంది?
+FEMALE: [excited] ref function తో! D B T DAG create చేసి, correct order లో run చేస్తుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఒక model నుంచి ఇంకో model ని refer చేయడానికి ref function use చేస్తాం.
+NARRATOR: Syntax ఏంటి అంటే… double curly braces లో ref and model name.
+NARRATOR: ref తో మనకి three benefits ఉంటాయి.
+NARRATOR: First, Dependencies! ఏ model ఏ model మీద depend అవుతుందో D B T కి తెలుస్తుంది.
+NARRATOR: Second, Correct order! D B T models ని dependency order లో run చేస్తుంది.
+NARRATOR: Third, Environment-aware names! Dev and prod లో correct schema name automatic గా వస్తుంది.
+NARRATOR: ఈ dependencies తో D B T ఒక DAG create చేస్తుంది. DAG అంటే Directed Acyclic Graph. అంటే dependencies లో loops ఉండవు.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన దగ్గర S T G underscore customers and S T G underscore transactions అనే two staging models ఉన్నాయి.
+NARRATOR: ఇప్పుడు customer underscore summary model create చేస్తాం:
+NARRATOR: SELECT, c dot CUSTOMER underscore I D, c dot CUSTOMER underscore NAME, SUM open bracket t dot TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT, FROM double curly braces ref open bracket S T G underscore customers close bracket double curly braces c, JOIN double curly braces ref open bracket S T G underscore transactions close bracket double curly braces t, ON c dot CUSTOMER underscore I D equals t dot CUSTOMER underscore I D, GROUP BY c dot CUSTOMER underscore I D, c dot CUSTOMER underscore NAME
+NARRATOR: ఇప్పుడు D B T run చేస్తే, D B T first S T G underscore customers and S T G underscore transactions run చేస్తుంది, తర్వాత customer underscore summary run చేస్తుంది.
+NARRATOR: మనం order చెప్పాల్సిన అవసరం లేదు!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: ref – Refers to another model.
+NARRATOR: DAG – The dependency graph that D B T builds from ref.
+NARRATOR: D B T runs models in the correct order automatically.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Eight!
+NARRATOR: Next video లో D B T Sources గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

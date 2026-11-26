@@ -1,0 +1,39 @@
+FEMALE: [curious] రా, Friday evening production కి deploy చేస్తారా?
+MALE: [shocked] అయ్యో! Weekend అంతా family తో panic ఆ? [laughs]
+FEMALE: [sarcastic] మరి code ని review చేయకుండా direct గా production కి push చేస్తే?
+MALE: [panicked] Monday morning dashboard break అయ్యి manager phone చేస్తాడు రా!
+FEMALE: [confident] అందుకే Git, pull requests and C I checks! Automatic గా test చేస్తుంది!
+MALE: [excited] అంటే production కి వెళ్లకముందే friend check చేసినట్టు!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T project అంతా code కాబట్టి, Git లో store చేస్తాం.
+NARRATOR: Standard workflow ఏంటి అంటే…
+NARRATOR: First, main branch లో production-ready code ఉంటుంది.
+NARRATOR: Second, developer ఒక feature branch create చేసి, changes చేస్తాడు.
+NARRATOR: Third, pull request create చేస్తాడు. Team members code review చేస్తారు.
+NARRATOR: Fourth, C I check run అవుతుంది. ఇది మన changes ని automatic గా test చేస్తుంది.
+NARRATOR: Fifth, review and checks pass అయితే, code ని main లోకి merge చేస్తాం.
+NARRATOR: Sixth, production run ఈ main branch code ని use చేస్తుంది.
+NARRATOR: C I లో మన changed models and వాటి downstream models ని మాత్రమే build చేయడం Slim C I అంటారు. ఇది production artifacts తో compare చేస్తుంది.
+NARRATOR: C I కోసం separate schema use చేస్తాం. దీనివల్ల production data safe.
+NARRATOR: D B T Cloud లో C I built-in. D B T Core కి GitHub Actions లాంటి tools use చేయచ్చు.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన.gitignore లో ఈ folders add చేస్తాం:
+NARRATOR: target slash, D B T underscore packages slash, logs slash
+NARRATOR: ఇప్పుడు pull request మీద C I లో ఈ command run చేస్తాం:
+NARRATOR: D B T build dash dash select state colon modified plus dash dash defer dash dash state prod underscore artifacts dash dash target C I
+NARRATOR: ఈ command only changed models and వాటి downstream models ని build చేసి test చేస్తుంది.
+NARRATOR: Unchanged models ని production నుంచి refer చేస్తుంది.
+NARRATOR: ఏ test fail అయిన, pull request merge చేయకూడదు. అంతే! Production safe!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Git – Stores and versions the D B T project.
+NARRATOR: Pull request – Code review before merge.
+NARRATOR: C I – Automatically builds and tests the changes.
+NARRATOR: Slim C I – Builds only the changed models and their children.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Seven!
+NARRATOR: Next video లో Orchestrating D B T గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

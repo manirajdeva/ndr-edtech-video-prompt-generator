@@ -1,0 +1,81 @@
+she:
+[curious] Ra, school lo imposition punishment gurthunda?
+he:
+[tired] Avunu ra! "I will not talk in class" hundred sarlu rayinchevaru!
+she:
+[playfully sarcastic] Mari SQL lo same CASE WHEN ni moodu sarlu copy paste chesthe, adhi imposition kaadha?
+he:
+[shock] Ayyo! Nenu ippudu kuda imposition rasthunnana? 😂
+she:
+[excited] Anduke dbt lo Jinja! Loops and variables tho SQL ni dynamic ga rayachu!
+he:
+[confused] Ante okkasari rasi, repeat cheyyadam automatic aa?
+she:
+[energetic] Exactly! No more imposition!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo SQL ni dynamic ga raayadaniki Jinja ane templating language use chestham.
+
+Jinja lo mainly moodu types of syntax untayi.
+
+First, Double curly braces – oka value or function result ni print cheyyadaniki. Examples: ref and config.
+
+Second, Curly brace percent – loops, if conditions and variables kosam. Idi statements ni run chesthundhi.
+
+Third, Curly brace hash – comments kosam.
+
+Variable create cheyyadaniki set use chestham. Repeat cheyyadaniki for loop use chestham. Conditions kosam if use chestham.
+
+dbt SQL ni warehouse ki pampinchadaniki mundu Jinja ni plain SQL ga compile chesthundhi.
+
+Compiled SQL ni target folder lo chudachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Status wise transaction counts kosam ee model rastham:
+
+{% set status_list = ['SUCCESS', 'FAILED', 'PENDING'] %}
+
+SELECT
+    CUSTOMER_ID,
+    {% for s in status_list %}
+    SUM(CASE WHEN STATUS = '{{ s }}' THEN 1 ELSE 0 END) AS {{ s }}_COUNT
+    {% if not loop.last %},{% endif %}
+    {% endfor %}
+FROM {{ ref('stg_transactions') }}
+GROUP BY CUSTOMER_ID
+
+Ippudu kotha status add cheyyali ante, list lo okka value add chesthe saripothundhi!
+
+dbt compile run chesthe, dbt moodu CASE WHEN columns tho final SQL generate chesthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Double curly braces – Print a value or call a function.
+
+Curly brace percent – Loops, conditions and variables.
+
+Jinja – Helps us write dynamic and reusable SQL.
+
+Idi mana Thirty Days of dbt series lo Day Fifteen!
+
+Next video lo dbt Macros gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

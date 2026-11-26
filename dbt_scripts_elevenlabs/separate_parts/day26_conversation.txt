@@ -1,0 +1,8 @@
+FEMALE: [panicked] అరే! ఈ నెల current bill చూశావా రా?
+MALE: [confused] ఎంత వచ్చింది?
+FEMALE: [tired] Light, fan, A C అన్ని on లో వదిలేసి వెళ్లిపోయాం రా!
+MALE: [shocked] అయ్యో! మన Snowflake warehouse ని కూడా అలా వదిలేస్తే, bill ఎక్కువ అవుతుంది కదా!
+FEMALE: [confident] అవును రా! అందుకే D B T tuning, incremental models, auto-suspend!
+MALE: [excited] Cost కూడా save, speed కూడా ఎక్కువ!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

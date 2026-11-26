@@ -1,0 +1,100 @@
+she:
+[curious] Ra, kotha recipe pelli lo guests ki mundhe try chesthava?
+he:
+[shock] Ayyo! Mundhu intlo try chestha! Pelli lo failure ayithe parvaledha?
+she:
+[playfully sarcastic] Mari kotha dbt model ni direct production lo run chesthe?
+he:
+[panicking] Live reports break avuthayi ra! 😂
+she:
+[confident] Anduke dev and prod environments! Targets tho separate chestham!
+he:
+[excited] Ante intlo practice, pelli lo perfect serving aa?
+she:
+[energetic] Exactly!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo idi Targets tho possible.
+
+Target ante oka environment. Manam profiles.yml lo oke project ki dev and prod laanti multiple targets define chestham.
+
+Prathi target ki separate schema, warehouse or role set cheyyachu.
+
+By default, profiles.yml lo target value lo unna environment run avuthundhi. Prod run cheyyali ante, target option tho cheppali.
+
+Inko useful concept Variables.
+
+Variables ni dbt_project.yml lo define chesi, models lo var function tho use chestham. Command lo vars option tho values override cheyyachu.
+
+Models lo target name check chesi, dev lo only konni rows process cheyyachu. Dheenivalla development fast ga, cheap ga untundhi.
+
+Secrets ni env_var tho teesukovali.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+profiles.yml lo rendu targets define chestham:
+
+bank_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      schema: DBT_DEV
+    prod:
+      type: snowflake
+      schema: ANALYTICS
+
+Ee example lo account, user and warehouse details short ga skip chesam, kaani real file lo anni undali.
+
+Production run kosam:
+
+dbt run --target prod
+
+Ippudu model lo dev data ni limit chestham:
+
+SELECT * FROM {{ ref('stg_transactions') }}
+{% if target.name == 'dev' %}
+LIMIT 1000
+{% endif %}
+
+Variable kosam dbt_project.yml lo:
+
+vars:
+  start_date: '2026-01-01'
+
+Model lo use cheyyadaniki:
+
+WHERE TRANSACTION_DATE >= '{{ var('start_date') }}'
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Target – An environment such as dev or prod.
+
+target option – Chooses the environment for a run.
+
+Variable – A reusable value read with the var function.
+
+Production runs should use a separate schema.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-One!
+
+Next video lo dbt Hooks and Grants gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

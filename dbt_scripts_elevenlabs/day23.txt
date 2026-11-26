@@ -1,0 +1,46 @@
+FEMALE: [curious] రా, ఒక bulb fuse అయితే మొత్తం colony కి power cut చేస్తారా?
+MALE: [shocked] అయ్యో! లేదు రా! ఆ bulb ని మాత్రమే మార్చాలి!
+FEMALE: [sarcastic] మరి ఒక D B T model లో చిన్న change చేసి, two hundred models run చేస్తావా?
+MALE: [panicked] అయ్యో! Time and Snowflake bill waste రా! [laughs]
+FEMALE: [confident] అందుకే select option! Only అవసరమైన models ని run చేయచ్చు!
+MALE: [excited] Plus తో parents, children కూడా select చేయచ్చు ఆ?
+FEMALE: [excited] Yes రా! Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఇది Node Selection తో possible. ఇది select option తో work చేస్తుంది.
+NARRATOR: Important selection patterns ఏంటి అంటే…
+NARRATOR: First, model name. ఒక్క model ని run చేస్తుంది.
+NARRATOR: Second, plus before model name. ఆ model, and దాని upstream parents అన్ని run అవుతాయి.
+NARRATOR: Third, plus after model name. ఆ model, and దాని downstream children అన్ని run అవుతాయి.
+NARRATOR: Fourth, plus on both sides. Parents, model and children, అన్ని.
+NARRATOR: Fifth, tag colon. ఒక tag ఉన్న models అన్ని.
+NARRATOR: Sixth, folder path. ఒక folder లో ఉన్న models అన్ని.
+NARRATOR: అయితే ఒక model ని skip చేయడానికి exclude option use చేస్తాం.
+NARRATOR: Run చేయకుండానే ఏ models select అవుతాయో చూడడానికి D B T L S command ఉంది.
+NARRATOR: Select option run, test and build commands అన్ని లో work చేస్తుంది.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: ఒక్క model run చేయడానికి:
+NARRATOR: D B T run dash dash select S T G underscore customers
+NARRATOR: F C T underscore transactions and దాని parents run చేయడానికి:
+NARRATOR: D B T run dash dash select plus F C T underscore transactions
+NARRATOR: S T G underscore customers and దాని children run చేయడానికి:
+NARRATOR: D B T run dash dash select S T G underscore customers plus
+NARRATOR: Daily tag ఉన్న models మాత్రమే run చేయడానికి:
+NARRATOR: D B T run dash dash select tag colon daily
+NARRATOR: Marts folder లో models అన్ని run చేయడానికి:
+NARRATOR: D B T run dash dash select marts
+NARRATOR: ఒక tag ని skip చేయడానికి:
+NARRATOR: D B T run dash dash exclude tag colon slow
+NARRATOR: Run చేయకుండానే list చేయడానికి:
+NARRATOR: D B T L S dash dash select plus F C T underscore transactions
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Plus before a name – Includes the parents.
+NARRATOR: Plus after a name – Includes the children.
+NARRATOR: tag and folder selection – Run groups of models.
+NARRATOR: D B T L S – Shows what a selection will run.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Three!
+NARRATOR: Next video లో Configs, Tags, Schemas and Aliases గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

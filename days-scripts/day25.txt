@@ -1,0 +1,71 @@
+[Powerful – Production Incident Opening]
+
+Welcome to NDR EdTech!
+
+Production lo customer table update ayyindhi!
+
+Oka customer address change ayyindhi.
+Inko customer record delete ayyindhi.
+Maroka new customer insert ayyadu.
+
+Ippudu Data Engineer ga mana question enti?
+
+Entire table ni malli process cheyyala?
+
+Leda only changes ni identify chesi process cheyyacha?
+
+Exactly! Snowflake lo ee requirement kosam Streams ane powerful feature undhi!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Snowflake Stream ante table lo jarigina data changes ni track cheyyadaniki use chese Change Data Capture mechanism.
+
+Simple ga cheppalante, INSERT, UPDATE and DELETE operations ni identify cheyyadaniki Streams help chesthayi.
+
+Stream lo mainly three metadata columns untayi.
+
+First, METADATA$ACTION – INSERT or DELETE ani identify chesthundhi.
+
+Second, METADATA$ISUPDATE – update operation lo part aa kaadha ani indicate chesthundhi.
+
+Third, METADATA$ROW_ID – row ni uniquely identify cheyyadaniki use avuthundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana CUSTOMER table lo daily thousands of changes jaruguthunnayi.
+
+Ippudu Stream create cheddham!
+
+CREATE STREAM CUSTOMER_STREAM
+ON TABLE CUSTOMER;
+
+Changes ni check cheyyadaniki:
+
+SELECT *
+FROM CUSTOMER_STREAM;
+
+Ippudu source table lo changes jariginappudu, Stream change records ni expose chesthundhi.
+
+Manam ee changes ni downstream processing kosam use cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Snowflake Streams help us capture table changes without processing the entire table again.
+
+Streams are an important building block for CDC pipelines.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Five!
+
+Next video lo Snowflake Tasks gurinchi real-time automation example tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

@@ -1,0 +1,98 @@
+she:
+[curious] Ra, sambar lo salt check cheyyakunda guests ki serve chesthava?
+he:
+[shock] Ayyo! Konchem ekkuva ayithe? Guests em anukuntaru!
+she:
+[playfully sarcastic] Mari dashboard ki duplicate CUSTOMER_ID tho data pampinchesthe?
+he:
+[panicking] Manager "customers double enti?" ani aduguthadu ra!
+she:
+[confident] Anduke dbt tests! Unique, not_null, accepted_values, relationships!
+he:
+[excited] Ante salt tasting laga data tasting aa?
+she:
+[energetic] Exactly! Test fail ayithe, ventane telisipothundhi!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo data quality check cheyyadaniki Tests use chestham.
+
+dbt lo mainly four built-in generic tests untayi.
+
+First, unique – oka column lo duplicate values undakudadhu.
+
+Second, not_null – column lo null values undakudadhu.
+
+Third, accepted_values – column lo allowed values matrame undali.
+
+Fourth, relationships – oka table lo values inko table lo exist avvali. Idi foreign key check laantidhi.
+
+Tests ni schema yml file lo columns kinda define chestham.
+
+dbt test command run chesthe, prathi test oka SQL query ga run avuthundhi.
+
+Aa query failing rows ni return chesthundhi. Zero rows ayithe test pass, okka row vachina test fail.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+models/staging/schema.yml lo ee tests rastham:
+
+version: 2
+
+models:
+  - name: stg_customers
+    columns:
+      - name: CUSTOMER_ID
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_transactions
+    columns:
+      - name: STATUS
+        tests:
+          - accepted_values:
+              values: ['SUCCESS', 'FAILED', 'PENDING']
+      - name: CUSTOMER_ID
+        tests:
+          - relationships:
+              to: ref('stg_customers')
+              field: CUSTOMER_ID
+
+Ippudu tests run cheddham:
+
+dbt test
+
+Duplicate CUSTOMER_ID unte, unique test fail ayyi manaki ventane telisipothundhi!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+unique and not_null – Protect primary keys.
+
+accepted_values – Allows only expected values.
+
+relationships – Checks references between tables.
+
+Every dbt test passes when it returns zero failing rows.
+
+Idi mana Thirty Days of dbt series lo Day Twelve!
+
+Next video lo Singular Tests and Custom Generic Tests gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

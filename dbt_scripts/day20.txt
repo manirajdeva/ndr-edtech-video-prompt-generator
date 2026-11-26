@@ -1,0 +1,91 @@
+she:
+[curious] Ra, nuvvu eppudu Hyderabad lo undevadavu? Ippudu ekkada?
+he:
+[confident] Ippudu Bengaluru ra!
+she:
+[playfully sarcastic] Mari last year ye city lo undevadavu ani adigithe?
+he:
+[confused] Hyderabad! Kaani database lo paata address poyindhi kada!
+she:
+[shock] Ayyo! Marina data history kavali ante?
+he:
+[panicking] Aithe nenu eppudu ekkada undhano evvariki teliyadhu! 😂
+she:
+[excited] Anduke dbt snapshots! History ni track chesthundhi!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo idi Snapshots tho possible.
+
+Snapshot ante source table lo rows ela marayo history ni track cheyyadam. Idi SCD Type 2 approach.
+
+Snapshots ni snapshots folder lo define chestham.
+
+Dheenilo mainly moodu settings untayi.
+
+First, unique_key – row ni identify chese column.
+
+Second, strategy – changes ela detect cheyyali. Timestamp strategy lo updated at column use chestham. Check strategy lo konni columns marayo check chestham.
+
+Third, target schema – snapshot table create ayye schema.
+
+dbt snapshot command run chesinappudu, change ayina rows ki kotha version add avuthundhi.
+
+Snapshot table lo dbt valid from and dbt valid to columns untayi. Current row ki dbt valid to null untundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+snapshots folder lo customer_snapshot.sql file create chestham:
+
+{% snapshot customer_snapshot %}
+
+{{ config(
+    target_schema='SNAPSHOTS',
+    unique_key='CUSTOMER_ID',
+    strategy='check',
+    check_cols=['CITY']
+) }}
+
+SELECT * FROM {{ source('bank_raw', 'customer') }}
+
+{% endsnapshot %}
+
+Ippudu snapshot run cheddham:
+
+dbt snapshot
+
+Customer CITY Hyderabad nunchi Bengaluru ki marinappudu, malli dbt snapshot run chesthe, two rows untayi.
+
+Paata row ki valid to date untundhi. Kotha row ki valid to null untundhi.
+
+Ippudu past date ki customer ye city lo undevado cheppochu!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Snapshot – Tracks how rows change over time.
+
+SCD Type 2 – Keeps a new row for every change.
+
+dbt snapshot – Updates the snapshot tables.
+
+Idi mana Thirty Days of dbt series lo Day Twenty!
+
+Next video lo Environments, Targets and Variables gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

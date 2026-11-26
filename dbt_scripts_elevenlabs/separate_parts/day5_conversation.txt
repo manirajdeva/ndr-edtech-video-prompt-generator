@@ -1,0 +1,10 @@
+FEMALE: [serious] రా, నీ A T M PIN ఏంటి?
+MALE: [shocked] అయ్యో! నీ A T M PIN ఏం అడుగుతున్నావ్? నేను చెప్పను!
+FEMALE: [sarcastic] నువ్వు code లో Snowflake password రాసి, Git లో push చేశావ్ రా!
+MALE: [panicked] అయ్యో! అంటే నేను A T M PIN ని forehead మీద రాసుకున్నట్టు అయ్యింది!
+FEMALE: [tired] Exactly! Public గా ఉంటే ఎవరైనా వాడేస్తారు!
+MALE: [curious] మరి D B T కి Snowflake credentials ఎలా ఇవ్వాలి?
+FEMALE: [confident] profiles dot Y M L file లో! Password ని env underscore var తో safe గా తీసుకోవచ్చు!
+MALE: [excited] Super! Connection check చేయడానికి?
+FEMALE: [excited] D B T debug! All checks passed అంటే, ready!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, కొత్త recipe పెళ్లి లో guests కి ముందే try చేస్తావా?
+MALE: [shocked] అయ్యో! ముందు ఇంట్లో try చేస్తా! పెళ్లి లో failure అయితే పర్వాలేదా?
+FEMALE: [sarcastic] మరి కొత్త D B T model ని direct production లో run చేస్తే?
+MALE: [panicked] Live reports break అవుతాయి రా! [laughs]
+FEMALE: [confident] అందుకే dev and prod environments! Targets తో separate చేస్తాం!
+MALE: [excited] అంటే ఇంట్లో practice, పెళ్లి లో perfect serving ఆ?
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,36 @@
+FEMALE: [curious] రా, పాల packet తీసుకున్నప్పుడు ఏం check చేస్తావ్?
+MALE: [confident] Expiry date రా! Fresh గా ఉందో లేదో!
+FEMALE: [sarcastic] మరి మన raw data ని ఎలా check చేస్తావ్? అది fresh గా ఉందో లేదో?
+MALE: [confused] అయ్యో! Data కి expiry date ఉంటుందా?
+FEMALE: [excited] ఉంటుంది రా! Source freshness!
+MALE: [shocked] అయితే morning data update అవ్వకపోతే, dashboard లో కూడా పాల విరిగిపోయింది అంటామా? [laughs]
+FEMALE: [serious] Exactly! అందుకే D B T source freshness check చేస్తాం!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో raw tables ని refer చేయడానికి Sources use చేస్తాం.
+NARRATOR: Sources ని sources dot Y M L అనే YAML file లో define చేస్తాం. ఆ file లో source name, database, schema and tables రాస్తాం.
+NARRATOR: Models లో ఆ source ని refer చేయడానికి source function use చేస్తాం. ఇది ref function లాగా ఉంటుంది, కానీ raw tables కోసం.
+NARRATOR: Source తో మనకి two benefits ఉంటాయి.
+NARRATOR: First, Lineage! Raw tables కూడా D B T lineage graph లో కనిపిస్తాయి.
+NARRATOR: Second, Freshness! Source data ఎలా fresh గా ఉందో check చేయచ్చు.
+NARRATOR: Freshness కోసం table లో ఒక loaded at column ఉండాలి. Warn and error limits set చేస్తాం.
+NARRATOR: D B T source freshness command తో check చేస్తాం.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: models folder లో sources dot Y M L file create చేస్తాం:
+NARRATOR: version colon two
+NARRATOR: sources colon, dash name colon bank underscore raw, database colon BANK underscore D B, schema colon RAW, tables colon, dash name colon customer, dash name colon transactions, loaded underscore at underscore field colon LOAD underscore T S, freshness colon, warn underscore after colon open curly brace count colon twelve, period colon hour close curly brace, error underscore after colon open curly brace count colon twenty four, period colon hour close curly brace
+NARRATOR: ఇప్పుడు model లో source ని ఇలా use చేస్తాం:
+NARRATOR: SELECT star FROM double curly braces source open bracket bank underscore raw, transactions close bracket double curly braces
+NARRATOR: Freshness check కోసం:
+NARRATOR: D B T source freshness
+NARRATOR: Data twelve గంటలు కన్నా పాత అయితే warning, twenty four గంటలు కన్నా పాత అయితే error వస్తుంది!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: source – Refers to a raw table.
+NARRATOR: sources dot Y M L – Where sources are defined.
+NARRATOR: D B T source freshness – Checks how fresh the raw data is.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Nine!
+NARRATOR: Next video లో Staging, Intermediate and Marts layers గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

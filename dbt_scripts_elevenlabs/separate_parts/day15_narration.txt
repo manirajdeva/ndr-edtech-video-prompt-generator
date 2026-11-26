@@ -1,0 +1,54 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో S Q L ని dynamic గా రాయడానికి Jinja అనే templating language use చేస్తాం.
+
+Jinja లో mainly మూడు types of syntax ఉంటాయి.
+
+First, Double curly braces – ఒక value or function result ని print చేయడానికి. Examples: ref and config.
+
+Second, Curly brace percent – loops, if conditions and variables కోసం. ఇది statements ని run చేస్తుంది.
+
+Third, Curly brace hash – comments కోసం.
+
+Variable create చేయడానికి set use చేస్తాం. Repeat చేయడానికి for loop use చేస్తాం. Conditions కోసం if use చేస్తాం.
+
+D B T S Q L ని warehouse కి పంపించడానికి ముందు Jinja ని plain S Q L గా compile చేస్తుంది.
+
+Compiled S Q L ని target folder లో చూడచ్చు.
+
+ఒక Banking project example తీసుకుందాం.
+
+Status wise transaction counts కోసం ఈ model రాస్తాం:
+
+curly percent set status underscore list equals open square bracket SUCCESS, FAILED, PENDING close square bracket percent curly
+
+SELECT
+CUSTOMER underscore I D,
+curly percent for s in status underscore list percent curly
+SUM open bracket CASE WHEN STATUS equals double curly braces s double curly braces THEN one ELSE zero END close bracket AS double curly braces s double curly braces underscore COUNT
+curly percent if not loop dot last percent curly, curly percent endif percent curly
+curly percent endfor percent curly
+FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces
+GROUP BY CUSTOMER underscore I D
+
+ఇప్పుడు కొత్త status add చేయాలి అంటే, list లో ఒక్క value add చేస్తే సరిపోతుంది!
+
+D B T compile run చేస్తే, D B T మూడు CASE WHEN columns తో final S Q L generate చేస్తుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Double curly braces – Print a value or call a function.
+
+Curly brace percent – Loops, conditions and variables.
+
+Jinja – Helps us write dynamic and reusable S Q L.
+
+ఇది మన Thirty Days of D B T series లో Day Fifteen!
+
+Next video లో D B T Macros గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

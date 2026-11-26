@@ -1,0 +1,94 @@
+she:
+[curious] Ra, chapati burn ayithe, curry serve chesthava?
+he:
+[shock] Ayyo! Burn chapati tho curry ela serve chesthanu!
+she:
+[playfully sarcastic] Mari test fail ayina model tho dashboard ki data pampinchesthe?
+he:
+[panicking] Wrong numbers vasthayi ra! 😂
+she:
+[confident] Anduke dbt build! Test fail ayithe downstream models skip avuthayi!
+he:
+[excited] Ante burn chapati ni curry varaku vellaniyyadu aa!
+she:
+[energetic] Exactly!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo important commands ni oka sari chuddam.
+
+First, dbt debug – connection check.
+
+Second, dbt deps – packages install.
+
+Third, dbt seed – CSV seeds load.
+
+Fourth, dbt run – models build.
+
+Fifth, dbt test – tests run.
+
+Sixth, dbt snapshot – snapshots update.
+
+Seventh, dbt compile – compiled SQL generate, run cheyyakunda.
+
+Eighth, dbt docs generate and dbt docs serve – documentation.
+
+Ippudu most important command, dbt build.
+
+dbt build seeds, models, snapshots and tests anni dependency order lo run chesthundhi.
+
+Oka model ki test fail ayithe, aa model meedha depend ayye downstream models skip avuthayi. Dheenivalla bad data dashboard varaku velladu!
+
+Production kosam dbt build best choice.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana daily production run sequence:
+
+dbt deps
+
+dbt build --target prod
+
+Ippudu stg_transactions lo not_null test fail ayindhi anukondi.
+
+Aa model fail ayinappudu, daani meedha depend ayye fct_transactions model skip avuthundhi.
+
+Dashboard lo wrong data ki badulu, last good data untundhi. Aa failure ni fix chesi, malli run cheyyachu.
+
+Debugging kosam:
+
+dbt compile --select fct_transactions
+
+Compiled SQL target folder lo untundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+dbt run – Builds models.
+
+dbt test – Runs tests.
+
+dbt build – Runs seeds, models, snapshots and tests together, in order.
+
+If a test fails, downstream models are skipped.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Five!
+
+Next video lo Performance and Cost Optimization on Snowflake gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

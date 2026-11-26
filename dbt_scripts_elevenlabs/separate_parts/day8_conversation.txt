@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, సాంబార్ చేసే ముందు ఏం చేస్తాం?
+MALE: [confident] పప్పు ఉడికించాలి! తర్వాత తాలింపు వేయాలి!
+FEMALE: [sarcastic] పప్పు ఉడకముందే తాలింపు వేస్తే?
+MALE: [shocked] అయ్యో! సాంబార్ భయంకరం అయిపోతుంది! [laughs]
+FEMALE: [confident] ఇదే D B T లో కూడా! Model B, Model A మీద depend అవుతుంది!
+MALE: [curious] మరి D B T కి order ఎలా తెలుస్తుంది?
+FEMALE: [excited] ref function తో! D B T DAG create చేసి, correct order లో run చేస్తుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

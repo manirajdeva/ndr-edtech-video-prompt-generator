@@ -1,0 +1,91 @@
+[Professional – Project Architecture Opening]
+
+Welcome to NDR EdTech!
+
+Oka real-time Data Engineering project lo multiple sources nunchi data vasthundhi.
+
+AWS S3 lo files land avuthunnayi.
+
+Aa data Snowflake loki load avuthundhi.
+
+Tarvatha business requirements prakaram data transformation jaragali.
+
+Finally, reports and dashboards generate avvali.
+
+Ippudu ee complete process ni evaru manage chestharu?
+
+Ee architecture lo Snowflake, dbt and Airflow important roles play chesthayi.
+
+Let's understand!
+
+[Explaining – Architecture]
+
+First, Snowflake!
+
+Snowflake mana cloud data warehouse.
+
+AWS S3 nunchi vachina raw data ni Snowflake lo load chesi store chestham.
+
+Second, dbt!
+
+dbt ante Data Build Tool.
+
+Snowflake lo unna raw data ni SQL models use chesi transform chestham.
+
+For example, staging models, intermediate models and final reporting models create chestham.
+
+Along with that, dbt tests use chesi data quality validate chestham.
+
+Third, Airflow!
+
+Airflow anedhi workflow orchestration tool.
+
+Dheenitho complete pipeline ni schedule and orchestrate chestham.
+
+For example, first data loading task execute avvali.
+
+Tarvatha dbt run execute avvali.
+
+Finally, dbt tests execute avvali.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+AWS S3 lo CUSTOMER and TRANSACTION files land ayyayi.
+
+Step 1: Snowflake lo raw data load avuthundhi.
+
+Step 2: Airflow DAG execution start chesthundhi.
+
+Step 3: Airflow dbt run command execute chesthundhi.
+
+Step 4: dbt models raw data ni transform chesi reporting tables create chesthayi.
+
+Step 5: dbt test execute chesi data quality validate chesthundhi.
+
+Ila complete pipeline automated ga execute avuthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Snowflake – Stores and processes data.
+
+dbt – Transforms and tests data.
+
+Airflow – Orchestrates the complete workflow.
+
+Ee three technologies combination tho scalable Data Engineering pipelines build cheyyachu.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Nine!
+
+Next video mana final episode!
+
+Day 30 lo SQL Server nunchi Snowflake ki complete End-to-End Data Engineering project architecture explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

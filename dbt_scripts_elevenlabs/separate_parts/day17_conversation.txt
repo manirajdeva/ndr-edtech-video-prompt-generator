@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, నువ్వు రోజు వంట చేయవా, లేదా Swiggy order చేస్తావా?
+MALE: [sarcastic] Swiggy రా! Cook చేయడం కన్నా order చేయడం easy!
+FEMALE: [excited] D B T లో కూడా అలానే! Ready-made code ని order చేయచ్చు!
+MALE: [shocked] నిజంగా? Surrogate keys కూడా ఆ?
+FEMALE: [confident] అవును! D B T packages తో! D B T underscore utils లాంటి packages install చేసి వాడుకోవచ్చు!
+MALE: [curious] మరి delivery fee?
+FEMALE: [sarcastic] Free రా! D B T deps అనే command చాలు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

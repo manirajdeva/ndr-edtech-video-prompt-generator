@@ -1,0 +1,73 @@
+[Funny + Curiosity – Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka interesting situation!
+
+Mee Snowflake Virtual Warehouse ni ON chesi marchipoyaru anukondi!
+
+Hours kaadhu… days motham running lo undhi!
+
+Ippudu bill entha vasthundho imagine cheyyandi! 😂
+
+[pause]
+
+Snowflake lo unnecessary compute credits consume avvakunda control cheyyadaniki em features unnayi?
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Snowflake lo Resource Monitor ane feature warehouse credit usage ni monitor and control cheyyadaniki use chestham.
+
+Manam credit quota set chesi, usage limit reach ayinappudu notifications or suspension actions configure cheyyachu.
+
+For example, 100 credits limit set chesam anukondi.
+
+50% reach ayithe notification pampinchachu.
+
+100% reach ayithe warehouse suspend cheyyela configure cheyyachu.
+
+Kaani important point enti ante…
+
+Resource Monitors mainly Virtual Warehouse compute credit usage ni monitor chesthayi. Complete Snowflake bill ni control cheyyavu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana ETL warehouse daily data processing kosam run avuthundhi.
+
+Developers testing kosam separate warehouse use chesthunnaru.
+
+Testing warehouse unnecessary ga running lo undakunda Resource Monitor configure cheyyachu.
+
+SQL command chuddam!
+
+CREATE RESOURCE MONITOR DEV_MONITOR
+WITH CREDIT_QUOTA = 100
+TRIGGERS
+ON 50 PERCENT DO NOTIFY
+ON 100 PERCENT DO SUSPEND;
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Resource Monitor helps track warehouse credit usage and control compute costs.
+
+Warehouse auto-suspend, right sizing and workload separation kuda cost optimization lo important.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-One!
+
+Next video nunchi Real-Time Data Engineering concepts start cheddham!
+
+Day 22 lo AWS S3 nunchi Snowflake ki data ela load cheyyalo practical example tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

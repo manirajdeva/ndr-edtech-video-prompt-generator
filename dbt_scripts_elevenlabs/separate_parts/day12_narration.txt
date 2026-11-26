@@ -1,0 +1,71 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో data quality check చేయడానికి Tests use చేస్తాం.
+
+D B T లో mainly four built-in generic tests ఉంటాయి.
+
+First, unique – ఒక column లో duplicate values ఉండకూడదు.
+
+Second, not underscore null – column లో null values ఉండకూడదు.
+
+Third, accepted underscore values – column లో allowed values మాత్రమే ఉండాలి.
+
+Fourth, relationships – ఒక table లో values ఇంకో table లో exist అవ్వాలి. ఇది foreign key check లాంటిది.
+
+Tests ని schema Y M L file లో columns కింద define చేస్తాం.
+
+D B T test command run చేస్తే, ప్రతి test ఒక S Q L query గా run అవుతుంది.
+
+ఆ query failing rows ని return చేస్తుంది. Zero rows అయితే test pass, ఒక్క row వచ్చిన test fail.
+
+ఒక Banking project example తీసుకుందాం.
+
+models slash staging slash schema dot Y M L లో ఈ tests రాస్తాం:
+
+version colon two
+
+models colon
+dash name colon S T G underscore customers
+columns colon
+dash name colon CUSTOMER underscore I D
+tests colon
+dash unique
+dash not underscore null
+
+dash name colon S T G underscore transactions
+columns colon
+dash name colon STATUS
+tests colon
+dash accepted underscore values colon
+values colon open square bracket SUCCESS, FAILED, PENDING close square bracket
+dash name colon CUSTOMER underscore I D
+tests colon
+dash relationships colon
+to colon ref open bracket S T G underscore customers close bracket
+field colon CUSTOMER underscore I D
+
+ఇప్పుడు tests run చేద్దాం:
+
+D B T test
+
+Duplicate CUSTOMER underscore I D ఉంటే, unique test fail అయ్యి మనకి వెంటనే తెలిసిపోతుంది!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+unique and not underscore null – Protect primary keys.
+
+accepted underscore values – Allows only expected values.
+
+relationships – Checks references between tables.
+
+Every D B T test passes when it returns zero failing rows.
+
+ఇది మన Thirty Days of D B T series లో Day Twelve!
+
+Next video లో Singular Tests and Custom Generic Tests గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

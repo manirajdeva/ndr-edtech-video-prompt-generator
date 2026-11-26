@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, hotel లో food ఎలా ready అవుతుంది?
+MALE: [confident] First raw vegetables, తర్వాత chopped, తర్వాత cooked dish!
+FEMALE: [excited] Correct! ఇదే D B T layers! Staging, Intermediate, Marts!
+MALE: [confused] అంటే staging అంటే raw vegetables ఆ?
+FEMALE: [sarcastic] Light cleaning చేసిన vegetables! Marts అంటే serve చేయడానికి ready గా ఉన్న బిర్యానీ!
+MALE: [shocked] అయ్యో! బిర్యానీ ని direct గా dashboard కి serve చేస్తామా? [laughs]
+FEMALE: [excited] మరి ఈ layers వల్లే project clean గా ఉంటుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

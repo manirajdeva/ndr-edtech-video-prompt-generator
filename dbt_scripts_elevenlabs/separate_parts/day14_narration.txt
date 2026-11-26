@@ -1,0 +1,64 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో documentation మన code తో పాటు ఉంటుంది.
+
+Models and columns కి description ని schema Y M L file లో రాస్తాం.
+
+తర్వాత D B T docs generate command run చేస్తే, D B T ఒక documentation website కి కావాల్సిన metadata generate చేస్తుంది.
+
+D B T docs serve command తో ఆ website ని మన local machine లో open చేయచ్చు.
+
+ఈ website లో మనకి రెండు powerful features ఉంటాయి.
+
+First, Model and column descriptions.
+
+Second, Lineage graph! ఇది ఏ source నుంచి ఏ model, ఏ model నుంచి ఏ report వరకు data ఎలా flow అవుతుందో visual గా చూపిస్తుంది.
+
+Documentation code తో పాటు Git లో ఉంటుంది. అందుకే models మార్చినప్పుడు docs కూడా update చేయడం easy.
+
+ఒక Banking project example తీసుకుందాం.
+
+models slash marts slash schema dot Y M L లో descriptions రాస్తాం:
+
+version colon two
+
+models colon
+dash name colon dim underscore customers
+description colon One row per bank customer
+columns colon
+dash name colon CUSTOMER underscore I D
+description colon Unique customer identifier
+dash name colon CITY
+description colon City where the customer lives
+
+ఇప్పుడు documentation generate చేద్దాం:
+
+D B T docs generate
+
+తర్వాత website open చేద్దాం:
+
+D B T docs serve
+
+Browser లో మన project docs open అవుతాయి. Dim underscore customers model select చేస్తే, descriptions and upstream models కనిపిస్తాయి.
+
+Lineage graph లో source నుంచి staging, staging నుంచి marts వరకు complete flow చూడచ్చు.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Descriptions – Written in schema Y M L files.
+
+D B T docs generate – Generates the documentation metadata.
+
+D B T docs serve – Opens the documentation website locally.
+
+Lineage graph – Shows how data flows between models.
+
+ఇది మన Thirty Days of D B T series లో Day Fourteen!
+
+Next video లో Jinja Basics in D B T గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

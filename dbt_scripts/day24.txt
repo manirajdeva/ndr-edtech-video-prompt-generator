@@ -1,0 +1,96 @@
+she:
+[curious] Ra, mee friends nuvvu ela piluchukuntaru?
+he:
+[playfully sarcastic] Kondaru "Chinna", kondaru "Boss" ani ra!
+she:
+[excited] Idhe alias! Table ki nickname!
+he:
+[confused] Mari WhatsApp groups lo andaru add avuthaaru kada! Adhi enti?
+she:
+[confident] Adhe tags! Models ni groups ga select cheyyadaniki!
+he:
+[curious] Mari schema ante?
+she:
+[playfully sarcastic] Society lo block number ra! Finance block, sales block laga!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo configs ni moodu places lo set cheyyachu.
+
+First, dbt_project.yml – folder level lo, oka folder lo unna models anni ki.
+
+Second, schema yml files – oka model ki properties tho patu.
+
+Third, model file lo config block – most specific level.
+
+Priority enti ante, most specific config win avuthundhi. Ante model lo config block, folder level setting ni override chesthundhi.
+
+Important configs ni chuddam.
+
+First, tags – models ni group cheyyadaniki.
+
+Second, schema – custom schema name.
+
+Third, alias – table or view name ni marchadaniki.
+
+Custom schema name ni dbt default ga target schema tho kalipi create chesthundhi. Ante dev lo DBT underscore DEV underscore FINANCE laga untundhi.
+
+Mana production lo exact schema names kavali ante, generate schema name macro ni override cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Folder level lo dbt_project.yml lo:
+
+models:
+  bank_project:
+    marts:
+      finance:
+        +schema: finance
+        +tags: ['daily']
+
+Ippudu oka specific model ki model lo config block:
+
+{{ config(
+    alias='daily_summary',
+    tags=['daily', 'critical']
+) }}
+
+SELECT
+    TRANSACTION_DATE,
+    COUNT(*) AS TXN_COUNT
+FROM {{ ref('stg_transactions') }}
+GROUP BY TRANSACTION_DATE
+
+Ippudu finance models separate schema lo create avuthayi, and daily tag tho select cheyyachu:
+
+dbt run --select tag:daily
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Configs can be set in dbt_project.yml, schema yml and the model file.
+
+The most specific config wins.
+
+Tags group models, schema and alias control where and how they are named.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Four!
+
+Next video lo dbt Commands and dbt build gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

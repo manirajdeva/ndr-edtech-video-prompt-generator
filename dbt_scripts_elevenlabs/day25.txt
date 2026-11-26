@@ -1,0 +1,43 @@
+FEMALE: [curious] రా, చపాతీ burn అయితే, కర్రీ serve చేస్తావా?
+MALE: [shocked] అయ్యో! Burn చపాతీ తో కర్రీ ఎలా serve చేస్తాను!
+FEMALE: [sarcastic] మరి test fail అయిన model తో dashboard కి data పంపించేస్తే?
+MALE: [panicked] Wrong numbers వస్తాయి రా! [laughs]
+FEMALE: [confident] అందుకే D B T build! Test fail అయితే downstream models skip అవుతాయి!
+MALE: [excited] అంటే burn చపాతీ ని కర్రీ వరకు వెళ్లనివ్వదు ఆ!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో important commands ని ఒక సారి చూద్దాం.
+NARRATOR: First, D B T debug – connection check.
+NARRATOR: Second, D B T deps – packages install.
+NARRATOR: Third, D B T seed – C S V seeds load.
+NARRATOR: Fourth, D B T run – models build.
+NARRATOR: Fifth, D B T test – tests run.
+NARRATOR: Sixth, D B T snapshot – snapshots update.
+NARRATOR: Seventh, D B T compile – compiled S Q L generate, run చేయకుండా.
+NARRATOR: Eighth, D B T docs generate and D B T docs serve – documentation.
+NARRATOR: ఇప్పుడు most important command, D B T build.
+NARRATOR: D B T build seeds, models, snapshots and tests అన్ని dependency order లో run చేస్తుంది.
+NARRATOR: ఒక model కి test fail అయితే, ఆ model మీద depend అయ్యే downstream models skip అవుతాయి. దీనివల్ల bad data dashboard వరకు వెళ్లడు!
+NARRATOR: Production కోసం D B T build best choice.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన daily production run sequence:
+NARRATOR: D B T deps
+NARRATOR: D B T build dash dash target prod
+NARRATOR: ఇప్పుడు S T G underscore transactions లో not underscore null test fail అయింది అనుకోండి.
+NARRATOR: ఆ model fail అయినప్పుడు, దాని మీద depend అయ్యే F C T underscore transactions model skip అవుతుంది.
+NARRATOR: Dashboard లో wrong data కి బదులు, last good data ఉంటుంది. ఆ failure ని fix చేసి, మళ్లీ run చేయచ్చు.
+NARRATOR: Debugging కోసం:
+NARRATOR: D B T compile dash dash select F C T underscore transactions
+NARRATOR: Compiled S Q L target folder లో ఉంటుంది.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: D B T run – Builds models.
+NARRATOR: D B T test – Runs tests.
+NARRATOR: D B T build – Runs seeds, models, snapshots and tests together, in order.
+NARRATOR: If a test fails, downstream models are skipped.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Five!
+NARRATOR: Next video లో Performance and Cost Optimization on Snowflake గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

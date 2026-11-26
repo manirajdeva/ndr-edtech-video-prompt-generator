@@ -1,0 +1,10 @@
+FEMALE: [curious] రా, నువ్వు బిర్యానీ ఎలా చేస్తావ్?
+MALE: [confident] Easy రా! ఇంట్లో వండి, hotel కి తీసుకెళ్లి, అక్కడ serve చేస్తాను!
+FEMALE: [shocked] అరే! ఇంట్లో వండి, తర్వాత hotel కి carry చేస్తావా? Hotel లో పెద్ద kitchen ఉంది కదా!
+MALE: [confused] అంటే raw rice, మసాలా అన్ని hotel kitchen కి తీసుకెళ్లి, అక్కడే వండుకోవాలా?
+FEMALE: [sarcastic] Exactly! ఇదే E L T రా! ముందు load, తర్వాత transform!
+MALE: [curious] అయితే E T L అంటే నేను చేసే ఇంట్లో వండి, తర్వాత load ఆ?
+FEMALE: [excited] Super! Snowflake లాంటి big kitchen ఉంది, ఆ compute ని వాడుకోవాలి!
+MALE: [serious] హ్మ్… ఇది data కి కూడా work అవుతుందా?
+FEMALE: [confident] అవును రా! Raw data ని warehouse లోకి load చేసి, అక్కడే transform చేస్తాం!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

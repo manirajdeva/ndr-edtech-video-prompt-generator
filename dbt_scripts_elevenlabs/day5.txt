@@ -1,0 +1,41 @@
+FEMALE: [serious] రా, నీ A T M PIN ఏంటి?
+MALE: [shocked] అయ్యో! నీ A T M PIN ఏం అడుగుతున్నావ్? నేను చెప్పను!
+FEMALE: [sarcastic] నువ్వు code లో Snowflake password రాసి, Git లో push చేశావ్ రా!
+MALE: [panicked] అయ్యో! అంటే నేను A T M PIN ని forehead మీద రాసుకున్నట్టు అయ్యింది!
+FEMALE: [tired] Exactly! Public గా ఉంటే ఎవరైనా వాడేస్తారు!
+MALE: [curious] మరి D B T కి Snowflake credentials ఎలా ఇవ్వాలి?
+FEMALE: [confident] profiles dot Y M L file లో! Password ని env underscore var తో safe గా తీసుకోవచ్చు!
+MALE: [excited] Super! Connection check చేయడానికి?
+FEMALE: [excited] D B T debug! All checks passed అంటే, ready!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T connection details ని profiles dot Y M L file లో store చేస్తుంది.
+NARRATOR: ఈ file project folder బయట, మన home directory లో dot D B T folder లో ఉంటుంది. అందుకే credentials Git లోకి వెళ్లవు.
+NARRATOR: Snowflake connection కోసం important fields ఏంటి అంటే…
+NARRATOR: type – snowflake.
+NARRATOR: account – మన Snowflake account identifier.
+NARRATOR: user – D B T use చేసే user.
+NARRATOR: password – లేదా safer method, environment variable.
+NARRATOR: role – D B T use చేసే role.
+NARRATOR: database and warehouse – D B T work చేసే place and compute.
+NARRATOR: schema – D B T models create చేసే schema.
+NARRATOR: threads – ఒకే time లో ఎంత models run చేయాలి.
+NARRATOR: Best practice ఏంటి అంటే… D B T కోసం ఒక separate role and separate warehouse create చేయాలి. మన R B A C concepts ఇక్కడ use అవుతాయి.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన role D B T underscore ROLE, warehouse D B T underscore W H, database BANK underscore D B.
+NARRATOR: ఇప్పుడు profiles dot Y M L లో ఈ configuration రాస్తాం:
+NARRATOR: bank underscore project colon, target colon dev, outputs colon, dev colon, type colon snowflake, account colon your underscore account underscore identifier, user colon D B T underscore USER, password colon double curly braces env underscore var open bracket D B T underscore PASSWORD close bracket double curly braces, role colon D B T underscore ROLE, database colon BANK underscore D B, warehouse colon D B T underscore W H, schema colon D B T underscore DEV, threads colon four
+NARRATOR: Password ని direct గా రాయకుండా environment variable నుంచి తీసుకుంటున్నాం.
+NARRATOR: ఇప్పుడు connection test చేద్దాం:
+NARRATOR: D B T debug
+NARRATOR: అన్ని checks pass అయితే, All checks passed అని వస్తుంది!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: profiles dot Y M L – Stores the Snowflake connection details.
+NARRATOR: env underscore var – Keeps passwords out of the code.
+NARRATOR: D B T debug – Tests the connection.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Five!
+NARRATOR: Next video లో మన first D B T model create చేసి D B T run command ఎలా work అవుతుందో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

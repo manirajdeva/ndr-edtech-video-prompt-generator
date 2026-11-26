@@ -1,0 +1,98 @@
+she:
+[serious] Ra, ee code evaru rasaru?
+he:
+[confused] Naaku teliyadu ra! Naa laptop lo chudu!
+she:
+[shock] Idi six months mundhu nuvve rasavu!
+he:
+[panicking] Ayyo! Nenu rasana? Ippudu naaku kuda ardham avvatledhu! 😂
+she:
+[tired] Anduke best practices ra! Naming, tests, documentation!
+he:
+[excited] Ante future lo nannu nene artham chesukovachu!
+she:
+[energetic] Exactly!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+Production dbt project kosam mukhyamaina best practices chuddam.
+
+First, Hard coded table names vaddhu. Always ref and source functions use cheyyali.
+
+Second, Layers follow cheyyali. Staging, intermediate and marts.
+
+Third, Naming conventions. stg, int, dim and fct prefixes.
+
+Fourth, Test every primary key. Prathi model lo primary key ki unique and not_null test undali.
+
+Fifth, Document marts. Reporting models ki descriptions and column descriptions rayali.
+
+Sixth, Keep models small. Oke model lo chala logic kakunda, modular ga split cheyyali.
+
+Seventh, Use CTEs. SQL readable ga undali. SELECT star ni avoid cheyyali.
+
+Eighth, Reuse code. Repeated logic ni macros loki teesukovali.
+
+Ninth, Separate environments. Dev and prod separate ga undali.
+
+Tenth, Version control and code review. Anni changes pull request tho vellali.
+
+Eleventh, Secrets Git lo undakudadhu. env_var use cheyyali.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana project structure ila undali:
+
+models/staging – stg_customers, stg_transactions
+
+models/marts – dim_customers, fct_transactions
+
+Mana model lo CTE style ila untundhi:
+
+WITH customers AS (
+    SELECT * FROM {{ ref('stg_customers') }}
+),
+transactions AS (
+    SELECT * FROM {{ ref('stg_transactions') }}
+)
+SELECT
+    c.CUSTOMER_ID,
+    COUNT(t.TRANSACTION_ID) AS TXN_COUNT
+FROM customers c
+LEFT JOIN transactions t
+    ON c.CUSTOMER_ID = t.CUSTOMER_ID
+GROUP BY c.CUSTOMER_ID
+
+Ee approach tho code readable, tested and maintainable ga untundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Use ref and source, never hard coded names.
+
+Follow staging, intermediate and marts layers.
+
+Test and document your important models.
+
+Reuse code with macros and review changes with pull requests.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Nine!
+
+Next video lo oka complete End-to-End dbt project explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

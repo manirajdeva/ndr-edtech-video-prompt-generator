@@ -1,0 +1,61 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో model ని Snowflake లో ఎలా create చేయాలో decide చేసే setting నే Materialization అంటారు.
+
+Mainly four materializations ఉంటాయి.
+
+First, View!
+
+ఇది default option. Query run అయినప్పుడు logic execute అవుతుంది. Data storage use అవ్వదు.
+
+Second, Table!
+
+Model result ని table గా store చేస్తుంది. Reading fast గా ఉంటుంది, కానీ ప్రతి run లో table మళ్లీ build అవుతుంది.
+
+Third, Incremental!
+
+కొత్త or changed rows ని మాత్రమే process చేస్తుంది. Big tables కోసం best.
+
+Fourth, Ephemeral!
+
+Database object create చేయదు. ఆ model logic ఇంకో model లో C T E గా add అవుతుంది.
+
+Materialization ని config block తో set చేస్తాం.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన customer underscore total model చిన్నది, reports కి fast గా కావాలి. అందుకే table గా create చేస్తాం.
+
+Model file లో top లో ఈ config రాస్తాం:
+
+double curly braces config open bracket materialized equals table close bracket double curly braces
+
+SELECT
+CUSTOMER underscore I D,
+SUM open bracket TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT
+FROM BANK underscore D B dot RAW dot TRANSACTIONS
+GROUP BY CUSTOMER underscore I D
+
+ఇప్పుడు D B T run చేస్తే, CUSTOMER underscore TOTAL table గా create అవుతుంది.
+
+Rules of thumb ఏంటి అంటే… Staging models views గా, reporting models tables గా, and చాలా పెద్ద transaction tables incremental గా set చేస్తాం.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+View – Default, no data stored.
+
+Table – Result stored, fast reads.
+
+Incremental – Processes only new or changed rows.
+
+Ephemeral – No object, logic is reused as a C T E.
+
+ఇది మన Thirty Days of D B T series లో Day Seven!
+
+Next video లో D B T ref function and DAG గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

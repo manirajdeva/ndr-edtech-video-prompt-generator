@@ -1,0 +1,91 @@
+she:
+[serious] Ra, ee table ekkada nunchi vachindhi? CUSTOMER_ID ante em?
+he:
+[confused] Naaku kuda teliyadu ra! Excel sheet lo documentation undhi!
+she:
+[playfully sarcastic] Aa Excel sheet five years paatha! Pelli sambandham photo laga outdated!
+he:
+[shock] Ayyo! Appude kotha join ayina vallaki em ardham avuthundhi? 😂
+she:
+[confident] Anduke dbt documentation! Code tho patu docs, automatic ga update!
+he:
+[excited] Lineage graph kuda untundhi aa?
+she:
+[energetic] Yes ra! Data flow anthaa visual ga chudachu!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo documentation mana code tho patu untundhi.
+
+Models and columns ki description ni schema yml file lo rastham.
+
+Taruvatha dbt docs generate command run chesthe, dbt oka documentation website ki kavalsina metadata generate chesthundhi.
+
+dbt docs serve command tho aa website ni mana local machine lo open cheyyachu.
+
+Ee website lo manaki rendu powerful features untayi.
+
+First, Model and column descriptions.
+
+Second, Lineage graph! Idi ye source nunchi ye model, ye model nunchi ye report varaku data ela flow avuthundho visual ga chupisthundhi.
+
+Documentation code tho patu Git lo untundhi. Anduke models marchinappudu docs kuda update cheyyadam easy.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+models/marts/schema.yml lo descriptions rastham:
+
+version: 2
+
+models:
+  - name: dim_customers
+    description: "One row per bank customer"
+    columns:
+      - name: CUSTOMER_ID
+        description: "Unique customer identifier"
+      - name: CITY
+        description: "City where the customer lives"
+
+Ippudu documentation generate cheddham:
+
+dbt docs generate
+
+Taruvatha website open cheddham:
+
+dbt docs serve
+
+Browser lo mana project docs open avuthayi. Dim_customers model select chesthe, descriptions and upstream models kanipisthayi.
+
+Lineage graph lo source nunchi staging, staging nunchi marts varaku complete flow chudachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Descriptions – Written in schema yml files.
+
+dbt docs generate – Generates the documentation metadata.
+
+dbt docs serve – Opens the documentation website locally.
+
+Lineage graph – Shows how data flows between models.
+
+Idi mana Thirty Days of dbt series lo Day Fourteen!
+
+Next video lo Jinja Basics in dbt gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

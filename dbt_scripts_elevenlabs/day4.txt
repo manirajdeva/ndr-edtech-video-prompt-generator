@@ -1,0 +1,43 @@
+FEMALE: [shocked] అరే! నీ laptop desktop చూశావా రా? అన్ని files ఒకే folder లో!
+MALE: [confused] ఏం రా? నాకు అర్థం అవుతుంది కదా!
+FEMALE: [sarcastic] నువ్వు final underscore final underscore v2 underscore new dot S Q L అంటే ఏ file రా?
+MALE: [panicked] అయ్యో! అది final కాదా? ఇప్పుడు నాకు కూడా గుర్తు లేదు!
+FEMALE: [tired] మీ project లో hundred S Q L files ఉంటే, కొత్త person కి ఏం అర్థం అవుతుంది?
+MALE: [curious] మరి ఇది ఎలా organize చేయాలి రా?
+FEMALE: [confident] D B T project structure! Models, seeds, snapshots, macros, tests… ప్రతి దానికి ఒక folder!
+MALE: [excited] Wow! మన bedroom లో cupboards పెట్టి organize చేసినట్టు!
+FEMALE: [confident] Exactly! ఆ cupboards నే D B T init తో ready!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T project create చేయడానికి D B T init command use చేస్తాం.
+NARRATOR: ఈ command ఒక project folder create చేస్తుంది. దీనిలో mainly ఈ folders and files ఉంటాయి.
+NARRATOR: First, D B T underscore project dot Y M L – project configuration file.
+NARRATOR: Second, models – మన SELECT statements ని ఇక్కడ save చేస్తాం.
+NARRATOR: Third, seeds – small C S V files కోసం.
+NARRATOR: Fourth, snapshots – data history track చేయడానికి.
+NARRATOR: Fifth, macros – reusable code కోసం.
+NARRATOR: Sixth, tests – custom test queries కోసం.
+NARRATOR: Seventh, analyses – ad-hoc S Q L queries కోసం.
+NARRATOR: D B T run చేసినప్పుడు target and logs folders automatic గా create అవుతాయి. అవి Git లోకి commit చేయకూడదు.
+NARRATOR: Important point ఏంటి అంటే… మన Snowflake credentials ని store చేసే profiles dot Y M L file project folder లో ఉండదు. అది మన home directory లో dot D B T folder లో ఉంటుంది.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: ఇప్పుడు project create చేద్దాం:
+NARRATOR: D B T init bank underscore project
+NARRATOR: ఈ command adapter and connection details అడుగుతుంది. మనం snowflake select చేస్తాం.
+NARRATOR: ఇప్పుడు D B T underscore project dot Y M L లో important settings చూద్దాం:
+NARRATOR: name colon bank underscore project
+NARRATOR: version colon one point zero point zero
+NARRATOR: profile colon bank underscore project
+NARRATOR: model-paths colon open square bracket models close square bracket
+NARRATOR: మన Banking project కోసం models folder లో staging and marts అనే two sub folders create చేస్తాం.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: D B T init – Creates a new D B T project.
+NARRATOR: D B T underscore project dot Y M L – Project configuration.
+NARRATOR: models – Where S Q L SELECT statements live.
+NARRATOR: profiles dot Y M L – Connection details, stored outside the project.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Four!
+NARRATOR: Next video లో D B T ని Snowflake కి connect చేయడం గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

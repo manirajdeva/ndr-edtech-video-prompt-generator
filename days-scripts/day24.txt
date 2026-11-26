@@ -1,0 +1,78 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka real-time scenario imagine cheyyandi!
+
+Mee company ki AWS S3 bucket lo every 5 minutes ki new transaction files land avuthunnayi.
+
+Prathi sari Data Engineer login ayyi COPY INTO execute chesthu untara?
+
+Definitely not!
+
+Mari new files vachinappudu Snowflake automatic ga data load cheyyalante ela?
+
+Adhe Snowpipe Auto-Ingest!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Snowpipe Auto-Ingest anedhi AWS S3 nunchi Snowflake ki files automatic ga load cheyyadaniki use chese event-driven mechanism.
+
+Indhulo main ga four components untayi.
+
+First, AWS S3 – files land ayye storage location.
+
+Second, S3 Event Notification – new file upload ayinappudu event generate chesthundhi.
+
+Third, Amazon SQS – file notification ni Snowflake ki deliver cheyyadaniki use avuthundhi.
+
+Fourth, Snowpipe – notification receive chesi COPY INTO process ni trigger chesthundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS.csv file AWS S3 bucket lo upload ayyindhi.
+
+S3 event notification generate avuthundhi.
+
+Aa notification Amazon SQS ki velthundhi.
+
+Snowpipe notification receive cheskoni, corresponding file ni Snowflake TRANSACTIONS table loki load chesthundhi.
+
+Ila manam manual ga COPY INTO execute cheyyakundane automated ingestion setup cheyyachu.
+
+[SQL Demo]
+
+CREATE PIPE TRANSACTION_PIPE
+AUTO_INGEST = TRUE
+INTEGRATION = 'S3_NOTIFICATION_INT'
+AS
+COPY INTO TRANSACTIONS
+FROM @TRANSACTION_STAGE;
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+S3 – Stores files.
+
+S3 Event Notification – Detects new files.
+
+SQS – Delivers notifications.
+
+Snowpipe – Loads data automatically.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Four!
+
+Next video lo Snowflake Streams gurinchi real-time CDC example tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

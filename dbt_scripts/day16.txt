@@ -1,0 +1,83 @@
+she:
+[curious] Ra, amma masala podi ela chesthundhi?
+he:
+[confident] Okka sari mixie lo grind chesi, anni curries ki vadathundhi!
+she:
+[excited] Correct! Roju grind cheyyadu! Idhe dbt macro!
+he:
+[confused] Ante paise to rupees logic okka sari rasi, hundred models lo vadala?
+she:
+[playfully sarcastic] Avunu! Hundred places lo copy paste cheyyakunda!
+he:
+[shock] Aithe logic marchali ante, okka chota marchithe saripothundhi aa?
+she:
+[energetic] Exactly! Mixie lo masala marchinattu!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo reusable SQL logic ni Macros ga create chestham.
+
+Macro ante oka function laantidhi. Oka sari rasi, chala models lo use cheyyachu.
+
+Macros ni macros folder lo save chestham.
+
+Macro define cheyyadaniki macro and end macro tags use chestham. Macro ki parameters ivvachu.
+
+Macro ni model lo double curly braces lo call chestham.
+
+Macros tho manaki three benefits untayi.
+
+First, Less code duplication.
+
+Second, Logic oka chota maintain cheyyachu.
+
+Third, Easy changes. Logic marchali ante, okka macro marchithe saripothundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+macros folder lo paise_to_rupees.sql file create chestham:
+
+{% macro paise_to_rupees(column_name) %}
+    ({{ column_name }} / 100.0)
+{% endmacro %}
+
+Ippudu model lo ee macro ni ila use chestham:
+
+SELECT
+    TRANSACTION_ID,
+    {{ paise_to_rupees('AMOUNT_PAISE') }} AS AMOUNT_RUPEES
+FROM {{ source('bank_raw', 'transactions') }}
+
+dbt compile chesinappudu, macro call ni dbt actual SQL tho replace chesthundhi.
+
+Eppudaina conversion logic marchali ante, macro file lo okka chota marchithe, anni models lo update avuthundhi!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Macro – A reusable piece of SQL logic.
+
+Macros live in the macros folder.
+
+Change the macro once, and every model that uses it is updated.
+
+Idi mana Thirty Days of dbt series lo Day Sixteen!
+
+Next video lo dbt Packages and dbt_utils gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

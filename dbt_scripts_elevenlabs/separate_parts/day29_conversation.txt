@@ -1,0 +1,8 @@
+FEMALE: [serious] రా, ఈ code ఎవరు రాశారు?
+MALE: [confused] నాకు తెలియదు రా! నా laptop లో చూడు!
+FEMALE: [shocked] ఇది six months ముందు నువ్వే రాశావు!
+MALE: [panicked] అయ్యో! నేను రాశానా? ఇప్పుడు నాకు కూడా అర్థం అవ్వట్లేదు! [laughs]
+FEMALE: [tired] అందుకే best practices రా! Naming, tests, documentation!
+MALE: [excited] అంటే future లో నన్ను నేనే అర్థం చేసుకోవచ్చు!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,63 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో raw tables ని refer చేయడానికి Sources use చేస్తాం.
+
+Sources ని sources dot Y M L అనే YAML file లో define చేస్తాం. ఆ file లో source name, database, schema and tables రాస్తాం.
+
+Models లో ఆ source ని refer చేయడానికి source function use చేస్తాం. ఇది ref function లాగా ఉంటుంది, కానీ raw tables కోసం.
+
+Source తో మనకి two benefits ఉంటాయి.
+
+First, Lineage! Raw tables కూడా D B T lineage graph లో కనిపిస్తాయి.
+
+Second, Freshness! Source data ఎలా fresh గా ఉందో check చేయచ్చు.
+
+Freshness కోసం table లో ఒక loaded at column ఉండాలి. Warn and error limits set చేస్తాం.
+
+D B T source freshness command తో check చేస్తాం.
+
+ఒక Banking project example తీసుకుందాం.
+
+models folder లో sources dot Y M L file create చేస్తాం:
+
+version colon two
+
+sources colon
+dash name colon bank underscore raw
+database colon BANK underscore D B
+schema colon RAW
+tables colon
+dash name colon customer
+dash name colon transactions
+loaded underscore at underscore field colon LOAD underscore T S
+freshness colon
+warn underscore after colon open curly brace count colon twelve, period colon hour close curly brace
+error underscore after colon open curly brace count colon twenty four, period colon hour close curly brace
+
+ఇప్పుడు model లో source ని ఇలా use చేస్తాం:
+
+SELECT star FROM double curly braces source open bracket bank underscore raw, transactions close bracket double curly braces
+
+Freshness check కోసం:
+
+D B T source freshness
+
+Data twelve గంటలు కన్నా పాత అయితే warning, twenty four గంటలు కన్నా పాత అయితే error వస్తుంది!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+source – Refers to a raw table.
+
+sources dot Y M L – Where sources are defined.
+
+D B T source freshness – Checks how fresh the raw data is.
+
+ఇది మన Thirty Days of D B T series లో Day Nine!
+
+Next video లో Staging, Intermediate and Marts layers గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

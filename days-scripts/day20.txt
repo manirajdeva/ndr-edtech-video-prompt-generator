@@ -1,0 +1,90 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka situation imagine cheyyandi!
+
+Mee company lo 100 employees unnaru.
+
+Andariki production database access isthara?
+
+Developers ki, testers ki, managers ki… andariki same permissions isthara?
+
+Definitely not kada!
+
+Because company lo evariki entha access undalo decide cheyyali.
+
+Snowflake lo deenikosam oka powerful security feature undhi!
+
+Adhe RBAC – Role-Based Access Control!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+RBAC ante users ki direct ga permissions assign cheyyakunda, Roles through access control manage cheyyadam.
+
+First, User!
+
+User ante Snowflake account access chese individual.
+
+Second, Role!
+
+Role anedhi permissions ni group chesi users ki assign chestham.
+
+Third, Privileges!
+
+Privileges ante SELECT, INSERT, UPDATE, DELETE lanti permissions.
+
+Snowflake lo roles ki privileges grant chestham, and users ki roles assign chestham.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana BANK_DB lo CUSTOMER table undhi.
+
+Developers ki data read and modify permissions kavali.
+
+Reporting team ki only SELECT permission kavali.
+
+Ippudu reporting role create chesi SELECT permission grant cheyyachu.
+
+SQL commands chuddam!
+
+CREATE ROLE REPORTING_ROLE;
+
+GRANT USAGE ON DATABASE BANK_DB
+TO ROLE REPORTING_ROLE;
+
+GRANT USAGE ON SCHEMA BANK_DB.CUSTOMER_SCHEMA
+TO ROLE REPORTING_ROLE;
+
+GRANT SELECT ON TABLE BANK_DB.CUSTOMER_SCHEMA.CUSTOMER
+TO ROLE REPORTING_ROLE;
+
+GRANT ROLE REPORTING_ROLE TO USER DEVA;
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+User – Who accesses Snowflake.
+
+Role – Group of permissions.
+
+Privileges – What actions users can perform.
+
+RBAC helps organizations manage secure and controlled data access.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty!
+
+Next video lo Resource Monitors and Warehouse Cost Optimization gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

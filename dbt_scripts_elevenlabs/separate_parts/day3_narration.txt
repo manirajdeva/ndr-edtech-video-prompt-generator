@@ -1,0 +1,63 @@
+[excited] Welcome to N D R Ed Tech!
+
+First, D B T Core!
+
+D B T Core open-source tool. ఇది command line లో work చేస్తుంది.
+
+మనం D B T Core ని మన laptop లో లేదా మన own servers లో run చేయచ్చు.
+
+Scheduling and orchestration ని మనం separately set చేయాలి.
+
+Second, D B T Cloud!
+
+D B T Cloud ఒక managed platform.
+
+ఇది web-based I D E, job scheduling, C I support and documentation hosting లాంటి features ఇస్తుంది.
+
+మన infrastructure manage చేయకుండా quick గా start చేయచ్చు.
+
+Learning కోసం D B T Core best option, because మనం commands ని direct గా నేర్చుకుంటాం.
+
+ఈ series లో మనం D B T Core commands use చేస్తాం. అవి D B T Cloud లో కూడా work అవుతాయి.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన Windows laptop లో D B T Core install చేద్దాం.
+
+First, ఒక virtual environment create చేస్తాం. దీనివల్ల మన project packages వేరే projects తో conflict అవ్వవు.
+
+python dash m V env D B T underscore env
+
+ఇప్పుడు ఆ environment ని activate చేస్తాం:
+
+D B T underscore env backslash Scripts backslash activate
+
+తర్వాత Snowflake adapter install చేస్తాం:
+
+pip install D B T dash snowflake
+
+ఈ command D B T Core ని and Snowflake adapter ని కలిపి install చేస్తుంది.
+
+Finally, installation check చేయడానికి:
+
+D B T dash dash version
+
+Version details వస్తే, మన installation ready!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+D B T Core – Open-source command line tool.
+
+D B T Cloud – Managed platform with I D E and scheduler.
+
+pip install D B T dash snowflake – Installs D B T Core with the Snowflake adapter.
+
+ఇది మన Thirty Days of D B T series లో Day Three!
+
+Next video లో D B T Project Structure గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

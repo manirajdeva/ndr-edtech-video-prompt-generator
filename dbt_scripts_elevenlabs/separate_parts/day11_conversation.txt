@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, టీ shop కి సామాన్ ఏ vehicle లో తీసుకువస్తావ్?
+MALE: [sarcastic] Cycle లో రా! చిన్న సామాన్ కదా!
+FEMALE: [confident] మరి fifty rows ఉన్న branch codes list కోసం Snowpipe, S three, పెద్ద pipeline పెట్టాలా?
+MALE: [shocked] అయ్యో! టీ shop కి Tesla car పంపించినట్టు ఉంది రా! [laughs]
+FEMALE: [excited] అందుకే D B T లో seeds! Small C S V ని direct గా load చేయచ్చు!
+MALE: [curious] అంటే cycle లో తీసుకెళ్లే లాగా easy ఆ?
+FEMALE: [excited] Exactly! D B T seed అంటే cycle delivery!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

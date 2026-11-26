@@ -1,0 +1,79 @@
+[Developer Challenge – Opening]
+
+Welcome to NDR EdTech!
+
+Oka Data Engineer ga meeru daily same SQL queries execute chesthunnaru anukondi.
+
+Data validation, record count, data loading, error handling…
+
+Prathi sari same SQL statements repeat cheyyadam correct approach aa?
+
+Definitely not!
+
+Mari multiple SQL statements ni oka single reusable program laga execute cheyyalante ela?
+
+Snowflake lo Stored Procedures use chestham!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Stored Procedure ante multiple SQL statements and business logic ni oka reusable procedure lo combine cheyyadam.
+
+Snowflake lo Stored Procedures ni SQL or JavaScript or Python lanti supported languages lo develop cheyyachu.
+
+Dheenitho manam:
+
+Data loading automate cheyyachu.
+
+Data validation perform cheyyachu.
+
+Error handling implement cheyyachu.
+
+Complex business logic execute cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Daily CUSTOMER data load ayyaka, total record count calculate cheyyali.
+
+Daanikosam Stored Procedure create cheddham!
+
+CREATE OR REPLACE PROCEDURE GET_CUSTOMER_COUNT()
+RETURNS NUMBER
+LANGUAGE SQL
+AS
+$$
+DECLARE
+    CNT NUMBER;
+BEGIN
+    SELECT COUNT(*)
+    INTO :CNT
+    FROM CUSTOMER;
+
+    RETURN CNT;
+END;
+$$;
+
+Ippudu procedure execute cheyyadaniki:
+
+CALL GET_CUSTOMER_COUNT();
+
+Anthe! Prathi sari complete SQL logic rayalsina avasaram lekunda, CALL command tho execute cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Stored Procedures help us combine SQL statements, reusable business logic and error handling into one program.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Eight!
+
+Next video lo Snowflake + dbt + Airflow Architecture ela work avuthundho real-time Data Engineering example tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

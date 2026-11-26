@@ -1,0 +1,8 @@
+FEMALE: [excited] రా! ఈ Thirty Days of D B T series last day రా!
+MALE: [shocked] అప్పుడే అయిపోయిందా! ఇప్పుడు నేను D B T expert అయ్యానా?
+FEMALE: [sarcastic] Expert ఆ? Practice చేయకపోతే, బిర్యానీ చదివి వండటం నేర్చుకున్నట్టు!
+MALE: [tired] అయ్యో! బిర్యానీ చదివితే పొట్ట నిండదు రా! [laughs]
+FEMALE: [confident] అందుకే ఈ End-to-End project! Source నుంచి dashboard వరకు అన్ని కలిపి!
+MALE: [excited] Wow! Complete banking pipeline!
+FEMALE: [excited] Ready ఆ?
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

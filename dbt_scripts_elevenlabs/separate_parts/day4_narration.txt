@@ -1,0 +1,63 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T project create చేయడానికి D B T init command use చేస్తాం.
+
+ఈ command ఒక project folder create చేస్తుంది. దీనిలో mainly ఈ folders and files ఉంటాయి.
+
+First, D B T underscore project dot Y M L – project configuration file.
+
+Second, models – మన SELECT statements ని ఇక్కడ save చేస్తాం.
+
+Third, seeds – small C S V files కోసం.
+
+Fourth, snapshots – data history track చేయడానికి.
+
+Fifth, macros – reusable code కోసం.
+
+Sixth, tests – custom test queries కోసం.
+
+Seventh, analyses – ad-hoc S Q L queries కోసం.
+
+D B T run చేసినప్పుడు target and logs folders automatic గా create అవుతాయి. అవి Git లోకి commit చేయకూడదు.
+
+Important point ఏంటి అంటే… మన Snowflake credentials ని store చేసే profiles dot Y M L file project folder లో ఉండదు. అది మన home directory లో dot D B T folder లో ఉంటుంది.
+
+ఒక Banking project example తీసుకుందాం.
+
+ఇప్పుడు project create చేద్దాం:
+
+D B T init bank underscore project
+
+ఈ command adapter and connection details అడుగుతుంది. మనం snowflake select చేస్తాం.
+
+ఇప్పుడు D B T underscore project dot Y M L లో important settings చూద్దాం:
+
+name colon bank underscore project
+
+version colon one point zero point zero
+
+profile colon bank underscore project
+
+model-paths colon open square bracket models close square bracket
+
+మన Banking project కోసం models folder లో staging and marts అనే two sub folders create చేస్తాం.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+D B T init – Creates a new D B T project.
+
+D B T underscore project dot Y M L – Project configuration.
+
+models – Where S Q L SELECT statements live.
+
+profiles dot Y M L – Connection details, stored outside the project.
+
+ఇది మన Thirty Days of D B T series లో Day Four!
+
+Next video లో D B T ని Snowflake కి connect చేయడం గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

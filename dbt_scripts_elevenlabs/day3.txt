@@ -1,0 +1,43 @@
+FEMALE: [confused] రా, D B T install చేయాలి అని try చేస్తున్నా. Core use చేయాలా, Cloud use చేయాలా?
+MALE: [sarcastic] Core అంటే apple core ఆ? Cloud అంటే rain cloud ఆ?
+FEMALE: [tired] అరే! నీ jokes కి Wi-Fi కూడా disconnect అవుతుంది!
+MALE: [curious] సరే, serious గా అడుగుతా. Core అంటే ఏంటి?
+FEMALE: [confident] Core free command line tool. Cloud అంటే managed platform with I D E and scheduler!
+MALE: [shocked] అంటే Core ని నేనే install చేయాలి, Cloud లో already ready ఆ?
+FEMALE: [sarcastic] అవును! Install చేయడానికి just pip install D B T dash snowflake చాలు!
+MALE: [excited] Pip install ఆ! Pip అంటే pip pip hurray రా! [laughs]
+FEMALE: [tired] అయ్యో! నీ తో పని చేయడం కష్టం రా…
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: First, D B T Core!
+NARRATOR: D B T Core open-source tool. ఇది command line లో work చేస్తుంది.
+NARRATOR: మనం D B T Core ని మన laptop లో లేదా మన own servers లో run చేయచ్చు.
+NARRATOR: Scheduling and orchestration ని మనం separately set చేయాలి.
+NARRATOR: Second, D B T Cloud!
+NARRATOR: D B T Cloud ఒక managed platform.
+NARRATOR: ఇది web-based I D E, job scheduling, C I support and documentation hosting లాంటి features ఇస్తుంది.
+NARRATOR: మన infrastructure manage చేయకుండా quick గా start చేయచ్చు.
+NARRATOR: Learning కోసం D B T Core best option, because మనం commands ని direct గా నేర్చుకుంటాం.
+NARRATOR: ఈ series లో మనం D B T Core commands use చేస్తాం. అవి D B T Cloud లో కూడా work అవుతాయి.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన Windows laptop లో D B T Core install చేద్దాం.
+NARRATOR: First, ఒక virtual environment create చేస్తాం. దీనివల్ల మన project packages వేరే projects తో conflict అవ్వవు.
+NARRATOR: python dash m V env D B T underscore env
+NARRATOR: ఇప్పుడు ఆ environment ని activate చేస్తాం:
+NARRATOR: D B T underscore env backslash Scripts backslash activate
+NARRATOR: తర్వాత Snowflake adapter install చేస్తాం:
+NARRATOR: pip install D B T dash snowflake
+NARRATOR: ఈ command D B T Core ని and Snowflake adapter ని కలిపి install చేస్తుంది.
+NARRATOR: Finally, installation check చేయడానికి:
+NARRATOR: D B T dash dash version
+NARRATOR: Version details వస్తే, మన installation ready!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: D B T Core – Open-source command line tool.
+NARRATOR: D B T Cloud – Managed platform with I D E and scheduler.
+NARRATOR: pip install D B T dash snowflake – Installs D B T Core with the Snowflake adapter.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Three!
+NARRATOR: Next video లో D B T Project Structure గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

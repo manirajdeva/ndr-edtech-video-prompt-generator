@@ -1,0 +1,75 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka interesting question!
+
+Meeru Snowflake lo oka SQL query execute chesaru.
+
+Malli same query execute chesthe, first time laga complete ga data process chesthundha?
+
+Leda already available information ni use chesi fast ga result isthundha?
+
+[pause]
+
+Exactly! Snowflake lo caching concept undhi.
+
+Kaani manaki three important types of caching untayi!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+First, Result Cache!
+
+Previously executed query result ni Snowflake cache chesthundhi.
+
+Same query malli execute chesinappudu, eligible conditions satisfy ayithe cached result ni return chesthundhi.
+
+Second, Warehouse Cache!
+
+Virtual Warehouse process chesina data ni local cache lo maintain chesthundhi.
+
+Same data malli query chesinappudu, warehouse cache help avvachu.
+
+Important point: Warehouse suspend ayithe local cache clear avuthundhi.
+
+Third, Metadata Cache!
+
+Snowflake metadata information ni use chesi konni queries ni actual table data scan cheyyakunda answer cheyyagaladhu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS table lo daily reports generate chesthunnam.
+
+First time monthly transaction query execute chesthe, Snowflake data process chesthundhi.
+
+Malli same query eligible conditions tho execute chesthe Result Cache use avvachu.
+
+Different query same data access chesthe Warehouse Cache help avvachu.
+
+COUNT or metadata-based queries konni Metadata Cache information use chesi fast ga execute avvachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Result Cache – Previous query results.
+
+Warehouse Cache – Locally cached data used by a running warehouse.
+
+Metadata Cache – Table metadata used to answer eligible queries.
+
+Idi mana Thirty Days of Snowflake series lo Day Eighteen!
+
+Next video lo Materialized Views gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

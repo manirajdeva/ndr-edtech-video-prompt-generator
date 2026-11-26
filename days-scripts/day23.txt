@@ -1,0 +1,84 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka interesting situation!
+
+Mee company ki daily 100 GB data AWS S3 nunchi Snowflake loki vasthundhi anukondi.
+
+Prathi sari Data Engineer manual ga COPY INTO command execute cheyyala?
+
+Leda new files vachinappudu automatic ga load avvala?
+
+[pause]
+
+Snowflake lo ee rendu approaches ki solutions unnayi!
+
+Adhe COPY INTO and Snowpipe!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+First, COPY INTO!
+
+COPY INTO anedhi Snowflake command.
+
+Manam execute chesinappudu external stage or internal stage nunchi files ni Snowflake table loki load chesthundhi.
+
+Usually batch loading scenarios lo use chestham.
+
+Second, Snowpipe!
+
+Snowpipe anedhi continuous data ingestion service.
+
+New files vachinappudu event notifications or supported automation mechanisms through loading trigger avuthundhi.
+
+Manam every time manually COPY INTO execute cheyyalsina avasaram undadhu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Daily midnight ki AWS S3 lo 100 GB transaction files land avuthunnayi anukondi.
+
+Manam scheduled batch process run chesi COPY INTO use cheyyachu.
+
+Kaani files throughout the day continuously land avuthunte, Snowpipe use chesi automatic ingestion setup cheyyachu.
+
+[SQL Comparison]
+
+COPY INTO CUSTOMER
+FROM @CUSTOMER_STAGE;
+
+Snowpipe kosam:
+
+CREATE PIPE CUSTOMER_PIPE
+AUTO_INGEST = TRUE
+AS
+COPY INTO CUSTOMER
+FROM @CUSTOMER_STAGE;
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+COPY INTO – Command-based data loading.
+
+Snowpipe – Event-driven automated data ingestion.
+
+Batch loading kosam COPY INTO useful.
+
+Continuous file ingestion kosam Snowpipe useful.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Three!
+
+Next video lo Snowpipe Auto-Ingest ela work avuthundho AWS S3 real-time example tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

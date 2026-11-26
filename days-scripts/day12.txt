@@ -1,0 +1,68 @@
+[Funny + Curiosity – Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka question!
+
+Mee daggara oka important document undhi. Dhaaniki exact copy kavali ante malli same document motham create chesthara?
+
+Leda original document ki copy create chesthara?
+
+[pause]
+
+Snowflake lo kuda ilanti concept undhi!
+
+Kaani interesting enti ante… data motham physically copy cheyyakundane clone create cheyyachu!
+
+Adhe Zero-Copy Cloning!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Zero-Copy Cloning ante Snowflake lo existing Database, Schema or Table ki quick copy create cheyyadaniki use chese feature.
+
+Initially, original data ni physically duplicate cheyyadhu.
+
+Instead, original data tho storage ni share cheskuntu clone create chesthundhi.
+
+Clone lo changes chesinappudu, new changes kosam additional storage use avuthundhi.
+
+Anduke initial cloning process fast ga and storage-efficient ga untundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana production database name BANK_PROD.
+
+Ippudu developers ki testing kosam same data structure and existing data kavali.
+
+Production data ni separate ga full copy cheyyakunda, Zero-Copy Cloning use chesi testing database create cheyyachu.
+
+SQL command chuddam!
+
+CREATE DATABASE BANK_TEST
+CLONE BANK_PROD;
+
+Anthe! Mana BANK_PROD database ki clone create ayyindhi.
+
+Developers BANK_TEST lo changes chesina, original BANK_PROD data affect avvadhu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Zero-Copy Cloning helps us create fast and storage-efficient copies without initially duplicating the entire data.
+
+Idi mana Thirty Days of Snowflake series lo Day Twelve!
+
+Next video lo Snowflake Fail-safe gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

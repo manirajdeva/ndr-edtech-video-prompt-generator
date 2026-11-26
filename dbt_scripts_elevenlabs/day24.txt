@@ -1,0 +1,38 @@
+FEMALE: [curious] రా, మీ friends నువ్వు ఎలా పిలుచుకుంటారు?
+MALE: [sarcastic] కొందరు చిన్న, కొందరు Boss అని రా!
+FEMALE: [excited] ఇదే alias! Table కి nickname!
+MALE: [confused] మరి WhatsApp groups లో అందరూ add అవుతారు కదా! అది ఏంటి?
+FEMALE: [confident] అదే tags! Models ని groups గా select చేయడానికి!
+MALE: [curious] మరి schema అంటే?
+FEMALE: [sarcastic] Society లో block number రా! Finance block, sales block లాగా!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో configs ని మూడు places లో set చేయచ్చు.
+NARRATOR: First, D B T underscore project dot Y M L – folder level లో, ఒక folder లో ఉన్న models అన్ని కి.
+NARRATOR: Second, schema Y M L files – ఒక model కి properties తో పాటు.
+NARRATOR: Third, model file లో config block – most specific level.
+NARRATOR: Priority ఏంటి అంటే, most specific config win అవుతుంది. అంటే model లో config block, folder level setting ని override చేస్తుంది.
+NARRATOR: Important configs ని చూద్దాం.
+NARRATOR: First, tags – models ని group చేయడానికి.
+NARRATOR: Second, schema – custom schema name.
+NARRATOR: Third, alias – table or view name ని మార్చడానికి.
+NARRATOR: Custom schema name ని D B T default గా target schema తో కలిపి create చేస్తుంది. అంటే dev లో D B T underscore DEV underscore FINANCE లాగా ఉంటుంది.
+NARRATOR: మన production లో exact schema names కావాలి అంటే, generate schema name macro ని override చేయచ్చు.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: Folder level లో D B T underscore project dot Y M L లో:
+NARRATOR: models colon, bank underscore project colon, marts colon, finance colon, plus schema colon finance, plus tags colon open square bracket daily close square bracket
+NARRATOR: ఇప్పుడు ఒక specific model కి model లో config block:
+NARRATOR: double curly braces config open bracket, alias equals daily underscore summary, tags equals open square bracket daily, critical close square bracket, close bracket double curly braces
+NARRATOR: SELECT, TRANSACTION underscore DATE, COUNT open bracket star close bracket AS T X N underscore COUNT, FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces, GROUP BY TRANSACTION underscore DATE
+NARRATOR: ఇప్పుడు finance models separate schema లో create అవుతాయి, and daily tag తో select చేయచ్చు:
+NARRATOR: D B T run dash dash select tag colon daily
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Configs can be set in D B T underscore project dot Y M L, schema Y M L and the model file.
+NARRATOR: The most specific config wins.
+NARRATOR: Tags group models, schema and alias control where and how they are named.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Four!
+NARRATOR: Next video లో D B T Commands and D B T build గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

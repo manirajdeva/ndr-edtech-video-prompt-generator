@@ -1,0 +1,91 @@
+she:
+[panicking] Arey! Ee nela current bill chusava ra?
+he:
+[confused] Entha vachindhi?
+she:
+[tired] Light, fan, AC anni on lo vadilesi vellipoyam ra!
+he:
+[shock] Ayyo! Mana Snowflake warehouse ni kuda ala vadilesthe, bill ekkuva avuthundhi kada!
+she:
+[confident] Avunu ra! Anduke dbt tuning, incremental models, auto-suspend!
+he:
+[excited] Cost kuda save, speed kuda ekkuva!
+she:
+[energetic] Exactly!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt on Snowflake lo performance and cost optimize cheyyadaniki mainly aidhu tips untayi.
+
+First, Threads!
+
+profiles.yml lo threads value entha ante, anni independent models oke time lo run avuthayi. Kaani warehouse size ki taggattu set cheyyali.
+
+Second, Incremental models!
+
+Pedda tables ni prathi run lo motham rebuild cheyyakunda, only kotha data process cheyyali.
+
+Third, Right materialization!
+
+Staging models views ga, heavy reports tables ga set cheyyali.
+
+Fourth, Model level warehouse!
+
+Heavy models ki bigger warehouse, light models ki small warehouse use cheyyachu. Idi snowflake warehouse config tho possible.
+
+Fifth, Run only what changed!
+
+Select option and state based selection tho changed models ni matrame run cheyyachu.
+
+Inko Snowflake point. dbt Snowflake lo tables ni by default transient tables ga create chesthundhi. Ante Fail-safe undadhu. Important tables ki transient false set cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana fct_transactions heavy model, daani ki bigger warehouse and clustering set chestham:
+
+{{ config(
+    materialized='incremental',
+    unique_key='TRANSACTION_ID',
+    snowflake_warehouse='DBT_WH_LARGE',
+    cluster_by=['TRANSACTION_DATE']
+) }}
+
+Migata light models default DBT_WH small warehouse lo run avuthayi.
+
+Important table ki Fail-safe protection kavali ante:
+
+{{ config(materialized='table', transient=false) }}
+
+Mana Resource Monitors and warehouse auto-suspend ni kuda use chesthe, cost control lo untundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Use incremental models for big tables.
+
+Choose the right materialization and warehouse size.
+
+dbt creates transient tables by default in Snowflake.
+
+Combine dbt tuning with Snowflake auto-suspend and Resource Monitors.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Six!
+
+Next video lo Git and CI/CD for dbt gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

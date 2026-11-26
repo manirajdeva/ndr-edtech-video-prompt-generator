@@ -1,0 +1,42 @@
+FEMALE: [curious] రా, నువ్వు బిర్యానీ ఎలా చేస్తావ్?
+MALE: [confident] Easy రా! ఇంట్లో వండి, hotel కి తీసుకెళ్లి, అక్కడ serve చేస్తాను!
+FEMALE: [shocked] అరే! ఇంట్లో వండి, తర్వాత hotel కి carry చేస్తావా? Hotel లో పెద్ద kitchen ఉంది కదా!
+MALE: [confused] అంటే raw rice, మసాలా అన్ని hotel kitchen కి తీసుకెళ్లి, అక్కడే వండుకోవాలా?
+FEMALE: [sarcastic] Exactly! ఇదే E L T రా! ముందు load, తర్వాత transform!
+MALE: [curious] అయితే E T L అంటే నేను చేసే ఇంట్లో వండి, తర్వాత load ఆ?
+FEMALE: [excited] Super! Snowflake లాంటి big kitchen ఉంది, ఆ compute ని వాడుకోవాలి!
+MALE: [serious] హ్మ్… ఇది data కి కూడా work అవుతుందా?
+FEMALE: [confident] అవును రా! Raw data ని warehouse లోకి load చేసి, అక్కడే transform చేస్తాం!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: First, E T L!
+NARRATOR: E T L అంటే Extract, Transform, Load.
+NARRATOR: Data ని extract చేసి, warehouse లోకి వెళ్లే ముందే transform చేసి, తర్వాత load చేస్తాం.
+NARRATOR: Second, E L T!
+NARRATOR: E L T అంటే Extract, Load, Transform.
+NARRATOR: ముందు raw data ని direct గా warehouse లోకి load చేస్తాం. Transformation warehouse లోనే జరుగుతుంది.
+NARRATOR: Cloud warehouses కి scalable compute ఉంటుంది. అందుకే modern data teams లో E L T popular.
+NARRATOR: ఇప్పుడు Modern Data Stack లో four layers చూద్దాం.
+NARRATOR: First, Sources – databases, applications and files.
+NARRATOR: Second, Ingestion – data ని Snowflake లోకి load చేసే Snowpipe లాంటి tools.
+NARRATOR: Third, Warehouse – Snowflake.
+NARRATOR: Fourth, Transformation – D B T.
+NARRATOR: Finally, Power B I or Tableau లాంటి B I tools reports create చేస్తాయి.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: S Q L Server నుంచి data A W S S three కి వస్తుంది. ఆ files Snowpipe తో Snowflake RAW schema లోకి load అవుతాయి.
+NARRATOR: ఇప్పుడు D B T output కోసం ఒక separate schema create చేద్దాం:
+NARRATOR: CREATE SCHEMA BANK underscore D B dot RAW.
+NARRATOR: CREATE SCHEMA BANK underscore D B dot ANALYTICS.
+NARRATOR: Raw data RAW schema లో safe గా ఉంటుంది.
+NARRATOR: D B T models ANALYTICS schema లో business-ready tables create చేస్తాయి.
+NARRATOR: Raw data ఉంటుంది కాబట్టి, logic మార్చినప్పుడు data ని మళ్లీ process చేయచ్చు.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: E T L – Transform before loading.
+NARRATOR: E L T – Load first, transform inside the warehouse.
+NARRATOR: D B T – The transformation layer of the modern data stack.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Two!
+NARRATOR: Next video లో D B T Core vs D B T Cloud and Installation గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

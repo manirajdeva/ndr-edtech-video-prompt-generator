@@ -1,0 +1,40 @@
+FEMALE: [excited] అరే! ఇప్పుడే ఒక కొత్త tool గురించి విన్నాను రా… D B T అని!
+MALE: [confused] D B T ఆ? ఇది diet plan ఆ రా? Weight loss కోసం ఆ?
+FEMALE: [sarcastic] అరే! Data build tool రా బాబు! నీ diet plan కాదు!
+MALE: [shocked] అయ్యో! నేను morning నుంచి D B T diet అని Google లో search చేస్తున్నా రా! [laughs]
+FEMALE: [tired] Search history చూస్తే నీ manager కూడా నవ్వుతాడు…
+MALE: [curious] సరే, సరే! చెప్పు, D B T తో ఏం చేస్తాము?
+FEMALE: [confident] Warehouse లో ఉన్న data ని S Q L తో transform చేస్తాము! Tests, documentation, version control… అన్ని ఉంటాయి!
+MALE: [excited] Wow! అంటే SELECT రాస్తే చాలు, tables automatic గా create అవుతాయా?
+FEMALE: [excited] Yes రా! మరి ఈ Thirty Days of D B T series first day start చేద్దామా?
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T అంటే data build tool.
+NARRATOR: E L T process లో T అంటే Transformation కోసం D B T ని use చేస్తాం.
+NARRATOR: మనం SELECT statements మాత్రమే రాస్తాం. ఆ SELECT statements నే models అంటారు.
+NARRATOR: D B T ఆ models ని Snowflake లో tables or views గా create చేస్తుంది.
+NARRATOR: Important point ఏంటి అంటే…
+NARRATOR: D B T data ని extract చేయదు, load చేయదు. Already warehouse లో ఉన్న data ని మాత్రమే transform చేస్తుంది.
+NARRATOR: D B T తో మనకి four powerful benefits ఉంటాయి.
+NARRATOR: First, S Q L తో transformations build చేయచ్చు.
+NARRATOR: Second, Tests తో data quality check చేయచ్చు.
+NARRATOR: Third, Documentation and lineage automatic గా generate చేయచ్చు.
+NARRATOR: Fourth, Git తో version control use చేయచ్చు.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన Snowflake RAW schema లో TRANSACTIONS table ఉంది.
+NARRATOR: Management కి ప్రతి customer కి total transaction count కావాలి.
+NARRATOR: ఈ SELECT query ని models folder లో customer underscore summary dot S Q L file గా save చేస్తాం:
+NARRATOR: SELECT, CUSTOMER underscore I D, COUNT open bracket star close bracket AS T X N underscore COUNT, FROM BANK underscore D B dot RAW dot TRANSACTIONS, GROUP BY CUSTOMER underscore I D
+NARRATOR: ఇప్పుడు terminal లో ఈ command run చేద్దాం:
+NARRATOR: D B T run
+NARRATOR: అంతే! D B T ఆ SELECT query తో Snowflake లో CUSTOMER underscore SUMMARY అనే view create చేస్తుంది.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: D B T – Transformation tool for the T in E L T.
+NARRATOR: Model – A S Q L SELECT statement saved in a file.
+NARRATOR: D B T does not extract or load data.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day One!
+NARRATOR: Next video లో E L T vs E T L and Modern Data Stack గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

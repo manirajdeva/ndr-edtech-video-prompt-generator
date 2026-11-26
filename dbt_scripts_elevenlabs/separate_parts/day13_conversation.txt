@@ -1,0 +1,8 @@
+FEMALE: [serious] రా, నీ bank balance ఇప్పుడు ఎంత?
+MALE: [tired] Salary రాలేదు రా… minus లో ఉంది! [laughs]
+FEMALE: [sarcastic] మన bank లో transaction amount minus ఉండకూడదు అని rule ఉంది. మరి అది ఎలా check చేస్తావ్?
+MALE: [confused] Built-in tests లో ఈ rule లేదు కదా!
+FEMALE: [confident] అందుకే singular tests! మన own S Q L రాసి, failing rows return చేయచ్చు!
+MALE: [curious] మరి same rule చాలా tables కి కావాలి అంటే?
+FEMALE: [excited] Custom generic test create చేసి reuse చేయచ్చు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

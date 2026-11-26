@@ -1,0 +1,91 @@
+she:
+[curious] Ra, nuvvu roju newspaper chaduvuthava?
+he:
+[confident] Avunu ra! Roju morning!
+she:
+[playfully sarcastic] Roju motham library ni malli chaduvuthava?
+he:
+[shock] Ayyo! Pagal aa nuvvu! Only today's paper chaduvutha!
+she:
+[excited] Idhe incremental model! Only kotha data ni process cheyyadam!
+he:
+[confused] Mari mana ten crore transactions table ni roju motham rebuild chesthunnam kada!
+she:
+[tired] Exactly! Library motham malli chaduvuthunnamu ra!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo idi Incremental Model tho possible.
+
+First run lo incremental model motham table ni build chesthundhi.
+
+Taruvatha runs lo only kotha or changed rows ni process chesi, existing table loki add chesthundhi.
+
+Incremental model create cheyyadaniki config lo materialized incremental set chestham.
+
+Mukhyamaina rendu concepts untayi.
+
+First, is_incremental function. Idi table already undho ledho check chesthundhi. Incremental run ayithe true vasthundhi.
+
+Second, this. Idi current model table ni refer chesthundhi.
+
+Manam is_incremental block lo, existing table lo unna latest timestamp kanna kotha rows ni matrame select chestham.
+
+unique_key set chesthe, dbt same key unna rows ni update chesthundhi. Duplicates avvavu.
+
+Motham table ni malli build cheyyali ante, full-refresh option use chestham.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+models/marts/fct_transactions.sql lo:
+
+{{ config(materialized='incremental', unique_key='TRANSACTION_ID') }}
+
+SELECT
+    TRANSACTION_ID,
+    CUSTOMER_ID,
+    TRANSACTION_AMOUNT,
+    TRANSACTION_TS
+FROM {{ ref('stg_transactions') }}
+
+{% if is_incremental() %}
+WHERE TRANSACTION_TS > (SELECT MAX(TRANSACTION_TS) FROM {{ this }})
+{% endif %}
+
+First dbt run lo motham data load avuthundhi. Taruvatha runs lo only kotha transactions process avuthayi.
+
+Logic marchinappudu motham table rebuild cheyyalante:
+
+dbt run --full-refresh --select fct_transactions
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Incremental model – Processes only new or changed rows after the first run.
+
+is_incremental – True when the model runs incrementally.
+
+this – Refers to the existing model table.
+
+full-refresh – Rebuilds the entire table.
+
+Idi mana Thirty Days of dbt series lo Day Eighteen!
+
+Next video lo Incremental Strategies gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

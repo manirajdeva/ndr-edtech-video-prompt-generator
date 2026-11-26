@@ -1,0 +1,102 @@
+she:
+[serious] Ra, nee ATM PIN enti?
+he:
+[shock] Ayyo! Nee ATM PIN em adugutunnav? Nenu cheppanu!
+she:
+[playfully sarcastic] Nuvvu code lo Snowflake password rasi, Git lo push chesav ra!
+he:
+[panicking] Ayyo! Ante nenu ATM PIN ni forehead meeda rasukunnattu ayyindhi!
+she:
+[tired] Exactly! Public ga unte evaranna vadesthaaru!
+he:
+[curious] Mari dbt ki Snowflake credentials ela ivvali?
+she:
+[confident] profiles.yml file lo! Password ni env_var tho safe ga teesukovachu!
+he:
+[excited] Super! Connection check cheyyadaniki?
+she:
+[energetic] dbt debug! All checks passed ante, ready!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt connection details ni profiles.yml file lo store chesthundhi.
+
+Ee file project folder bayata, mana home directory lo dot dbt folder lo untundhi. Anduke credentials Git loki vellavu.
+
+Snowflake connection kosam important fields enti ante…
+
+type – snowflake.
+
+account – mana Snowflake account identifier.
+
+user – dbt use chese user.
+
+password – leda safer method, environment variable.
+
+role – dbt use chese role.
+
+database and warehouse – dbt work chese place and compute.
+
+schema – dbt models create chese schema.
+
+threads – oke time lo entha models run cheyyali.
+
+Best practice enti ante… dbt kosam oka separate role and separate warehouse create cheyyali. Mana RBAC concepts ikkada use avuthayi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana role DBT_ROLE, warehouse DBT_WH, database BANK_DB.
+
+Ippudu profiles.yml lo ee configuration rastham:
+
+bank_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: your_account_identifier
+      user: DBT_USER
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      role: DBT_ROLE
+      database: BANK_DB
+      warehouse: DBT_WH
+      schema: DBT_DEV
+      threads: 4
+
+Password ni direct ga rayakunda environment variable nunchi teesukuntunnam.
+
+Ippudu connection test cheddham:
+
+dbt debug
+
+Anni checks pass ayithe, All checks passed ani vasthundhi!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+profiles.yml – Stores the Snowflake connection details.
+
+env_var – Keeps passwords out of the code.
+
+dbt debug – Tests the connection.
+
+Idi mana Thirty Days of dbt series lo Day Five!
+
+Next video lo mana first dbt model create chesi dbt run command ela work avuthundho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

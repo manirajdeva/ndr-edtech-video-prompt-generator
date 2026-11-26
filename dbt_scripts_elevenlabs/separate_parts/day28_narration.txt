@@ -1,0 +1,68 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T transformations ని run చేస్తుంది, కానీ D B T Core pipeline ని schedule చేయదు.
+
+Scheduling and orchestration కోసం మనం ఇంకో tool use చేయాలి.
+
+Mainly options ఏంటి అంటే…
+
+First, D B T Cloud jobs – built-in scheduler.
+
+Second, Apache Airflow – complete pipeline orchestration. ఇది most popular option.
+
+Third, GitHub Actions or cron – simple scheduled runs.
+
+Orchestration లో important points.
+
+First, Order. Data load complete అయ్యాక మాత్రమే D B T run అవ్వాలి.
+
+Second, Dependencies. ఏ task ఏ task మీద depend అవుతుందో define చేయాలి.
+
+Third, Retries and alerts. Task fail అయితే retry చేయాలి and team కి alert పంపాలి.
+
+మన architecture లో Airflow, Snowflake loading tasks and D B T tasks ని order లో run చేస్తుంది.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన nightly pipeline order:
+
+First, S Q L Server నుంచి data S three లోకి extract.
+
+Second, S three నుంచి Snowflake RAW లోకి load.
+
+Third, D B T source freshness check.
+
+Fourth, D B T build.
+
+Fifth, Power B I refresh.
+
+Airflow లో D B T step ని BashOperator తో define చేస్తాం:
+
+D B T underscore build equals BashOperator open bracket
+task underscore I D equals D B T underscore build,
+bash underscore command equals C D slash opt slash bank underscore project and D B T build dash dash target prod
+close bracket
+
+Load task fail అయితే, D B T underscore build task run అవ్వదు. Airflow alert పంపిస్తుంది.
+
+ఇది మన pipeline కి reliable గా, automatic గా run అవ్వడానికి help చేస్తుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+D B T Core transforms data but does not schedule itself.
+
+Use D B T Cloud jobs, Airflow or GitHub Actions to schedule D B T.
+
+Run D B T only after the data load succeeds.
+
+Add retries and alerts for failures.
+
+ఇది మన Thirty Days of D B T series లో Day Twenty-Eight!
+
+Next video లో D B T Best Practices గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

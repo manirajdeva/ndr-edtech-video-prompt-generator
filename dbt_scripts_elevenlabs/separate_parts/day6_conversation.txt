@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, మ్యాగీ చేసే time ఎంత?
+MALE: [confident] Two minutes రా! Fast!
+FEMALE: [sarcastic] మరి manager customer wise total table కావాలి అంటే, నువ్వు CREATE TABLE రాసి, insert రాసి, refresh చేసి… two hours పడుతుంది!
+MALE: [tired] అవును రా… మ్యాగీ కన్నా S Q L కష్టం!
+FEMALE: [excited] D B T లో అయితే ఒక SELECT రాస్తే చాలు! CREATE statement D B T రాస్తుంది!
+MALE: [shocked] నిజంగా? అంటే D B T run అంటే two-minute మ్యాగీ ఆ?
+FEMALE: [excited] Almost రా! Models folder లో SELECT రాసి, D B T run చేస్తే view ready!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

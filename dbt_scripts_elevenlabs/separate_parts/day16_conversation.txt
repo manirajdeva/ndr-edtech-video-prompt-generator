@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, అమ్మ మసాలా పొడి ఎలా చేస్తుంది?
+MALE: [confident] ఒక్క సారి మిక్సీ లో grind చేసి, అన్ని కర్రీలు కి వాడుతుంది!
+FEMALE: [excited] Correct! రోజు grind చేయదు! ఇదే D B T macro!
+MALE: [confused] అంటే paise to rupees logic ఒక్క సారి రాసి, hundred models లో వాడాలా?
+FEMALE: [sarcastic] అవును! Hundred places లో copy paste చేయకుండా!
+MALE: [shocked] అయితే logic మార్చాలి అంటే, ఒక్క చోట మార్చితే సరిపోతుంది ఆ?
+FEMALE: [excited] Exactly! మిక్సీ లో మసాలా మార్చినట్టు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

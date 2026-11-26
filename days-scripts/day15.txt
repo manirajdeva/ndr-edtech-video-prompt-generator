@@ -1,0 +1,75 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka situation imagine cheyyandi!
+
+Meeru Snowflake lo oka SQL query execute chesaru.
+
+Kaani query run avvadaniki 10 minutes time teesukuntundhi!
+
+Ippudu problem ekkada undho ela identify chestharu?
+
+Query lo na? Data scanning lo na? Leda JOIN operation lo na?
+
+[pause]
+
+Ee problems identify cheyyadaniki Snowflake lo oka powerful feature undhi!
+
+Adhe Query Profile!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Snowflake Query Profile ante mana SQL query execution ela jarigindho graphical representation lo chupinche feature.
+
+Dheenitho query execution steps ni analyze cheyyachu.
+
+Main ga manam ee operations observe cheyyali.
+
+First, Table Scan!
+
+Entha data scan ayyindho identify cheyyachu.
+
+Second, Join Operations!
+
+JOIN operations lo ekkada performance issue undho analyze cheyyachu.
+
+Third, Aggregation!
+
+GROUP BY and aggregation operations ela execute ayyayo chudachu.
+
+Fourth, Execution Time!
+
+Query lo ekkuva time ekkada spend ayyindho identify cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana CUSTOMER table and TRANSACTIONS table ni JOIN chesi monthly reports generate chesthunnam.
+
+Kaani query chala slow ga execute avuthundhi.
+
+Ippudu Query Profile open chesi table scan, join operations and execution time analyze chestham.
+
+Unnecessary data scanning or expensive operations identify chesi query ni optimize cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Query Profile helps us understand how Snowflake executes our SQL query and where performance bottlenecks exist.
+
+Idi mana Thirty Days of Snowflake series lo Day Fifteen!
+
+Next video lo Snowflake Query Optimization Techniques gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

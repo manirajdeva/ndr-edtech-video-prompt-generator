@@ -1,0 +1,100 @@
+she:
+[curious] Ra, oka bulb fuse ayithe motham colony ki power cut chesthara?
+he:
+[shock] Ayyo! Ledhu ra! Aa bulb ni matrame marchali!
+she:
+[playfully sarcastic] Mari oka dbt model lo chinna change chesi, two hundred models run chesthava?
+he:
+[panicking] Ayyo! Time and Snowflake bill waste ra! 😂
+she:
+[confident] Anduke select option! Only avasaramaina models ni run cheyyachu!
+he:
+[excited] Plus tho parents, children kuda select cheyyachu aa?
+she:
+[energetic] Yes ra! Exactly!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo idi Node Selection tho possible. Idi select option tho work chesthundhi.
+
+Important selection patterns enti ante…
+
+First, model name. Okka model ni run chesthundhi.
+
+Second, plus before model name. Aa model, and daani upstream parents anni run avuthayi.
+
+Third, plus after model name. Aa model, and daani downstream children anni run avuthayi.
+
+Fourth, plus on both sides. Parents, model and children, anni.
+
+Fifth, tag colon. Oka tag unna models anni.
+
+Sixth, folder path. Oka folder lo unna models anni.
+
+Aithe oka model ni skip cheyyadaniki exclude option use chestham.
+
+Run cheyyakundane ye models select avuthayo chudadaniki dbt ls command undhi.
+
+Select option run, test and build commands anni lo work chesthundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Okka model run cheyyadaniki:
+
+dbt run --select stg_customers
+
+fct_transactions and daani parents run cheyyadaniki:
+
+dbt run --select +fct_transactions
+
+stg_customers and daani children run cheyyadaniki:
+
+dbt run --select stg_customers+
+
+Daily tag unna models matrame run cheyyadaniki:
+
+dbt run --select tag:daily
+
+Marts folder lo models anni run cheyyadaniki:
+
+dbt run --select marts
+
+Oka tag ni skip cheyyadaniki:
+
+dbt run --exclude tag:slow
+
+Run cheyyakundane list cheyyadaniki:
+
+dbt ls --select +fct_transactions
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Plus before a name – Includes the parents.
+
+Plus after a name – Includes the children.
+
+tag and folder selection – Run groups of models.
+
+dbt ls – Shows what a selection will run.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Three!
+
+Next video lo Configs, Tags, Schemas and Aliases gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

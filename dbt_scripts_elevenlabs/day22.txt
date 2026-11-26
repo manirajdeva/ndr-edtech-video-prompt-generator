@@ -1,0 +1,38 @@
+FEMALE: [panicked] అరే! Table మళ్లీ create అయ్యింది, reporting team కి permissions పోయాయి!
+MALE: [confused] Permissions పోయాయా? ఎక్కడికి వెళ్లాయి?
+FEMALE: [tired] కొత్త ఇంటికి మారు అయ్యాక, old house key కి ఏం use? అది లాంటిది!
+MALE: [curious] మరి manual గా ప్రతి సారి GRANT run చేయాలా?
+FEMALE: [sarcastic] నువ్వు ప్రతి రోజు key duplicate చేసి అందరికీ ఇవ్వవా?
+MALE: [shocked] అయ్యో! నాకు పెద్ద పని! [laughs]
+FEMALE: [confident] అందుకే D B T hooks and grants! Automatic గా permissions!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఇది Hooks and Grants తో possible.
+NARRATOR: Hooks అంటే D B T run లో కొన్ని points దగ్గర automatic గా S Q L statements run చేసే feature.
+NARRATOR: Mainly four types of hooks ఉంటాయి.
+NARRATOR: First, pre-hook – model run అవ్వడానికి ముందు S Q L run చేస్తుంది.
+NARRATOR: Second, post-hook – model build అయ్యాక S Q L run చేస్తుంది.
+NARRATOR: Third, on-run-start – D B T run start అయ్యే ముందు.
+NARRATOR: Fourth, on-run-end – D B T run complete అయ్యాక.
+NARRATOR: Permissions కోసం ఇంకా simple option ఉంది, అదే grants config.
+NARRATOR: Grants config లో ఏ role కి ఏ privilege ఇవ్వాలో చెప్పొచ్చు. D B T model build అయ్యాక ఆ grants apply చేస్తుంది.
+NARRATOR: మన Snowflake R B A C concepts ఇక్కడ use అవుతాయి.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: First, post-hook తో:
+NARRATOR: double curly braces config open bracket, materialized equals table, post underscore hook equals GRANT SELECT ON double curly braces this double curly braces TO ROLE REPORTING underscore ROLE, close bracket double curly braces
+NARRATOR: ఇప్పుడు grants config తో:
+NARRATOR: double curly braces config open bracket, materialized equals table, grants equals open curly brace select: open square bracket REPORTING underscore ROLE close square bracket close curly brace, close bracket double curly braces
+NARRATOR: D B T underscore project dot Y M L లో on-run-end hook:
+NARRATOR: on-run-end colon, dash GRANT USAGE ON SCHEMA double curly braces target dot schema double curly braces TO ROLE REPORTING underscore ROLE
+NARRATOR: ఇప్పుడు D B T run complete అయ్యాక, reporting role కి permissions automatic గా వస్తాయి.
+NARRATOR: Manual గా GRANT run చేయాల్సిన అవసరం లేదు!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: pre-hook and post-hook – S Q L before and after a model.
+NARRATOR: on-run-start and on-run-end – S Q L at the start and end of a run.
+NARRATOR: grants config – The simple way to give privileges to roles.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Two!
+NARRATOR: Next video లో D B T Node Selection గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

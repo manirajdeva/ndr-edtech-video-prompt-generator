@@ -1,0 +1,39 @@
+FEMALE: [serious] రా, ఈ code ఎవరు రాశారు?
+MALE: [confused] నాకు తెలియదు రా! నా laptop లో చూడు!
+FEMALE: [shocked] ఇది six months ముందు నువ్వే రాశావు!
+MALE: [panicked] అయ్యో! నేను రాశానా? ఇప్పుడు నాకు కూడా అర్థం అవ్వట్లేదు! [laughs]
+FEMALE: [tired] అందుకే best practices రా! Naming, tests, documentation!
+MALE: [excited] అంటే future లో నన్ను నేనే అర్థం చేసుకోవచ్చు!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: Production D B T project కోసం ముఖ్యమైన best practices చూద్దాం.
+NARRATOR: First, Hard coded table names వద్దు. Always ref and source functions use చేయాలి.
+NARRATOR: Second, Layers follow చేయాలి. Staging, intermediate and marts.
+NARRATOR: Third, Naming conventions. S T G, int, dim and F C T prefixes.
+NARRATOR: Fourth, Test every primary key. ప్రతి model లో primary key కి unique and not underscore null test ఉండాలి.
+NARRATOR: Fifth, Document marts. Reporting models కి descriptions and column descriptions రాయాలి.
+NARRATOR: Sixth, Keep models small. ఒకే model లో చాలా logic కాకుండా, modular గా split చేయాలి.
+NARRATOR: Seventh, Use C T Es. S Q L readable గా ఉండాలి. SELECT star ని avoid చేయాలి.
+NARRATOR: Eighth, Reuse code. Repeated logic ని macros లోకి తీసుకోవాలి.
+NARRATOR: Ninth, Separate environments. Dev and prod separate గా ఉండాలి.
+NARRATOR: Tenth, Version control and code review. అన్ని changes pull request తో వెళ్లాలి.
+NARRATOR: Eleventh, Secrets Git లో ఉండకూడదు. env underscore var use చేయాలి.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన project structure ఇలా ఉండాలి:
+NARRATOR: models slash staging – S T G underscore customers, S T G underscore transactions
+NARRATOR: models slash marts – dim underscore customers, F C T underscore transactions
+NARRATOR: మన model లో C T E style ఇలా ఉంటుంది:
+NARRATOR: WITH customers AS open bracket, SELECT star FROM double curly braces ref open bracket S T G underscore customers close bracket double curly braces, close bracket, transactions AS open bracket, SELECT star FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces, close bracket, SELECT, c dot CUSTOMER underscore I D, COUNT open bracket t dot TRANSACTION underscore I D close bracket AS T X N underscore COUNT, FROM customers c, LEFT JOIN transactions t, ON c dot CUSTOMER underscore I D equals t dot CUSTOMER underscore I D, GROUP BY c dot CUSTOMER underscore I D
+NARRATOR: ఈ approach తో code readable, tested and maintainable గా ఉంటుంది.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Use ref and source, never hard coded names.
+NARRATOR: Follow staging, intermediate and marts layers.
+NARRATOR: Test and document your important models.
+NARRATOR: Reuse code with macros and review changes with pull requests.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Nine!
+NARRATOR: Next video లో ఒక complete End-to-End D B T project explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

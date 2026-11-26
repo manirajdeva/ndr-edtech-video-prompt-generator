@@ -1,0 +1,82 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka real-time Data Engineering scenario teesukundham!
+
+Mee company ki daily lakhs of customer records AWS S3 bucket lo land avuthunnayi.
+
+Ippudu aa data ni Snowflake loki ela load chestharu?
+
+Manual ga upload chesthara?
+
+Definitely not!
+
+Data Engineers ga manam ee process ni automate cheyyali.
+
+Let's understand step by step!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+AWS S3 nunchi Snowflake ki data load cheyyadaniki mainly ee steps follow avutham.
+
+First, AWS S3 lo bucket create chestham.
+
+Second, data files ni S3 bucket lo upload chestham.
+
+Third, Snowflake lo FILE FORMAT create chestham.
+
+Fourth, S3 ki connect avvadaniki STORAGE INTEGRATION create chestham.
+
+Fifth, EXTERNAL STAGE create chestham.
+
+Finally, COPY INTO command use chesi data ni Snowflake table loki load chestham.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana CUSTOMER data CSV files AWS S3 bucket lo land ayyayi.
+
+Ippudu Snowflake lo required objects create cheddham.
+
+SQL commands chuddam!
+
+CREATE FILE FORMAT CSV_FORMAT
+TYPE = CSV
+SKIP_HEADER = 1
+FIELD_OPTIONALLY_ENCLOSED_BY = '"';
+
+CREATE STAGE CUSTOMER_STAGE
+URL = 's3://my-bank-bucket/customer/'
+STORAGE_INTEGRATION = MY_S3_INTEGRATION
+FILE_FORMAT = CSV_FORMAT;
+
+Ippudu data load cheyyadaniki:
+
+COPY INTO CUSTOMER
+FROM @CUSTOMER_STAGE;
+
+Anthe! S3 lo unna CSV data Snowflake CUSTOMER table loki load avuthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+AWS S3 is our cloud storage.
+
+Stage connects Snowflake to the source files.
+
+COPY INTO loads the data into Snowflake tables.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Two!
+
+Next video lo COPY INTO vs Snowpipe madhya difference real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

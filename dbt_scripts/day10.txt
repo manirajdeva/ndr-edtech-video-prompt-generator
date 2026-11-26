@@ -1,0 +1,88 @@
+she:
+[curious] Ra, hotel lo food ela ready avuthundhi?
+he:
+[confident] First raw vegetables, taruvatha chopped, taruvatha cooked dish!
+she:
+[excited] Correct! Idhe dbt layers! Staging, Intermediate, Marts!
+he:
+[confused] Ante staging ante raw vegetables aa?
+she:
+[playfully sarcastic] Light cleaning chesina vegetables! Marts ante serve cheyyadaniki ready ga unna biryani!
+he:
+[shock] Ayyo! Biryani ni direct ga dashboard ki serve chesthama? 😂
+she:
+[energetic] Mari ee layers valle project clean ga untundhi!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt projects lo models ni mainly three layers ga organize chestham.
+
+First, Staging layer!
+
+Raw source table ki one to one model untundhi. Ikkada columns rename chestham, data types cast chestham, simple cleaning chestham. Naming convention stg underscore.
+
+Second, Intermediate layer!
+
+Ikkada business logic and joins untayi. Naming convention int underscore.
+
+Third, Marts layer!
+
+Business-ready tables. Reports and dashboards ee layer nunchi data teesukuntayi. Naming conventions dim underscore and fct underscore.
+
+Dim ante dimension tables, like customers. Fct ante fact tables, like transactions.
+
+Ee layers ki separate folders create chestham, and dbt_project.yml lo materialization set chestham.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+models/staging/stg_customers.sql lo:
+
+SELECT
+    CUSTOMER_ID,
+    UPPER(CUSTOMER_NAME) AS CUSTOMER_NAME,
+    CITY,
+    CREATED_DATE
+FROM {{ source('bank_raw', 'customer') }}
+
+Ippudu dbt_project.yml lo layer wise materialization set chestham:
+
+models:
+  bank_project:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+
+Ippudu staging models views ga, marts models tables ga create avuthayi.
+
+Idi project ni clean ga, maintain cheyyadaniki easy ga unchuthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Staging – One model per source table, light cleaning.
+
+Intermediate – Joins and business logic.
+
+Marts – Business-ready dim and fct tables.
+
+Idi mana Thirty Days of dbt series lo Day Ten!
+
+Next video lo dbt Seeds gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

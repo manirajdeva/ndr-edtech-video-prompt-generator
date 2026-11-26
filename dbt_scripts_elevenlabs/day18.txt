@@ -1,0 +1,38 @@
+FEMALE: [curious] రా, నువ్వు రోజు newspaper చదువుతావా?
+MALE: [confident] అవును రా! రోజు morning!
+FEMALE: [sarcastic] రోజు మొత్తం library ని మళ్లీ చదువుతావా?
+MALE: [shocked] అయ్యో! పిచ్చా నువ్వు! Only today's paper చదువుతా!
+FEMALE: [excited] ఇదే incremental model! Only కొత్త data ని process చేయడం!
+MALE: [confused] మరి మన ten crore transactions table ని రోజు మొత్తం rebuild చేస్తున్నాం కదా!
+FEMALE: [tired] Exactly! Library మొత్తం మళ్లీ చదువుతున్నాము రా!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఇది Incremental Model తో possible.
+NARRATOR: First run లో incremental model మొత్తం table ని build చేస్తుంది.
+NARRATOR: తర్వాత runs లో only కొత్త or changed rows ని process చేసి, existing table లోకి add చేస్తుంది.
+NARRATOR: Incremental model create చేయడానికి config లో materialized incremental set చేస్తాం.
+NARRATOR: ముఖ్యమైన రెండు concepts ఉంటాయి.
+NARRATOR: First, is underscore incremental function. ఇది table already ఉందో లేదో check చేస్తుంది. Incremental run అయితే true వస్తుంది.
+NARRATOR: Second, this. ఇది current model table ని refer చేస్తుంది.
+NARRATOR: మనం is underscore incremental block లో, existing table లో ఉన్న latest timestamp కన్నా కొత్త rows ని మాత్రమే select చేస్తాం.
+NARRATOR: unique underscore key set చేస్తే, D B T same key ఉన్న rows ని update చేస్తుంది. Duplicates అవ్వవు.
+NARRATOR: మొత్తం table ని మళ్లీ build చేయాలి అంటే, full-refresh option use చేస్తాం.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: models slash marts slash F C T underscore transactions dot S Q L లో:
+NARRATOR: double curly braces config open bracket materialized equals incremental, unique underscore key equals TRANSACTION underscore I D close bracket double curly braces
+NARRATOR: SELECT, TRANSACTION underscore I D, CUSTOMER underscore I D, TRANSACTION underscore AMOUNT, TRANSACTION underscore T S, FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces
+NARRATOR: curly percent if is underscore incremental open bracket close bracket percent curly, WHERE TRANSACTION underscore T S greater than open bracket SELECT MAX open bracket TRANSACTION underscore T S close bracket FROM double curly braces this double curly braces close bracket, curly percent endif percent curly
+NARRATOR: First D B T run లో మొత్తం data load అవుతుంది. తర్వాత runs లో only కొత్త transactions process అవుతాయి.
+NARRATOR: Logic మార్చినప్పుడు మొత్తం table rebuild చేయాలంటే:
+NARRATOR: D B T run dash dash full-refresh dash dash select F C T underscore transactions
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Incremental model – Processes only new or changed rows after the first run.
+NARRATOR: is underscore incremental – True when the model runs incrementally.
+NARRATOR: this – Refers to the existing model table.
+NARRATOR: full-refresh – Rebuilds the entire table.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Eighteen!
+NARRATOR: Next video లో Incremental Strategies గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

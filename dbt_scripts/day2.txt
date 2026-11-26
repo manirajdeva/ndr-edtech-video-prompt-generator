@@ -1,0 +1,92 @@
+she:
+[curious] Ra, nuvvu biryani ela chesthav?
+he:
+[confident] Easy ra! Intlo vandi, hotel ki teesukelli, akkada serve chesthanu!
+she:
+[shock] Arey! Intlo vandi, taruvatha hotel ki carry chesthava? Hotel lo pedda kitchen undhi kada!
+he:
+[confused] Ante raw rice, masala anni hotel kitchen ki teesukelli, akkade vandukovala?
+she:
+[playfully sarcastic] Exactly! Idhe ELT ra! Mundhu load, taruvatha transform!
+he:
+[curious] Aithe ETL ante nenu chese intlo vandi, taruvatha load aa?
+she:
+[excited] Super! Snowflake lanti big kitchen undhi, aa compute ni vadukovali!
+he:
+[serious] Hmm… Idi data ki kuda work avuthundha?
+she:
+[confident] Avunu ra! Raw data ni warehouse loki load chesi, akkade transform chestham!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+First, ETL!
+
+ETL ante Extract, Transform, Load.
+
+Data ni extract chesi, warehouse loki velle mundhe transform chesi, taruvatha load chestham.
+
+Second, ELT!
+
+ELT ante Extract, Load, Transform.
+
+Mundhu raw data ni direct ga warehouse loki load chestham. Transformation warehouse lone jarugutundhi.
+
+Cloud warehouses ki scalable compute untundhi. Anduke modern data teams lo ELT popular.
+
+Ippudu Modern Data Stack lo four layers chuddam.
+
+First, Sources – databases, applications and files.
+
+Second, Ingestion – data ni Snowflake loki load chese Snowpipe laanti tools.
+
+Third, Warehouse – Snowflake.
+
+Fourth, Transformation – dbt.
+
+Finally, Power BI or Tableau laanti BI tools reports create chesthayi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+SQL Server nunchi data AWS S3 ki vasthundhi. Aa files Snowpipe tho Snowflake RAW schema loki load avuthayi.
+
+Ippudu dbt output kosam oka separate schema create cheddham:
+
+CREATE SCHEMA BANK_DB.RAW;
+
+CREATE SCHEMA BANK_DB.ANALYTICS;
+
+Raw data RAW schema lo safe ga untundhi.
+
+dbt models ANALYTICS schema lo business-ready tables create chesthayi.
+
+Raw data untundhi kabatti, logic marchinappudu data ni malli process cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+ETL – Transform before loading.
+
+ELT – Load first, transform inside the warehouse.
+
+dbt – The transformation layer of the modern data stack.
+
+Idi mana Thirty Days of dbt series lo Day Two!
+
+Next video lo dbt Core vs dbt Cloud and Installation gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

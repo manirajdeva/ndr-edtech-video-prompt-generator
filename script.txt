@@ -1,0 +1,82 @@
+she:
+[worried] Arey! Oka problem vachindhi ra!
+he:
+[confused] 
+Enti ra? Malli production lo ఏమైనా issue vachindha?
+she:
+[panicking] Adhi kaadhu ra… CUSTOMER table lo 2,000 records delete chesesanu!
+he:
+[shock] WHATTT! 😱 2,000 records aa? Backup undha?
+she:
+[tired] Ledhu ra… Ippudu manager ki em cheppali?
+he:
+ [serious] Simple ra… Resignation letter ready, Chesuko! 😂
+ she:
+[playfully sarcastic]Arey! Konchem help cheyyara babu!
+he:
+[curious]Wait ra! Manam Snowflake, use chesthunnam kada?
+she:
+[confused]Avunu… ayithe?
+he:
+[confident]Snowflake lo Time Travel ane powerful feature undhi ra! Dheenitho previous data ni recover cheyyachu!
+
+she: [excited]Nijanganaa? Mari ela use Cheyyali?
+he:
+[energetic]Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+Snowflake Time Travel ante previous state lo unna data ni access cheyyadaniki, recover cheyyadaniki use chese feature.
+
+Dheenitho manam accidentally deleted tables ni recover cheyyachu, previous data ni query cheyyachu, and historical changes ni compare cheyyachu.
+
+Time Travel lo AT and BEFORE keywords use chesi specific timestamp, offset, or statement-based historical data ni access cheyyachu.
+
+[Real-Time Project Example – Banking Scenario]
+
+Oka Banking project example teesukundham.
+
+Mana CUSTOMER table lo 10000 records unnayi.
+
+Mistake valla 2000 records delete ayyayi.
+
+Ippudu Time Travel use chesi five minutes mundu unna data ni retrieve cheyyachu.
+
+SQL Example:
+
+SELECT *
+FROM CUSTOMER
+AT (OFFSET => Sixty multiplied by five);
+
+Ee query five minutes mundu unna CUSTOMER table data ni retrieve chesthundhi, provided aa data Time Travel retention period lo available unte.
+
+Deleted records ni restore cheyyadaniki:
+
+CREATE TABLE CUSTOMER_RESTORED AS
+SELECT *
+FROM CUSTOMER
+AT (OFFSET => Sixty multiplied by five);
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Time Travel ante mana database ki oka rewind button laantidhi! 
+
+Mistakes jarigina kuda historical data ni recover cheyyadaniki help chesthundhi.
+
+Idi mana Thirty Days of Snowflake series lo Day Eleven!
+
+Next video lo Zero-Copy Cloning gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

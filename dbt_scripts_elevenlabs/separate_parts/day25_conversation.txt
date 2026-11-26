@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, చపాతీ burn అయితే, కర్రీ serve చేస్తావా?
+MALE: [shocked] అయ్యో! Burn చపాతీ తో కర్రీ ఎలా serve చేస్తాను!
+FEMALE: [sarcastic] మరి test fail అయిన model తో dashboard కి data పంపించేస్తే?
+MALE: [panicked] Wrong numbers వస్తాయి రా! [laughs]
+FEMALE: [confident] అందుకే D B T build! Test fail అయితే downstream models skip అవుతాయి!
+MALE: [excited] అంటే burn చపాతీ ని కర్రీ వరకు వెళ్లనివ్వదు ఆ!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,84 @@
+she:
+[curious] Ra, nuvvu roju vandha cheyyava, leda Swiggy order chesthava?
+he:
+[playfully sarcastic] Swiggy ra! Cook cheyyadam kanna order cheyyadam easy!
+she:
+[excited] dbt lo kuda alane! Ready-made code ni order cheyyachu!
+he:
+[shock] Nijanga? Surrogate keys kuda aa?
+she:
+[confident] Avunu! dbt packages tho! dbt_utils laanti packages install chesi vadukovachu!
+he:
+[curious] Mari delivery fee?
+she:
+[playfully sarcastic] Free ra! dbt deps ane command chalu!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo ready-made code ni Packages ani antaru.
+
+Package ante oka dbt project, dheenilo macros, models and tests untayi. Manam aa package ni mana project lo install chesi use cheyyachu.
+
+Packages ni packages.yml file lo define chestham.
+
+Taruvatha dbt deps command run chesthe, dbt packages ni download chesthundhi. Avi dbt_packages folder lo save avuthayi.
+
+Most popular package dbt_utils. Idi dbt Labs create chesindhi.
+
+dbt_utils lo useful macros and tests untayi. For example, generate_surrogate_key macro and unique_combination_of_columns test.
+
+Packages ni dbt Hub nunchi teesukovachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+First, project root lo packages.yml file create chestham:
+
+packages:
+  - package: dbt-labs/dbt_utils
+    version: [">=1.1.0", "<2.0.0"]
+
+Ippudu package install cheddham:
+
+dbt deps
+
+Ippudu customer and date combination kosam surrogate key generate chestham:
+
+SELECT
+    {{ dbt_utils.generate_surrogate_key(['CUSTOMER_ID', 'TRANSACTION_DATE']) }} AS CUSTOMER_DAY_KEY,
+    CUSTOMER_ID,
+    TRANSACTION_DATE
+FROM {{ ref('stg_transactions') }}
+
+Ee macro rendu columns nunchi oka unique key create chesthundhi. Manam logic scratch nunchi rayalsina avasaram ledhu!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Package – Ready-made dbt code that we install in our project.
+
+packages.yml – Lists the packages we need.
+
+dbt deps – Downloads the packages.
+
+dbt_utils – The most popular dbt package.
+
+Idi mana Thirty Days of dbt series lo Day Seventeen!
+
+Next video lo dbt Incremental Models gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

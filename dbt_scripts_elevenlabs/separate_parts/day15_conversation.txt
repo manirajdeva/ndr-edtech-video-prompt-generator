@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, school లో imposition punishment గుర్తుందా?
+MALE: [tired] అవును రా! I will not talk in class hundred సార్లు రాయించేవారు!
+FEMALE: [sarcastic] మరి S Q L లో same CASE WHEN ని మూడు సార్లు copy paste చేస్తే, అది imposition కాదా?
+MALE: [shocked] అయ్యో! నేను ఇప్పుడు కూడా imposition రాస్తున్నానా? [laughs]
+FEMALE: [excited] అందుకే D B T లో Jinja! Loops and variables తో S Q L ని dynamic గా రాయచ్చు!
+MALE: [confused] అంటే ఒక్కసారి రాసి, repeat చేయడం automatic ఆ?
+FEMALE: [excited] Exactly! No more imposition!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

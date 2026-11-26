@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, నువ్వు ఎప్పుడు Hyderabad లో ఉండేవాడివి? ఇప్పుడు ఎక్కడ?
+MALE: [confident] ఇప్పుడు Bengaluru రా!
+FEMALE: [sarcastic] మరి last year ఏ city లో ఉండేవాడివి అని అడిగితే?
+MALE: [confused] Hyderabad! కానీ database లో పాత address పోయింది కదా!
+FEMALE: [shocked] అయ్యో! మారిన data history కావాలి అంటే?
+MALE: [panicked] అయితే నేను ఎప్పుడు ఎక్కడ ఉన్నానో ఎవరికీ తెలియదు! [laughs]
+FEMALE: [excited] అందుకే D B T snapshots! History ని track చేస్తుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

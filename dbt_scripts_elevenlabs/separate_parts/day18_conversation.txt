@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, నువ్వు రోజు newspaper చదువుతావా?
+MALE: [confident] అవును రా! రోజు morning!
+FEMALE: [sarcastic] రోజు మొత్తం library ని మళ్లీ చదువుతావా?
+MALE: [shocked] అయ్యో! పిచ్చా నువ్వు! Only today's paper చదువుతా!
+FEMALE: [excited] ఇదే incremental model! Only కొత్త data ని process చేయడం!
+MALE: [confused] మరి మన ten crore transactions table ని రోజు మొత్తం rebuild చేస్తున్నాం కదా!
+FEMALE: [tired] Exactly! Library మొత్తం మళ్లీ చదువుతున్నాము రా!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

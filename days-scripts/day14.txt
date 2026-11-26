@@ -1,0 +1,90 @@
+
+[Curiosity – Friendly Opening]
+
+Hello guys! Andaru happy ga unnaru ani anukuntunnanu!
+
+Topic loki vellaboye mundu oka small request.
+
+Ilanti manchi technical content meeku continue ga andinchalante mee support kuda chaala important.
+
+Please follow cheyyandi, video nachithe like cheyyandi, mee feedback comments lo share cheyyandi.
+
+Thank you so much for your support!
+
+[Curiosity – Storytelling Opening]
+
+Coming to the topic!
+
+Oka interesting question!
+
+Mee daggara 10 crore customer records unnayi anukondi.
+
+Ippudu meeru oka particular customer data kosam query run chesthe, Snowflake anni records scan chesthundha?
+
+Leda required data matrame scan chesthundha?
+
+[pause]
+
+Ee magic venakala unna important concepts Micro-partitions and Partition Pruning!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Snowflake lo tables data ni automatically small units ga divide chesi store chesthundhi.
+
+Veetine Micro-partitions antaru.
+
+Prathi Micro-partition ki data gurinchi metadata maintain chesthundhi.
+
+For example, minimum value, maximum value and other metadata information untayi.
+
+Ippudu manam WHERE condition use chesi query run chesthe, Snowflake metadata ni check chesi unnecessary Micro-partitions ni skip chesthundhi.
+
+Dheenine Partition Pruning antaru.
+
+Mari Automatic Clustering enti?
+
+Large tables lo data organization ni improve cheyyadaniki Snowflake Automatic Clustering service provide chesthundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS table lo millions of records unnayi.
+
+Manam oka particular date transactions kosam query run chesthunnam.
+
+SQL query chuddam!
+
+SELECT *
+FROM TRANSACTIONS
+WHERE TRANSACTION_DATE = '2026-11-18';
+
+Snowflake metadata ni check chesi, required date data unna Micro-partitions ni scan chesthundhi.
+
+Unnecessary Micro-partitions ni skip chesthundhi.
+
+Dheenivalla unnecessary data scanning reduce avuthundhi and query performance improve avvachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Micro-partitions – Automatically organized data storage units.
+
+Partition Pruning – Unnecessary Micro-partitions ni skip cheyyadam.
+
+Automatic Clustering – Data organization ni maintain cheyyadaniki Snowflake provide chese service.
+
+Idi mana Thirty Days of Snowflake series lo Day Fourteen!
+
+Next video lo Query Profile gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

@@ -1,0 +1,88 @@
+she:
+[curious] Ra, window shopping and actual shopping lo difference enti?
+he:
+[playfully sarcastic] Window shopping ante chusi vachesthamu. Actual shopping ante intiki teesukuvasthamu!
+she:
+[excited] Correct! View ante window shopping, table ante actual shopping!
+he:
+[confused] Ante view lo data store avvadu, table lo data store avuthundhi aa?
+she:
+[confident] Avunu! Inka incremental ante prathi roju kotha vastuvulu matrame konadam!
+he:
+[shock] Ayyo! Prathi roju motham shop ni malli koni vachestham ante, intlo place undadhu ra! 😂
+she:
+[energetic] Adhe! Anduke dbt lo materializations untayi!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo model ni Snowflake lo ela create cheyyalo decide chese setting ne Materialization antaru.
+
+Mainly four materializations untayi.
+
+First, View!
+
+Idi default option. Query run ayyinappudu logic execute avuthundhi. Data storage use avvadhu.
+
+Second, Table!
+
+Model result ni table ga store chesthundhi. Reading fast ga untundhi, kaani prathi run lo table malli build avuthundhi.
+
+Third, Incremental!
+
+Kotha or changed rows ni matrame process chesthundhi. Big tables kosam best.
+
+Fourth, Ephemeral!
+
+Database object create cheyyadu. Aa model logic inko model lo CTE ga add avuthundhi.
+
+Materialization ni config block tho set chestham.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana customer_total model chinnadi, reports ki fast ga kavali. Anduke table ga create chestham.
+
+Model file lo top lo ee config rastham:
+
+{{ config(materialized='table') }}
+
+SELECT
+    CUSTOMER_ID,
+    SUM(TRANSACTION_AMOUNT) AS TOTAL_AMOUNT
+FROM BANK_DB.RAW.TRANSACTIONS
+GROUP BY CUSTOMER_ID
+
+Ippudu dbt run chesthe, CUSTOMER_TOTAL table ga create avuthundhi.
+
+Rules of thumb enti ante… Staging models views ga, reporting models tables ga, and chala pedda transaction tables incremental ga set chestham.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+View – Default, no data stored.
+
+Table – Result stored, fast reads.
+
+Incremental – Processes only new or changed rows.
+
+Ephemeral – No object, logic is reused as a CTE.
+
+Idi mana Thirty Days of dbt series lo Day Seven!
+
+Next video lo dbt ref function and DAG gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

@@ -1,0 +1,10 @@
+FEMALE: [excited] అరే! ఇప్పుడే ఒక కొత్త tool గురించి విన్నాను రా… D B T అని!
+MALE: [confused] D B T ఆ? ఇది diet plan ఆ రా? Weight loss కోసం ఆ?
+FEMALE: [sarcastic] అరే! Data build tool రా బాబు! నీ diet plan కాదు!
+MALE: [shocked] అయ్యో! నేను morning నుంచి D B T diet అని Google లో search చేస్తున్నా రా! [laughs]
+FEMALE: [tired] Search history చూస్తే నీ manager కూడా నవ్వుతాడు…
+MALE: [curious] సరే, సరే! చెప్పు, D B T తో ఏం చేస్తాము?
+FEMALE: [confident] Warehouse లో ఉన్న data ని S Q L తో transform చేస్తాము! Tests, documentation, version control… అన్ని ఉంటాయి!
+MALE: [excited] Wow! అంటే SELECT రాస్తే చాలు, tables automatic గా create అవుతాయా?
+FEMALE: [excited] Yes రా! మరి ఈ Thirty Days of D B T series first day start చేద్దామా?
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,39 @@
+FEMALE: [panicked] అరే! ఈ నెల current bill చూశావా రా?
+MALE: [confused] ఎంత వచ్చింది?
+FEMALE: [tired] Light, fan, A C అన్ని on లో వదిలేసి వెళ్లిపోయాం రా!
+MALE: [shocked] అయ్యో! మన Snowflake warehouse ని కూడా అలా వదిలేస్తే, bill ఎక్కువ అవుతుంది కదా!
+FEMALE: [confident] అవును రా! అందుకే D B T tuning, incremental models, auto-suspend!
+MALE: [excited] Cost కూడా save, speed కూడా ఎక్కువ!
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T on Snowflake లో performance and cost optimize చేయడానికి mainly ఐదు tips ఉంటాయి.
+NARRATOR: First, Threads!
+NARRATOR: profiles dot Y M L లో threads value ఎంత అంటే, అన్ని independent models ఒకే time లో run అవుతాయి. కానీ warehouse size కి తగ్గట్టు set చేయాలి.
+NARRATOR: Second, Incremental models!
+NARRATOR: పెద్ద tables ని ప్రతి run లో మొత్తం rebuild చేయకుండా, only కొత్త data process చేయాలి.
+NARRATOR: Third, Right materialization!
+NARRATOR: Staging models views గా, heavy reports tables గా set చేయాలి.
+NARRATOR: Fourth, Model level warehouse!
+NARRATOR: Heavy models కి bigger warehouse, light models కి small warehouse use చేయచ్చు. ఇది snowflake warehouse config తో possible.
+NARRATOR: Fifth, Run only what changed!
+NARRATOR: Select option and state based selection తో changed models ని మాత్రమే run చేయచ్చు.
+NARRATOR: ఇంకో Snowflake point. D B T Snowflake లో tables ని by default transient tables గా create చేస్తుంది. అంటే Fail-safe ఉండదు. Important tables కి transient false set చేయచ్చు.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన F C T underscore transactions heavy model, దాని కి bigger warehouse and clustering set చేస్తాం:
+NARRATOR: double curly braces config open bracket, materialized equals incremental, unique underscore key equals TRANSACTION underscore I D, snowflake underscore warehouse equals D B T underscore W H underscore LARGE, cluster underscore by equals open square bracket TRANSACTION underscore DATE close square bracket, close bracket double curly braces
+NARRATOR: మిగతా light models default D B T underscore W H small warehouse లో run అవుతాయి.
+NARRATOR: Important table కి Fail-safe protection కావాలి అంటే:
+NARRATOR: double curly braces config open bracket materialized equals table, transient equals false close bracket double curly braces
+NARRATOR: మన Resource Monitors and warehouse auto-suspend ని కూడా use చేస్తే, cost control లో ఉంటుంది.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Use incremental models for big tables.
+NARRATOR: Choose the right materialization and warehouse size.
+NARRATOR: D B T creates transient tables by default in Snowflake.
+NARRATOR: Combine D B T tuning with Snowflake auto-suspend and Resource Monitors.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-Six!
+NARRATOR: Next video లో Git and C I slash C D for D B T గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

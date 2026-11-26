@@ -1,0 +1,95 @@
+she:
+[curious] Ra, Instagram lo story add chesthava, leda profile photo marchesthava?
+he:
+[confused] Story ante add avuthundhi, profile photo marchithe paata photo poyi kotha vasthundhi!
+she:
+[excited] Correct! Idhe dbt strategies! Append ante story add, merge ante profile photo update!
+he:
+[shock] Aithe transaction PENDING nunchi SUCCESS ayithe, kotha row add cheyyala? update cheyyala?
+she:
+[confident] Update cheyyali! Merge strategy!
+he:
+[playfully sarcastic] Aithe append lo status marithe duplicates vasthayi ra! 😂
+she:
+[energetic] Exactly! Anduke strategy choose cheyyali!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo idi Incremental Strategy tho control chestham.
+
+Snowflake lo mainly moodu incremental strategies untayi.
+
+First, merge!
+
+Snowflake lo idi default strategy. Idi unique_key base chesukuni, matching rows ni update chesi, kotha rows ni insert chesthundhi.
+
+Second, delete plus insert!
+
+Idi matching rows ni first delete chesi, taruvatha kotha rows ni insert chesthundhi.
+
+Third, append!
+
+Idi kotha rows ni matrame add chesthundhi. Existing rows ni update cheyyadu. Logs and events lanti data kosam, ante marani data kosam idi baguntundhi.
+
+Inko important setting on_schema_change. Source lo kotha column add ayithe em cheyyali ani idi decide chesthundhi.
+
+ignore, fail, append_new_columns and sync_all_columns options untayi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Transactions ki status marutundhi. Anduke merge strategy use chestham:
+
+{{ config(
+    materialized='incremental',
+    unique_key='TRANSACTION_ID',
+    incremental_strategy='merge',
+    on_schema_change='append_new_columns'
+) }}
+
+SELECT
+    TRANSACTION_ID,
+    CUSTOMER_ID,
+    STATUS,
+    TRANSACTION_AMOUNT,
+    UPDATED_TS
+FROM {{ ref('stg_transactions') }}
+
+{% if is_incremental() %}
+WHERE UPDATED_TS > (SELECT MAX(UPDATED_TS) FROM {{ this }})
+{% endif %}
+
+Ippudu PENDING transaction SUCCESS ayinappudu, same TRANSACTION_ID unna row update avuthundhi. Duplicate rows avvavu.
+
+Audit log lanti ante marani data ayithe, append strategy use cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+merge – Updates matching rows and inserts new rows.
+
+delete plus insert – Deletes matching rows, then inserts.
+
+append – Only adds new rows.
+
+on_schema_change – Controls what happens when columns change.
+
+Idi mana Thirty Days of dbt series lo Day Nineteen!
+
+Next video lo dbt Snapshots gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

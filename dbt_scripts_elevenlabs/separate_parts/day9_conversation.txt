@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, పాల packet తీసుకున్నప్పుడు ఏం check చేస్తావ్?
+MALE: [confident] Expiry date రా! Fresh గా ఉందో లేదో!
+FEMALE: [sarcastic] మరి మన raw data ని ఎలా check చేస్తావ్? అది fresh గా ఉందో లేదో?
+MALE: [confused] అయ్యో! Data కి expiry date ఉంటుందా?
+FEMALE: [excited] ఉంటుంది రా! Source freshness!
+MALE: [shocked] అయితే morning data update అవ్వకపోతే, dashboard లో కూడా పాల విరిగిపోయింది అంటామా? [laughs]
+FEMALE: [serious] Exactly! అందుకే D B T source freshness check చేస్తాం!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

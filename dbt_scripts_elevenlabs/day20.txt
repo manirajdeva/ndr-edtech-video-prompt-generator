@@ -1,0 +1,39 @@
+FEMALE: [curious] రా, నువ్వు ఎప్పుడు Hyderabad లో ఉండేవాడివి? ఇప్పుడు ఎక్కడ?
+MALE: [confident] ఇప్పుడు Bengaluru రా!
+FEMALE: [sarcastic] మరి last year ఏ city లో ఉండేవాడివి అని అడిగితే?
+MALE: [confused] Hyderabad! కానీ database లో పాత address పోయింది కదా!
+FEMALE: [shocked] అయ్యో! మారిన data history కావాలి అంటే?
+MALE: [panicked] అయితే నేను ఎప్పుడు ఎక్కడ ఉన్నానో ఎవరికీ తెలియదు! [laughs]
+FEMALE: [excited] అందుకే D B T snapshots! History ని track చేస్తుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఇది Snapshots తో possible.
+NARRATOR: Snapshot అంటే source table లో rows ఎలా మారాయో history ని track చేయడం. ఇది S C D Type two approach.
+NARRATOR: Snapshots ని snapshots folder లో define చేస్తాం.
+NARRATOR: దీనిలో mainly మూడు settings ఉంటాయి.
+NARRATOR: First, unique underscore key – row ని identify చేసే column.
+NARRATOR: Second, strategy – changes ఎలా detect చేయాలి. Timestamp strategy లో updated at column use చేస్తాం. Check strategy లో కొన్ని columns మారాయో check చేస్తాం.
+NARRATOR: Third, target schema – snapshot table create అయ్యే schema.
+NARRATOR: D B T snapshot command run చేసినప్పుడు, change అయిన rows కి కొత్త version add అవుతుంది.
+NARRATOR: Snapshot table లో D B T valid from and D B T valid to columns ఉంటాయి. Current row కి D B T valid to null ఉంటుంది.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: snapshots folder లో customer underscore snapshot dot S Q L file create చేస్తాం:
+NARRATOR: curly percent snapshot customer underscore snapshot percent curly
+NARRATOR: double curly braces config open bracket, target underscore schema equals SNAPSHOTS, unique underscore key equals CUSTOMER underscore I D, strategy equals check, check underscore cols equals open square bracket CITY close square bracket, close bracket double curly braces
+NARRATOR: SELECT star FROM double curly braces source open bracket bank underscore raw, customer close bracket double curly braces
+NARRATOR: curly percent endsnapshot percent curly
+NARRATOR: ఇప్పుడు snapshot run చేద్దాం:
+NARRATOR: D B T snapshot
+NARRATOR: Customer CITY Hyderabad నుంచి Bengaluru కి మారినప్పుడు, మళ్లీ D B T snapshot run చేస్తే, two rows ఉంటాయి.
+NARRATOR: పాత row కి valid to date ఉంటుంది. కొత్త row కి valid to null ఉంటుంది.
+NARRATOR: ఇప్పుడు past date కి customer ఏ city లో ఉండేవాడో చెప్పొచ్చు!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Snapshot – Tracks how rows change over time.
+NARRATOR: S C D Type two – Keeps a new row for every change.
+NARRATOR: D B T snapshot – Updates the snapshot tables.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty!
+NARRATOR: Next video లో Environments, Targets and Variables గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

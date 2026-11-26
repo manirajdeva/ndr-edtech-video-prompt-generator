@@ -1,0 +1,64 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T on Snowflake లో performance and cost optimize చేయడానికి mainly ఐదు tips ఉంటాయి.
+
+First, Threads!
+
+profiles dot Y M L లో threads value ఎంత అంటే, అన్ని independent models ఒకే time లో run అవుతాయి. కానీ warehouse size కి తగ్గట్టు set చేయాలి.
+
+Second, Incremental models!
+
+పెద్ద tables ని ప్రతి run లో మొత్తం rebuild చేయకుండా, only కొత్త data process చేయాలి.
+
+Third, Right materialization!
+
+Staging models views గా, heavy reports tables గా set చేయాలి.
+
+Fourth, Model level warehouse!
+
+Heavy models కి bigger warehouse, light models కి small warehouse use చేయచ్చు. ఇది snowflake warehouse config తో possible.
+
+Fifth, Run only what changed!
+
+Select option and state based selection తో changed models ని మాత్రమే run చేయచ్చు.
+
+ఇంకో Snowflake point. D B T Snowflake లో tables ని by default transient tables గా create చేస్తుంది. అంటే Fail-safe ఉండదు. Important tables కి transient false set చేయచ్చు.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన F C T underscore transactions heavy model, దాని కి bigger warehouse and clustering set చేస్తాం:
+
+double curly braces config open bracket
+materialized equals incremental,
+unique underscore key equals TRANSACTION underscore I D,
+snowflake underscore warehouse equals D B T underscore W H underscore LARGE,
+cluster underscore by equals open square bracket TRANSACTION underscore DATE close square bracket
+close bracket double curly braces
+
+మిగతా light models default D B T underscore W H small warehouse లో run అవుతాయి.
+
+Important table కి Fail-safe protection కావాలి అంటే:
+
+double curly braces config open bracket materialized equals table, transient equals false close bracket double curly braces
+
+మన Resource Monitors and warehouse auto-suspend ని కూడా use చేస్తే, cost control లో ఉంటుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Use incremental models for big tables.
+
+Choose the right materialization and warehouse size.
+
+D B T creates transient tables by default in Snowflake.
+
+Combine D B T tuning with Snowflake auto-suspend and Resource Monitors.
+
+ఇది మన Thirty Days of D B T series లో Day Twenty-Six!
+
+Next video లో Git and C I slash C D for D B T గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

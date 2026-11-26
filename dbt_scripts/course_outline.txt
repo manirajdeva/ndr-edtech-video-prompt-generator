@@ -1,0 +1,51 @@
+THIRTY DAYS OF dbt – NDR EdTech (Telugu)
+Course outline (this file is only an index; the voice-over scripts are day1.txt to day30.txt)
+
+Common project for the whole series: Banking project.
+Source data lands in Snowflake database BANK_DB, schema RAW (tables CUSTOMER and TRANSACTIONS).
+dbt builds staging models and business-ready marts in schemas DBT_DEV (development) and ANALYTICS (production).
+Tools used: dbt Core with the Snowflake adapter (dbt-snowflake).
+
+PART 1 – Foundations (Day 1 to Day 5)
+Day 1  – What is dbt?
+Day 2  – ELT vs ETL and the Modern Data Stack
+Day 3  – dbt Core vs dbt Cloud and Installation
+Day 4  – dbt Project Structure
+Day 5  – Connecting dbt to Snowflake (profiles.yml and dbt debug)
+
+PART 2 – Building Models (Day 6 to Day 11)
+Day 6  – Your First Model and dbt run
+Day 7  – Materializations: view, table, incremental, ephemeral
+Day 8  – ref() Function and the DAG
+Day 9  – Sources and source freshness
+Day 10 – Staging, Intermediate and Marts Layers
+Day 11 – Seeds
+
+PART 3 – Testing and Documentation (Day 12 to Day 14)
+Day 12 – Generic Tests
+Day 13 – Singular Tests and Custom Generic Tests
+Day 14 – Documentation and Lineage
+
+PART 4 – Reusable Code (Day 15 to Day 17)
+Day 15 – Jinja Basics in dbt
+Day 16 – Macros
+Day 17 – Packages and dbt_utils
+
+PART 5 – Advanced Modelling (Day 18 to Day 20)
+Day 18 – Incremental Models
+Day 19 – Incremental Strategies and on_schema_change
+Day 20 – Snapshots (SCD Type 2)
+
+PART 6 – Working Like a Team (Day 21 to Day 25)
+Day 21 – Environments, Targets and Variables
+Day 22 – Hooks and Grants
+Day 23 – Node Selection (--select)
+Day 24 – Configs, Tags, Schemas and Aliases
+Day 25 – dbt Commands and dbt build
+
+PART 7 – Production (Day 26 to Day 30)
+Day 26 – Performance and Cost Optimization on Snowflake
+Day 27 – Git and CI/CD for dbt
+Day 28 – Orchestrating dbt
+Day 29 – dbt Best Practices
+Day 30 – End-to-End dbt Project on Snowflake

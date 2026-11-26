@@ -1,0 +1,35 @@
+FEMALE: [curious] రా, అమ్మ మసాలా పొడి ఎలా చేస్తుంది?
+MALE: [confident] ఒక్క సారి మిక్సీ లో grind చేసి, అన్ని కర్రీలు కి వాడుతుంది!
+FEMALE: [excited] Correct! రోజు grind చేయదు! ఇదే D B T macro!
+MALE: [confused] అంటే paise to rupees logic ఒక్క సారి రాసి, hundred models లో వాడాలా?
+FEMALE: [sarcastic] అవును! Hundred places లో copy paste చేయకుండా!
+MALE: [shocked] అయితే logic మార్చాలి అంటే, ఒక్క చోట మార్చితే సరిపోతుంది ఆ?
+FEMALE: [excited] Exactly! మిక్సీ లో మసాలా మార్చినట్టు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో reusable S Q L logic ని Macros గా create చేస్తాం.
+NARRATOR: Macro అంటే ఒక function లాంటిది. ఒక సారి రాసి, చాలా models లో use చేయచ్చు.
+NARRATOR: Macros ని macros folder లో save చేస్తాం.
+NARRATOR: Macro define చేయడానికి macro and end macro tags use చేస్తాం. Macro కి parameters ఇవ్వచ్చు.
+NARRATOR: Macro ని model లో double curly braces లో call చేస్తాం.
+NARRATOR: Macros తో మనకి three benefits ఉంటాయి.
+NARRATOR: First, Less code duplication.
+NARRATOR: Second, Logic ఒక చోట maintain చేయచ్చు.
+NARRATOR: Third, Easy changes. Logic మార్చాలి అంటే, ఒక్క macro మార్చితే సరిపోతుంది.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: macros folder లో paise underscore to underscore rupees dot S Q L file create చేస్తాం:
+NARRATOR: curly percent macro paise underscore to underscore rupees open bracket column underscore name close bracket percent curly, open bracket double curly braces column underscore name double curly braces slash one hundred point zero close bracket, curly percent endmacro percent curly
+NARRATOR: ఇప్పుడు model లో ఈ macro ని ఇలా use చేస్తాం:
+NARRATOR: SELECT, TRANSACTION underscore I D, double curly braces paise underscore to underscore rupees open bracket AMOUNT underscore PAISE close bracket double curly braces AS AMOUNT underscore RUPEES, FROM double curly braces source open bracket bank underscore raw, transactions close bracket double curly braces
+NARRATOR: D B T compile చేసినప్పుడు, macro call ని D B T actual S Q L తో replace చేస్తుంది.
+NARRATOR: ఎప్పుడైనా conversion logic మార్చాలి అంటే, macro file లో ఒక్క చోట మార్చితే, అన్ని models లో update అవుతుంది!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Macro – A reusable piece of S Q L logic.
+NARRATOR: Macros live in the macros folder.
+NARRATOR: Change the macro once, and every model that uses it is updated.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Sixteen!
+NARRATOR: Next video లో D B T Packages and D B T underscore utils గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

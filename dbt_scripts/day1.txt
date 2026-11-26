@@ -1,0 +1,92 @@
+she:
+[excited] Arey! Ippude oka kotha tool gurinchi vinnanu ra… dbt ani!
+he:
+[confused] dbt aa? Idi diet plan aa ra? Weight loss kosam aa?
+she:
+[playfully sarcastic] Arey! Data build tool ra babu! Nee diet plan kaadhu!
+he:
+[shock] Ayyo! Nenu morning nunchi "dbt diet" ani Google lo search chesthunna ra! 😂
+she:
+[tired] Search history chusthe nee manager kuda navvuthadu…
+he:
+[curious] Sare, sare! Cheppu, dbt tho em chesthamu?
+she:
+[confident] Warehouse lo unna data ni SQL tho transform chesthamu! Tests, documentation, version control… anni untayi!
+he:
+[excited] Wow! Ante SELECT rasthe chalu, tables automatic ga create avuthaya?
+she:
+[energetic] Yes ra! Mari ee Thirty Days of dbt series first day start cheddama?
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt ante data build tool.
+
+ELT process lo "T" ante Transformation kosam dbt ni use chestham.
+
+Manam SELECT statements matrame rastham. Aa SELECT statements ne models antaru.
+
+dbt aa models ni Snowflake lo tables or views ga create chesthundhi.
+
+Important point enti ante…
+
+dbt data ni extract cheyyadu, load cheyyadu. Already warehouse lo unna data ni matrame transform chesthundhi.
+
+dbt tho manaki four powerful benefits untayi.
+
+First, SQL tho transformations build cheyyachu.
+
+Second, Tests tho data quality check cheyyachu.
+
+Third, Documentation and lineage automatic ga generate cheyyachu.
+
+Fourth, Git tho version control use cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana Snowflake RAW schema lo TRANSACTIONS table undhi.
+
+Management ki prathi customer ki total transaction count kavali.
+
+Ee SELECT query ni models folder lo customer_summary.sql file ga save chestham:
+
+SELECT
+    CUSTOMER_ID,
+    COUNT(*) AS TXN_COUNT
+FROM BANK_DB.RAW.TRANSACTIONS
+GROUP BY CUSTOMER_ID
+
+Ippudu terminal lo ee command run cheddham:
+
+dbt run
+
+Anthe! dbt aa SELECT query tho Snowflake lo CUSTOMER_SUMMARY ane view create chesthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+dbt – Transformation tool for the T in ELT.
+
+Model – A SQL SELECT statement saved in a file.
+
+dbt does not extract or load data.
+
+Idi mana Thirty Days of dbt series lo Day One!
+
+Next video lo ELT vs ETL and Modern Data Stack gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

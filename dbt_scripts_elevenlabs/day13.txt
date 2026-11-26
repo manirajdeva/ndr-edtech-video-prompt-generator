@@ -1,0 +1,40 @@
+FEMALE: [serious] రా, నీ bank balance ఇప్పుడు ఎంత?
+MALE: [tired] Salary రాలేదు రా… minus లో ఉంది! [laughs]
+FEMALE: [sarcastic] మన bank లో transaction amount minus ఉండకూడదు అని rule ఉంది. మరి అది ఎలా check చేస్తావ్?
+MALE: [confused] Built-in tests లో ఈ rule లేదు కదా!
+FEMALE: [confident] అందుకే singular tests! మన own S Q L రాసి, failing rows return చేయచ్చు!
+MALE: [curious] మరి same rule చాలా tables కి కావాలి అంటే?
+FEMALE: [excited] Custom generic test create చేసి reuse చేయచ్చు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: First, Singular Tests!
+NARRATOR: Singular test అంటే tests folder లో save చేసే ఒక S Q L file.
+NARRATOR: ఆ S Q L query failing rows ని return చేయాలి. Zero rows అయితే pass.
+NARRATOR: ఒక specific business rule కోసం singular tests best.
+NARRATOR: Second, Custom Generic Tests!
+NARRATOR: Same rule ని చాలా models and columns మీద use చేయాలి అనుకుంటే, generic test create చేస్తాం.
+NARRATOR: Generic test ఒక reusable test. ఇది test block తో define చేస్తాం, and schema Y M L లో normal built-in test లాగా use చేస్తాం.
+NARRATOR: Singular test one time use కోసం, generic test reusable గా use కోసం.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: First, singular test.
+NARRATOR: tests folder లో no underscore negative underscore amount dot S Q L file create చేస్తాం:
+NARRATOR: SELECT star, FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces, WHERE TRANSACTION underscore AMOUNT less than or equal to zero
+NARRATOR: ఇది zero or negative amount ఉన్న rows ని return చేస్తుంది. అలా rows ఉంటే test fail అవుతుంది.
+NARRATOR: ఇప్పుడు custom generic test.
+NARRATOR: tests slash generic folder లో positive underscore value dot S Q L file create చేస్తాం:
+NARRATOR: curly percent test positive underscore value open bracket model, column underscore name close bracket percent curly
+NARRATOR: SELECT star, FROM double curly braces model double curly braces, WHERE double curly braces column underscore name double curly braces less than or equal to zero
+NARRATOR: curly percent endtest percent curly
+NARRATOR: ఇప్పుడు schema Y M L లో ఈ test ని use చేస్తాం:
+NARRATOR: dash name colon TRANSACTION underscore AMOUNT, tests colon, dash positive underscore value
+NARRATOR: ఇప్పుడు D B T test run చేస్తే, ఈ test కూడా run అవుతుంది.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Singular test – A S Q L file in the tests folder that returns failing rows.
+NARRATOR: Custom generic test – A reusable test defined with a test block.
+NARRATOR: Both pass when they return zero rows.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Thirteen!
+NARRATOR: Next video లో D B T Documentation and Lineage గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

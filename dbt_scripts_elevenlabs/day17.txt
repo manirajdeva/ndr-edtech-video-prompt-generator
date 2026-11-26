@@ -1,0 +1,35 @@
+FEMALE: [curious] రా, నువ్వు రోజు వంట చేయవా, లేదా Swiggy order చేస్తావా?
+MALE: [sarcastic] Swiggy రా! Cook చేయడం కన్నా order చేయడం easy!
+FEMALE: [excited] D B T లో కూడా అలానే! Ready-made code ని order చేయచ్చు!
+MALE: [shocked] నిజంగా? Surrogate keys కూడా ఆ?
+FEMALE: [confident] అవును! D B T packages తో! D B T underscore utils లాంటి packages install చేసి వాడుకోవచ్చు!
+MALE: [curious] మరి delivery fee?
+FEMALE: [sarcastic] Free రా! D B T deps అనే command చాలు!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ready-made code ని Packages అని అంటారు.
+NARRATOR: Package అంటే ఒక D B T project, దీనిలో macros, models and tests ఉంటాయి. మనం ఆ package ని మన project లో install చేసి use చేయచ్చు.
+NARRATOR: Packages ని packages dot Y M L file లో define చేస్తాం.
+NARRATOR: తర్వాత D B T deps command run చేస్తే, D B T packages ని download చేస్తుంది. అవి D B T underscore packages folder లో save అవుతాయి.
+NARRATOR: Most popular package D B T underscore utils. ఇది D B T Labs create చేసింది.
+NARRATOR: D B T underscore utils లో useful macros and tests ఉంటాయి. For example, generate underscore surrogate underscore key macro and unique underscore combination underscore of underscore columns test.
+NARRATOR: Packages ని D B T Hub నుంచి తీసుకోవచ్చు.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: First, project root లో packages dot Y M L file create చేస్తాం:
+NARRATOR: packages colon, dash package colon D B T dash labs slash D B T underscore utils, version colon open square bracket greater than or equal to one point one point zero, less than two point zero point zero close square bracket
+NARRATOR: ఇప్పుడు package install చేద్దాం:
+NARRATOR: D B T deps
+NARRATOR: ఇప్పుడు customer and date combination కోసం surrogate key generate చేస్తాం:
+NARRATOR: SELECT, double curly braces D B T underscore utils dot generate underscore surrogate underscore key open bracket open square bracket CUSTOMER underscore I D, TRANSACTION underscore DATE close square bracket close bracket double curly braces AS CUSTOMER underscore DAY underscore KEY, CUSTOMER underscore I D, TRANSACTION underscore DATE, FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces
+NARRATOR: ఈ macro రెండు columns నుంచి ఒక unique key create చేస్తుంది. మనం logic scratch నుంచి రాయాల్సిన అవసరం లేదు!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Package – Ready-made D B T code that we install in our project.
+NARRATOR: packages dot Y M L – Lists the packages we need.
+NARRATOR: D B T deps – Downloads the packages.
+NARRATOR: D B T underscore utils – The most popular D B T package.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Seventeen!
+NARRATOR: Next video లో D B T Incremental Models గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

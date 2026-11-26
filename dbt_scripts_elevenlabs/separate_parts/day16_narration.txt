@@ -1,0 +1,56 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో reusable S Q L logic ని Macros గా create చేస్తాం.
+
+Macro అంటే ఒక function లాంటిది. ఒక సారి రాసి, చాలా models లో use చేయచ్చు.
+
+Macros ని macros folder లో save చేస్తాం.
+
+Macro define చేయడానికి macro and end macro tags use చేస్తాం. Macro కి parameters ఇవ్వచ్చు.
+
+Macro ని model లో double curly braces లో call చేస్తాం.
+
+Macros తో మనకి three benefits ఉంటాయి.
+
+First, Less code duplication.
+
+Second, Logic ఒక చోట maintain చేయచ్చు.
+
+Third, Easy changes. Logic మార్చాలి అంటే, ఒక్క macro మార్చితే సరిపోతుంది.
+
+ఒక Banking project example తీసుకుందాం.
+
+macros folder లో paise underscore to underscore rupees dot S Q L file create చేస్తాం:
+
+curly percent macro paise underscore to underscore rupees open bracket column underscore name close bracket percent curly
+open bracket double curly braces column underscore name double curly braces slash one hundred point zero close bracket
+curly percent endmacro percent curly
+
+ఇప్పుడు model లో ఈ macro ని ఇలా use చేస్తాం:
+
+SELECT
+TRANSACTION underscore I D,
+double curly braces paise underscore to underscore rupees open bracket AMOUNT underscore PAISE close bracket double curly braces AS AMOUNT underscore RUPEES
+FROM double curly braces source open bracket bank underscore raw, transactions close bracket double curly braces
+
+D B T compile చేసినప్పుడు, macro call ని D B T actual S Q L తో replace చేస్తుంది.
+
+ఎప్పుడైనా conversion logic మార్చాలి అంటే, macro file లో ఒక్క చోట మార్చితే, అన్ని models లో update అవుతుంది!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Macro – A reusable piece of S Q L logic.
+
+Macros live in the macros folder.
+
+Change the macro once, and every model that uses it is updated.
+
+ఇది మన Thirty Days of D B T series లో Day Sixteen!
+
+Next video లో D B T Packages and D B T underscore utils గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

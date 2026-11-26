@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, Instagram లో story add చేస్తావా, లేదా profile photo మార్చేస్తావా?
+MALE: [confused] Story అంటే add అవుతుంది, profile photo మార్చితే పాత photo పోయి కొత్త వస్తుంది!
+FEMALE: [excited] Correct! ఇదే D B T strategies! Append అంటే story add, merge అంటే profile photo update!
+MALE: [shocked] అయితే transaction PENDING నుంచి SUCCESS అయితే, కొత్త row add చేయాలా? update చేయాలా?
+FEMALE: [confident] Update చేయాలి! Merge strategy!
+MALE: [sarcastic] అయితే append లో status మారితే duplicates వస్తాయి రా! [laughs]
+FEMALE: [excited] Exactly! అందుకే strategy choose చేయాలి!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

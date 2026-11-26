@@ -1,0 +1,79 @@
+she:
+[curious] Ra, sambar chese mundhu em chestham?
+he:
+[confident] Pappu udikinchali! Taruvatha tadka veyali!
+she:
+[playfully sarcastic] Pappu udakamundhe tadka vesthe?
+he:
+[shock] Ayyo! Sambar bhayankaram ayipothundhi! 😂
+she:
+[confident] Idhe dbt lo kuda! Model B, Model A meedha depend avuthundhi!
+he:
+[curious] Mari dbt ki order ela telusthundhi?
+she:
+[excited] ref function tho! dbt DAG create chesi, correct order lo run chesthundhi!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt lo oka model nunchi inko model ni refer cheyyadaniki ref function use chestham.
+
+Syntax enti ante… double curly braces lo ref and model name.
+
+ref tho manaki three benefits untayi.
+
+First, Dependencies! Ye model ye model meedha depend avuthundho dbt ki telusthundhi.
+
+Second, Correct order! dbt models ni dependency order lo run chesthundhi.
+
+Third, Environment-aware names! Dev and prod lo correct schema name automatic ga vasthundhi.
+
+Ee dependencies tho dbt oka DAG create chesthundhi. DAG ante Directed Acyclic Graph. Ante dependencies lo loops undavu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana daggara stg_customers and stg_transactions ane two staging models unnayi.
+
+Ippudu customer_summary model create chestham:
+
+SELECT
+    c.CUSTOMER_ID,
+    c.CUSTOMER_NAME,
+    SUM(t.TRANSACTION_AMOUNT) AS TOTAL_AMOUNT
+FROM {{ ref('stg_customers') }} c
+JOIN {{ ref('stg_transactions') }} t
+    ON c.CUSTOMER_ID = t.CUSTOMER_ID
+GROUP BY c.CUSTOMER_ID, c.CUSTOMER_NAME
+
+Ippudu dbt run chesthe, dbt first stg_customers and stg_transactions run chesthundhi, taruvatha customer_summary run chesthundhi.
+
+Manam order cheppalsina avasaram ledhu!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+ref – Refers to another model.
+
+DAG – The dependency graph that dbt builds from ref.
+
+dbt runs models in the correct order automatically.
+
+Idi mana Thirty Days of dbt series lo Day Eight!
+
+Next video lo dbt Sources gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

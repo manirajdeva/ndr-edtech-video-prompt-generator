@@ -1,0 +1,8 @@
+FEMALE: [panicked] అరే! Table మళ్లీ create అయ్యింది, reporting team కి permissions పోయాయి!
+MALE: [confused] Permissions పోయాయా? ఎక్కడికి వెళ్లాయి?
+FEMALE: [tired] కొత్త ఇంటికి మారు అయ్యాక, old house key కి ఏం use? అది లాంటిది!
+MALE: [curious] మరి manual గా ప్రతి సారి GRANT run చేయాలా?
+FEMALE: [sarcastic] నువ్వు ప్రతి రోజు key duplicate చేసి అందరికీ ఇవ్వవా?
+MALE: [shocked] అయ్యో! నాకు పెద్ద పని! [laughs]
+FEMALE: [confident] అందుకే D B T hooks and grants! Automatic గా permissions!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,64 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో ఇది Snapshots తో possible.
+
+Snapshot అంటే source table లో rows ఎలా మారాయో history ని track చేయడం. ఇది S C D Type two approach.
+
+Snapshots ని snapshots folder లో define చేస్తాం.
+
+దీనిలో mainly మూడు settings ఉంటాయి.
+
+First, unique underscore key – row ని identify చేసే column.
+
+Second, strategy – changes ఎలా detect చేయాలి. Timestamp strategy లో updated at column use చేస్తాం. Check strategy లో కొన్ని columns మారాయో check చేస్తాం.
+
+Third, target schema – snapshot table create అయ్యే schema.
+
+D B T snapshot command run చేసినప్పుడు, change అయిన rows కి కొత్త version add అవుతుంది.
+
+Snapshot table లో D B T valid from and D B T valid to columns ఉంటాయి. Current row కి D B T valid to null ఉంటుంది.
+
+ఒక Banking project example తీసుకుందాం.
+
+snapshots folder లో customer underscore snapshot dot S Q L file create చేస్తాం:
+
+curly percent snapshot customer underscore snapshot percent curly
+
+double curly braces config open bracket
+target underscore schema equals SNAPSHOTS,
+unique underscore key equals CUSTOMER underscore I D,
+strategy equals check,
+check underscore cols equals open square bracket CITY close square bracket
+close bracket double curly braces
+
+SELECT star FROM double curly braces source open bracket bank underscore raw, customer close bracket double curly braces
+
+curly percent endsnapshot percent curly
+
+ఇప్పుడు snapshot run చేద్దాం:
+
+D B T snapshot
+
+Customer CITY Hyderabad నుంచి Bengaluru కి మారినప్పుడు, మళ్లీ D B T snapshot run చేస్తే, two rows ఉంటాయి.
+
+పాత row కి valid to date ఉంటుంది. కొత్త row కి valid to null ఉంటుంది.
+
+ఇప్పుడు past date కి customer ఏ city లో ఉండేవాడో చెప్పొచ్చు!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Snapshot – Tracks how rows change over time.
+
+S C D Type two – Keeps a new row for every change.
+
+D B T snapshot – Updates the snapshot tables.
+
+ఇది మన Thirty Days of D B T series లో Day Twenty!
+
+Next video లో Environments, Targets and Variables గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

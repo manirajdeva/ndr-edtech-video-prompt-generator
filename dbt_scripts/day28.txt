@@ -1,0 +1,95 @@
+she:
+[curious] Ra, morning ela lestav?
+he:
+[playfully sarcastic] Amma alarm tho ra!
+she:
+[excited] Mari mana dbt build morning ela run avuthundhi?
+he:
+[confused] Nenu manual ga run chesthanu!
+she:
+[shock] Roju morning manual ga aa? Nuvvu vellaka, holiday ki kuda run avvala?
+he:
+[panicking] Ayyo! Holiday ki kuda office ki vellala? 😂
+she:
+[confident] Anduke orchestration! Airflow laanti tools schedule chesthayi!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt transformations ni run chesthundhi, kaani dbt Core pipeline ni schedule cheyyadu.
+
+Scheduling and orchestration kosam manam inko tool use cheyyali.
+
+Mainly options enti ante…
+
+First, dbt Cloud jobs – built-in scheduler.
+
+Second, Apache Airflow – complete pipeline orchestration. Idi most popular option.
+
+Third, GitHub Actions or cron – simple scheduled runs.
+
+Orchestration lo important points.
+
+First, Order. Data load complete ayyaka matrame dbt run avvali.
+
+Second, Dependencies. Ye task ye task meedha depend avuthundho define cheyyali.
+
+Third, Retries and alerts. Task fail ayithe retry cheyyali and team ki alert pampali.
+
+Mana architecture lo Airflow, Snowflake loading tasks and dbt tasks ni order lo run chesthundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana nightly pipeline order:
+
+First, SQL Server nunchi data S3 loki extract.
+
+Second, S3 nunchi Snowflake RAW loki load.
+
+Third, dbt source freshness check.
+
+Fourth, dbt build.
+
+Fifth, Power BI refresh.
+
+Airflow lo dbt step ni BashOperator tho define chestham:
+
+dbt_build = BashOperator(
+    task_id='dbt_build',
+    bash_command='cd /opt/bank_project && dbt build --target prod'
+)
+
+Load task fail ayithe, dbt_build task run avvadu. Airflow alert pampisthundhi.
+
+Idi mana pipeline ki reliable ga, automatic ga run avvadaniki help chesthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+dbt Core transforms data but does not schedule itself.
+
+Use dbt Cloud jobs, Airflow or GitHub Actions to schedule dbt.
+
+Run dbt only after the data load succeeds.
+
+Add retries and alerts for failures.
+
+Idi mana Thirty Days of dbt series lo Day Twenty-Eight!
+
+Next video lo dbt Best Practices gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

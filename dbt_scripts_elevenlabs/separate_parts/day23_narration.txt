@@ -1,0 +1,73 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో ఇది Node Selection తో possible. ఇది select option తో work చేస్తుంది.
+
+Important selection patterns ఏంటి అంటే…
+
+First, model name. ఒక్క model ని run చేస్తుంది.
+
+Second, plus before model name. ఆ model, and దాని upstream parents అన్ని run అవుతాయి.
+
+Third, plus after model name. ఆ model, and దాని downstream children అన్ని run అవుతాయి.
+
+Fourth, plus on both sides. Parents, model and children, అన్ని.
+
+Fifth, tag colon. ఒక tag ఉన్న models అన్ని.
+
+Sixth, folder path. ఒక folder లో ఉన్న models అన్ని.
+
+అయితే ఒక model ని skip చేయడానికి exclude option use చేస్తాం.
+
+Run చేయకుండానే ఏ models select అవుతాయో చూడడానికి D B T L S command ఉంది.
+
+Select option run, test and build commands అన్ని లో work చేస్తుంది.
+
+ఒక Banking project example తీసుకుందాం.
+
+ఒక్క model run చేయడానికి:
+
+D B T run dash dash select S T G underscore customers
+
+F C T underscore transactions and దాని parents run చేయడానికి:
+
+D B T run dash dash select plus F C T underscore transactions
+
+S T G underscore customers and దాని children run చేయడానికి:
+
+D B T run dash dash select S T G underscore customers plus
+
+Daily tag ఉన్న models మాత్రమే run చేయడానికి:
+
+D B T run dash dash select tag colon daily
+
+Marts folder లో models అన్ని run చేయడానికి:
+
+D B T run dash dash select marts
+
+ఒక tag ని skip చేయడానికి:
+
+D B T run dash dash exclude tag colon slow
+
+Run చేయకుండానే list చేయడానికి:
+
+D B T L S dash dash select plus F C T underscore transactions
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Plus before a name – Includes the parents.
+
+Plus after a name – Includes the children.
+
+tag and folder selection – Run groups of models.
+
+D B T L S – Shows what a selection will run.
+
+ఇది మన Thirty Days of D B T series లో Day Twenty-Three!
+
+Next video లో Configs, Tags, Schemas and Aliases గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

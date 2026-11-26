@@ -1,0 +1,61 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T అంటే data build tool.
+
+E L T process లో T అంటే Transformation కోసం D B T ని use చేస్తాం.
+
+మనం SELECT statements మాత్రమే రాస్తాం. ఆ SELECT statements నే models అంటారు.
+
+D B T ఆ models ని Snowflake లో tables or views గా create చేస్తుంది.
+
+Important point ఏంటి అంటే…
+
+D B T data ని extract చేయదు, load చేయదు. Already warehouse లో ఉన్న data ని మాత్రమే transform చేస్తుంది.
+
+D B T తో మనకి four powerful benefits ఉంటాయి.
+
+First, S Q L తో transformations build చేయచ్చు.
+
+Second, Tests తో data quality check చేయచ్చు.
+
+Third, Documentation and lineage automatic గా generate చేయచ్చు.
+
+Fourth, Git తో version control use చేయచ్చు.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన Snowflake RAW schema లో TRANSACTIONS table ఉంది.
+
+Management కి ప్రతి customer కి total transaction count కావాలి.
+
+ఈ SELECT query ని models folder లో customer underscore summary dot S Q L file గా save చేస్తాం:
+
+SELECT
+CUSTOMER underscore I D,
+COUNT open bracket star close bracket AS T X N underscore COUNT
+FROM BANK underscore D B dot RAW dot TRANSACTIONS
+GROUP BY CUSTOMER underscore I D
+
+ఇప్పుడు terminal లో ఈ command run చేద్దాం:
+
+D B T run
+
+అంతే! D B T ఆ SELECT query తో Snowflake లో CUSTOMER underscore SUMMARY అనే view create చేస్తుంది.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+D B T – Transformation tool for the T in E L T.
+
+Model – A S Q L SELECT statement saved in a file.
+
+D B T does not extract or load data.
+
+ఇది మన Thirty Days of D B T series లో Day One!
+
+Next video లో E L T vs E T L and Modern Data Stack గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

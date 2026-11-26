@@ -1,0 +1,94 @@
+she:
+[serious] Ra, nee bank balance ippudu entha?
+he:
+[tired] Salary raaledhu ra… minus lo undhi! 😂
+she:
+[playfully sarcastic] Mana bank lo transaction amount minus undakudadhu ani rule undhi. Mari adhi ela check chesthav?
+he:
+[confused] Built-in tests lo ee rule ledhu kada!
+she:
+[confident] Anduke singular tests! Mana own SQL rasi, failing rows return cheyyachu!
+he:
+[curious] Mari same rule chala tables ki kavali ante?
+she:
+[excited] Custom generic test create chesi reuse cheyyachu!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+First, Singular Tests!
+
+Singular test ante tests folder lo save chese oka SQL file.
+
+Aa SQL query failing rows ni return cheyyali. Zero rows ayithe pass.
+
+Oka specific business rule kosam singular tests best.
+
+Second, Custom Generic Tests!
+
+Same rule ni chala models and columns meedha use cheyyali anukunte, generic test create chestham.
+
+Generic test oka reusable test. Idi test block tho define chestham, and schema yml lo normal built-in test laga use chestham.
+
+Singular test one time use kosam, generic test reusable ga use kosam.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+First, singular test.
+
+tests folder lo no_negative_amount.sql file create chestham:
+
+SELECT *
+FROM {{ ref('stg_transactions') }}
+WHERE TRANSACTION_AMOUNT <= 0
+
+Idi zero or negative amount unna rows ni return chesthundhi. Ala rows unte test fail avuthundhi.
+
+Ippudu custom generic test.
+
+tests/generic folder lo positive_value.sql file create chestham:
+
+{% test positive_value(model, column_name) %}
+
+SELECT *
+FROM {{ model }}
+WHERE {{ column_name }} <= 0
+
+{% endtest %}
+
+Ippudu schema yml lo ee test ni use chestham:
+
+- name: TRANSACTION_AMOUNT
+  tests:
+    - positive_value
+
+Ippudu dbt test run chesthe, ee test kuda run avuthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Singular test – A SQL file in the tests folder that returns failing rows.
+
+Custom generic test – A reusable test defined with a test block.
+
+Both pass when they return zero rows.
+
+Idi mana Thirty Days of dbt series lo Day Thirteen!
+
+Next video lo dbt Documentation and Lineage gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

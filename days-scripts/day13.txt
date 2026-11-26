@@ -1,0 +1,69 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka situation imagine cheyyandi!
+
+Meeru production table lo important data delete chesaru.
+
+Time Travel retention period kuda expire ayyindhi!
+
+Ippudu aa data recover cheyyadam possible aa?
+
+[pause]
+
+Snowflake lo inko recovery mechanism undhi!
+
+Adhe Fail-safe!
+
+Kaani Time Travel ki Fail-safe ki difference enti?
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Fail-safe anedhi Snowflake provide chese additional data recovery mechanism.
+
+Time Travel retention period complete ayyaka, eligible Permanent Tables data Fail-safe period loki enter avuthundhi.
+
+Snowflake lo Fail-safe period 7 days untundhi.
+
+Kaani important point enti ante…
+
+Fail-safe ni normal user self-service feature laga use cheyyaleru.
+
+Exceptional situations lo, Snowflake Support ni contact chesi data recovery request cheyyali.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana CUSTOMER table lo important customer records unnayi.
+
+Accidentally data delete ayyindhi.
+
+First, Time Travel retention period lo unte maname data recover cheskovachu.
+
+Kaani Time Travel period expire ayyaka, Fail-safe period lo unte Snowflake Support assistance tho recovery possible avvachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Time Travel – User can access and recover historical data.
+
+Fail-safe – Snowflake-managed recovery for eligible permanent table data.
+
+Fail-safe is not a replacement for regular backups!
+
+Idi mana Thirty Days of Snowflake series lo Day Thirteen!
+
+Next video lo Micro-partitions and Automatic Clustering gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

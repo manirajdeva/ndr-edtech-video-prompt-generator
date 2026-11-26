@@ -1,0 +1,52 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో ఒక model నుంచి ఇంకో model ని refer చేయడానికి ref function use చేస్తాం.
+
+Syntax ఏంటి అంటే… double curly braces లో ref and model name.
+
+ref తో మనకి three benefits ఉంటాయి.
+
+First, Dependencies! ఏ model ఏ model మీద depend అవుతుందో D B T కి తెలుస్తుంది.
+
+Second, Correct order! D B T models ని dependency order లో run చేస్తుంది.
+
+Third, Environment-aware names! Dev and prod లో correct schema name automatic గా వస్తుంది.
+
+ఈ dependencies తో D B T ఒక DAG create చేస్తుంది. DAG అంటే Directed Acyclic Graph. అంటే dependencies లో loops ఉండవు.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన దగ్గర S T G underscore customers and S T G underscore transactions అనే two staging models ఉన్నాయి.
+
+ఇప్పుడు customer underscore summary model create చేస్తాం:
+
+SELECT
+c dot CUSTOMER underscore I D,
+c dot CUSTOMER underscore NAME,
+SUM open bracket t dot TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT
+FROM double curly braces ref open bracket S T G underscore customers close bracket double curly braces c
+JOIN double curly braces ref open bracket S T G underscore transactions close bracket double curly braces t
+ON c dot CUSTOMER underscore I D equals t dot CUSTOMER underscore I D
+GROUP BY c dot CUSTOMER underscore I D, c dot CUSTOMER underscore NAME
+
+ఇప్పుడు D B T run చేస్తే, D B T first S T G underscore customers and S T G underscore transactions run చేస్తుంది, తర్వాత customer underscore summary run చేస్తుంది.
+
+మనం order చెప్పాల్సిన అవసరం లేదు!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+ref – Refers to another model.
+
+DAG – The dependency graph that D B T builds from ref.
+
+D B T runs models in the correct order automatically.
+
+ఇది మన Thirty Days of D B T series లో Day Eight!
+
+Next video లో D B T Sources గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

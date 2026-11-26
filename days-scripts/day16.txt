@@ -1,0 +1,75 @@
+[Funny + Curiosity – Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka interesting situation!
+
+Meeru oka SQL query execute chesaru… kani result ravadaniki 15 minutes paduthundhi!
+
+Ade query ni optimize chesaka just 30 seconds lo result vachindhi anukondi!
+
+Amazing kada?
+
+Mari Snowflake lo SQL queries ni fast ga execute cheyyadaniki em techniques follow avvali?
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Snowflake lo Query Optimization ante SQL queries performance improve cheyyadam.
+
+Main ga five important techniques chuddam.
+
+First, SELECT * avoid cheyyandi.
+
+Required columns matrame select cheyyandi.
+
+Second, WHERE conditions use cheyyandi.
+
+Unnecessary data ni filter cheyyandi.
+
+Third, Partition Pruning improve cheyyandi.
+
+Filter conditions valla unnecessary micro-partitions scan avvakunda chudandi.
+
+Fourth, JOIN conditions optimize cheyyandi.
+
+Correct join keys use cheyyandi and unnecessary joins avoid cheyyandi.
+
+Fifth, Query Profile analyze cheyyandi.
+
+Query ekkada ekkuva time teesukuntundho identify cheyyandi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS table lo 10 crore records unnayi.
+
+Reporting kosam SELECT * use chesthe unnecessary columns kuda scan avvachu.
+
+Instead, required columns and date filter use cheddham.
+
+SELECT CUSTOMER_ID, TRANSACTION_AMOUNT
+FROM TRANSACTIONS
+WHERE TRANSACTION_DATE = '2026-11-18';
+
+Ila required columns and filters use cheyyadam valla query performance improve avvachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Good SQL writing, efficient filtering, proper JOINs and Query Profile analysis are important for Snowflake performance optimization.
+
+Idi mana Thirty Days of Snowflake series lo Day Sixteen!
+
+Next video lo Partition Pruning gurinchi detailed real-time example tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

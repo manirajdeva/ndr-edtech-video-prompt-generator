@@ -1,0 +1,94 @@
+she:
+[confused] Ra, dbt install cheyyali ani try chesthunna. Core use cheyyala, Cloud use cheyyala?
+he:
+[playfully sarcastic] Core ante apple core aa? Cloud ante rain cloud aa?
+she:
+[tired] Arey! Nee jokes ki Wi-Fi kuda disconnect avuthundhi!
+he:
+[curious] Sare, serious ga adugutha. Core ante enti?
+she:
+[confident] Core free command line tool. Cloud ante managed platform with IDE and scheduler!
+he:
+[shock] Ante Core ni nene install cheyyali, Cloud lo already ready aa?
+she:
+[playfully sarcastic] Avunu! Install cheyyadaniki just pip install dbt-snowflake chalu!
+he:
+[excited] Pip install aa! Pip ante pip pip hurray ra! 😂
+she:
+[tired] Ayyo! Nee tho pani cheyyadam kashtam ra…
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+First, dbt Core!
+
+dbt Core open-source tool. Idi command line lo work chesthundhi.
+
+Manam dbt Core ni mana laptop lo leda mana own servers lo run cheyyachu.
+
+Scheduling and orchestration ni manam separately set cheyyali.
+
+Second, dbt Cloud!
+
+dbt Cloud oka managed platform.
+
+Idi web-based IDE, job scheduling, CI support and documentation hosting laanti features istundhi.
+
+Mana infrastructure manage cheyyakunda quick ga start cheyyachu.
+
+Learning kosam dbt Core best option, because manam commands ni direct ga nerchukuntam.
+
+Ee series lo manam dbt Core commands use chestham. Avi dbt Cloud lo kuda work avuthayi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana Windows laptop lo dbt Core install cheddham.
+
+First, oka virtual environment create chestham. Dheenivalla mana project packages vere projects tho conflict avvavu.
+
+python -m venv dbt_env
+
+Ippudu aa environment ni activate chestham:
+
+dbt_env\Scripts\activate
+
+Taruvatha Snowflake adapter install chestham:
+
+pip install dbt-snowflake
+
+Ee command dbt Core ni and Snowflake adapter ni kalipi install chesthundhi.
+
+Finally, installation check cheyyadaniki:
+
+dbt --version
+
+Version details vasthe, mana installation ready!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+dbt Core – Open-source command line tool.
+
+dbt Cloud – Managed platform with IDE and scheduler.
+
+pip install dbt-snowflake – Installs dbt Core with the Snowflake adapter.
+
+Idi mana Thirty Days of dbt series lo Day Three!
+
+Next video lo dbt Project Structure gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

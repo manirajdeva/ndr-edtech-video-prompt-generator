@@ -1,0 +1,37 @@
+FEMALE: [curious] రా, సాంబార్ లో salt check చేయకుండా guests కి serve చేస్తావా?
+MALE: [shocked] అయ్యో! కొంచెం ఎక్కువ అయితే? Guests ఏం అనుకుంటారు!
+FEMALE: [sarcastic] మరి dashboard కి duplicate CUSTOMER underscore I D తో data పంపించేస్తే?
+MALE: [panicked] Manager customers double ఏంటి? అని అడుగుతాడు రా!
+FEMALE: [confident] అందుకే D B T tests! Unique, not underscore null, accepted underscore values, relationships!
+MALE: [excited] అంటే salt tasting లాగా data tasting ఆ?
+FEMALE: [excited] Exactly! Test fail అయితే, వెంటనే తెలిసిపోతుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో data quality check చేయడానికి Tests use చేస్తాం.
+NARRATOR: D B T లో mainly four built-in generic tests ఉంటాయి.
+NARRATOR: First, unique – ఒక column లో duplicate values ఉండకూడదు.
+NARRATOR: Second, not underscore null – column లో null values ఉండకూడదు.
+NARRATOR: Third, accepted underscore values – column లో allowed values మాత్రమే ఉండాలి.
+NARRATOR: Fourth, relationships – ఒక table లో values ఇంకో table లో exist అవ్వాలి. ఇది foreign key check లాంటిది.
+NARRATOR: Tests ని schema Y M L file లో columns కింద define చేస్తాం.
+NARRATOR: D B T test command run చేస్తే, ప్రతి test ఒక S Q L query గా run అవుతుంది.
+NARRATOR: ఆ query failing rows ని return చేస్తుంది. Zero rows అయితే test pass, ఒక్క row వచ్చిన test fail.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: models slash staging slash schema dot Y M L లో ఈ tests రాస్తాం:
+NARRATOR: version colon two
+NARRATOR: models colon, dash name colon S T G underscore customers, columns colon, dash name colon CUSTOMER underscore I D, tests colon, dash unique, dash not underscore null
+NARRATOR: dash name colon S T G underscore transactions, columns colon, dash name colon STATUS, tests colon, dash accepted underscore values colon, values colon open square bracket SUCCESS, FAILED, PENDING close square bracket, dash name colon CUSTOMER underscore I D, tests colon, dash relationships colon, to colon ref open bracket S T G underscore customers close bracket, field colon CUSTOMER underscore I D
+NARRATOR: ఇప్పుడు tests run చేద్దాం:
+NARRATOR: D B T test
+NARRATOR: Duplicate CUSTOMER underscore I D ఉంటే, unique test fail అయ్యి మనకి వెంటనే తెలిసిపోతుంది!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: unique and not underscore null – Protect primary keys.
+NARRATOR: accepted underscore values – Allows only expected values.
+NARRATOR: relationships – Checks references between tables.
+NARRATOR: Every D B T test passes when it returns zero failing rows.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twelve!
+NARRATOR: Next video లో Singular Tests and Custom Generic Tests గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

@@ -1,0 +1,94 @@
+she:
+[shock] Arey! Nee laptop desktop chusava ra? Anni files oke folder lo!
+he:
+[confused] Em ra? Naaku ardham avuthundhi kada!
+she:
+[playfully sarcastic] Nuvvu "final_final_v2_new.sql" ante ye file ra?
+he:
+[panicking] Ayyo! Adhi final kaadha? Ippudu naaku kuda gurthu ledhu!
+she:
+[tired] Mee project lo hundred SQL files unte, kotha person ki em ardham avuthundhi?
+he:
+[curious] Mari idi ela organize cheyyali ra?
+she:
+[confident] dbt project structure! Models, seeds, snapshots, macros, tests… prathi dhaniki oka folder!
+he:
+[excited] Wow! Mana bedroom lo cupboards petti organize chesinattu!
+she:
+[confident] Exactly! Aa cupboards ne dbt init tho ready!
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+dbt project create cheyyadaniki dbt init command use chestham.
+
+Ee command oka project folder create chesthundhi. Dheenilo mainly ee folders and files untayi.
+
+First, dbt_project.yml – project configuration file.
+
+Second, models – mana SELECT statements ni ikkada save chestham.
+
+Third, seeds – small CSV files kosam.
+
+Fourth, snapshots – data history track cheyyadaniki.
+
+Fifth, macros – reusable code kosam.
+
+Sixth, tests – custom test queries kosam.
+
+Seventh, analyses – ad-hoc SQL queries kosam.
+
+dbt run chesinappudu target and logs folders automatic ga create avuthayi. Avi Git loki commit cheyyakudadhu.
+
+Important point enti ante… Mana Snowflake credentials ni store chese profiles.yml file project folder lo undadhu. Adhi mana home directory lo dot dbt folder lo untundhi.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Ippudu project create cheddham:
+
+dbt init bank_project
+
+Ee command adapter and connection details adugutundhi. Manam snowflake select chestham.
+
+Ippudu dbt_project.yml lo important settings chuddam:
+
+name: 'bank_project'
+
+version: '1.0.0'
+
+profile: 'bank_project'
+
+model-paths: ["models"]
+
+Mana Banking project kosam models folder lo staging and marts ane two sub folders create chestham.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+dbt init – Creates a new dbt project.
+
+dbt_project.yml – Project configuration.
+
+models – Where SQL SELECT statements live.
+
+profiles.yml – Connection details, stored outside the project.
+
+Idi mana Thirty Days of dbt series lo Day Four!
+
+Next video lo dbt ni Snowflake ki connect cheyyadam gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

@@ -1,0 +1,80 @@
+[Professional – Real-Time Scenario Opening]
+
+Welcome to NDR EdTech!
+
+Oka Data Engineer daily morning office ki vachina ventane first em chesthadu?
+
+Data load ayyindha?
+Transformation complete ayyindha?
+Reporting tables update ayyaya?
+
+Prathi roju manual ga SQL queries execute chesthu unte, automation ela possible?
+
+Snowflake lo ee process ni automate cheyyadaniki Tasks ane feature use chestham!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Snowflake Task ante SQL statements or stored procedures ni automatically execute cheyyadaniki use chese feature.
+
+Tasks ni different ways lo schedule cheyyachu.
+
+For example:
+
+Daily once.
+Every one hour.
+Specific schedule prakaram.
+
+Tasks ni CRON expression tho kuda schedule cheyyachu.
+
+Inka interesting enti ante, multiple Tasks ni parent-child structure lo connect chesi Task Graphs create cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking Data Engineering project example teesukundham.
+
+Daily morning 6 AM ki customer data load avuthundhi.
+
+Data load complete ayyaka transformation run avvali.
+
+Transformation complete ayyaka reporting table update avvali.
+
+Ippudu first Task create cheddham!
+
+CREATE TASK CUSTOMER_TASK
+WAREHOUSE = ETL_WH
+SCHEDULE = 'USING CRON 0 6 * * * Asia/Kolkata'
+AS
+INSERT INTO CUSTOMER_REPORT
+SELECT * FROM CUSTOMER_STAGE;
+
+Task create chesina ventane automatic ga start avvadhu.
+
+First RESUME cheyyali!
+
+ALTER TASK CUSTOMER_TASK RESUME;
+
+Ippudu configured schedule prakaram task execute avuthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Snowflake Tasks help automate SQL execution, scheduled jobs and multi-step data pipelines.
+
+Streams capture data changes.
+
+Tasks automate processing.
+
+Rendu kalisthe powerful CDC pipelines build cheyyachu!
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Six!
+
+Next video lo Streams plus Tasks use chesi Real-Time CDC pipeline ela build cheyyalo explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

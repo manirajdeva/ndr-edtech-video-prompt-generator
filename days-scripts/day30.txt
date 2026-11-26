@@ -1,0 +1,246 @@
+[Scene 1 – Cinematic Opening]
+
+[SHE – curious]
+Hey! Oka question aduguthana?
+
+[HE – playful]
+Adagandi madam! SQL query la simple ga answer isthanu!
+
+[SHE – laughing]
+Manam 30 days nunchi Snowflake nerchukuntunnam kada?
+
+[HE – confident]
+Avunu! Day one nunchi Day twenty-nine varaku full learning journey!
+
+[SHE – curious]
+Mari ee 30 days lo Snowflake concepts anni nerchukunnam. Kaani real-time project lo ivanni ela use chestharo telusa?
+
+[HE – confident]
+Adhe kada interesting question! Concepts nerchukovadam oka step… Vatini real-time project lo implement cheyyadam actual Data Engineering!
+
+[SHE – excited]
+Really? Aithe oka complete project explain cheyyava?
+
+[HE – playful]
+Definitely! Kaani madhyalo questions ekkuva adagakudadhu!
+
+[SHE – laughing]
+Technical doubts vaste aduguthanu! Ready aa?
+
+[HE – energetic]
+Let's start!
+
+[Scene 2 – Project Introduction]
+
+[HE – powerful]
+Welcome to NDR EdTech!
+
+Thirty days journey lo manam Snowflake basics nunchi advanced concepts varaku nerchukunnam.
+
+Snowflake Architecture, Time Travel, Zero-Copy Cloning, Micro-partitions, Snowpipe, Streams, Tasks, Stored Procedures… ila chala important concepts cover chesam.
+
+[SHE – curious]
+Ippudu ee concepts anni oka real-time Data Engineering project lo ela work avuthayo chuddam antunnava?
+
+[HE – confident]
+Exactly! Let's understand!
+
+[Scene 3 – Project Scenario]
+
+[HE – storytelling]
+Oka company daggara SQL Server lo millions of customer and transaction records unnayi.
+
+Company decision enti ante existing data warehouse ni modern cloud data platform ki migrate cheyyali.
+
+[SHE – surprised]
+Ante old database vadilesi new platform ki vellipothunnara?
+
+[HE – confident]
+Exactly! Target platform enti?
+
+[SHE – excited]
+Snowflake!
+
+[HE – energetic]
+Correct! Let's understand the complete architecture!
+
+[Scene 4 – Step One: Source System]
+
+[SHE – curious]
+First data ekkada untundhi?
+
+[HE – explaining]
+Mana source database SQL Server. Dheenilo CUSTOMER, ACCOUNT and TRANSACTION tables unnayi.
+
+[Scene 5 – Step Two: Data Extraction]
+
+[SHE – questioning]
+SQL Server nunchi direct ga Snowflake ki data pampinchalema?
+
+[HE – explaining]
+Pampinchachu! Kaani mana architecture lo AWS S3 ni intermediate landing layer ga use chesthunnam.
+
+SQL Server nunchi data extract chesi AWS S3 bucket lo CSV or Parquet files ga land chestham.
+
+[SHE – understanding]
+Ante S3 mana landing layer la work chesthundha?
+
+[HE – confident]
+Exactly! Correct answer!
+
+[Scene 6 – Step Three: Data Ingestion]
+
+[SHE – curious]
+Mari S3 lo unna data Snowflake loki ela vasthundhi?
+
+[HE – technical]
+Snowflake lo Storage Integration and External Stage configure chestham.
+
+COPY INTO or Snowpipe use chesi raw data ni Snowflake loki load chestham.
+
+[SHE – surprised]
+Snowpipe ante automatic ga data load avuthundha?
+
+[HE – explaining]
+Yes! New files land ayinappudu configured event notification mechanism through automatic ingestion trigger cheyyachu.
+
+[Scene 7 – Step Four: Data Transformation]
+
+[SHE – curious]
+Okay! Raw data vachindhi. Ippudu next enti?
+
+[HE – excited]
+Ippude mana dbt enter avuthundhi!
+
+dbt models use chesi raw data ni clean chesi, transform chesi, business-ready tables create chestham.
+
+dbt tests use chesi data quality validate chestham.
+
+[SHE – impressed]
+Ante Snowflake data store chesthundhi, dbt data transform chesthundha?
+
+[HE – playful]
+Super! Ippudu nuvvu Data Engineer aipoyav!
+
+[Scene 8 – Step Five: Workflow Orchestration]
+
+[SHE – curious]
+Mari ee tasks anni correct order lo execute cheyyadaniki em use chestham?
+
+[HE – confident]
+Apache Airflow!
+
+Airflow complete pipeline ni orchestrate chesthundhi.
+
+Data extraction, Snowflake loading, dbt run and dbt test tasks ni dependency order lo execute chesthundhi.
+
+[SHE – concerned]
+Oka task fail ayithe?
+
+[HE – explaining]
+Airflow lo configured retries, failure handling and alerts use chesi manage cheyyachu.
+
+[Scene 9 – Step Six: Monitoring and Reporting]
+
+[SHE – curious]
+Finally, project successful ayyindha ledha ela check chestham?
+
+[HE – professional]
+Snowflake Query Profile, Task History and Airflow logs use chesi pipeline performance and failures monitor chestham.
+
+Finally, transformed data ni Power BI dashboards and business reports kosam use chestham.
+
+[Scene 10 – Complete Project Summary]
+
+[SHE – impressed]
+Wow! Ante complete pipeline lo multiple technologies work chesthunnayi!
+
+[HE – energetic]
+Exactly! Mana complete data flow:
+
+SQL Server to AWS S3.
+
+AWS S3 to Snowflake.
+
+Snowflake to dbt.
+
+Airflow orchestrates the complete workflow.
+
+Finally, Power BI lo business reports generate avuthayi!
+
+[SHE – curious]
+Ante okka Snowflake nerchukunte saripodha?
+
+[HE – professional]
+Snowflake important! Kaani real-time Data Engineer avvalante SQL, Python, AWS, dbt, Airflow and data pipeline concepts kuda nerchukovali.
+
+[SHE – understanding]
+Ippudu ardham ayyindhi! Theory kanna practical implementation important!
+
+[HE – confident]
+Absolutely!
+
+[Scene 11 – Emotional Grand Finale]
+
+[SHE – soft emotional]
+Oka question… Ee 30 days journey ikkade end aipothundha?
+
+[HE – emotional]
+Journey end avvachu… Kaani learning eppatiki end avvadhu!
+
+[SHE – emotional]
+Starting lo Snowflake ante ento kuda teliyani vallu… Ippudu complete architecture understand chesukuntunnaru!
+
+[HE – inspiring]
+Exactly! Ee 30 days lo meeru just concepts nerchukoledu…
+
+Real-time Data Engineering world loki oka step mundhuku vesaru.
+
+Mistakes cheyyandi… Practice cheyyandi… Questions adagandi… Kaani learning aapoddu!
+
+[Scene 12 – Exciting dbt Announcement]
+
+[SHE – excited]
+Wait! Mari next enti? Inka emaina special undha?
+
+[HE – mysterious]
+Of course! One more exciting announcement!
+
+Snowflake 30 Days Series complete ayyindhi…
+
+[HE – dramatic]
+But NDR EdTech learning journey ikkade aagipodhu!
+
+[SHE – curious]
+Really? Next enti?
+
+[HE – powerful and excited]
+Next mana NDR EdTech nunchi start kabothundhi...
+
+[HE – energetic]
+THIRTY DAYS OF dbt SERIES!
+
+[SHE – excited]
+dbt fundamentals nunchi advanced concepts varaku nerchukobothunnama?
+
+[HE – enthusiastic]
+Yes! Real-time project examples tho step by step nerchukundham!
+
+[SHE – excited]
+Aithe miss avvakudadhu!
+
+[HE – energetic]
+So, Data Engineering lo next level ki vellalante Instagram lo NDR EdTech ni Follow avvandi!
+
+Upcoming dbt sessions and classes kosam Stay Tuned!
+
+[Scene 13 – Final Emotional Closing]
+
+[SHE – warm and emotional]
+Thank you so much for being part of this 30 Days of Snowflake journey!
+
+[HE – confident]
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+[HE – powerful and enthusiastic]
+Let's Learn and Grow Together!

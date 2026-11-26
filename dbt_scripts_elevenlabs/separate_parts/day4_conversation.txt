@@ -1,0 +1,10 @@
+FEMALE: [shocked] అరే! నీ laptop desktop చూశావా రా? అన్ని files ఒకే folder లో!
+MALE: [confused] ఏం రా? నాకు అర్థం అవుతుంది కదా!
+FEMALE: [sarcastic] నువ్వు final underscore final underscore v2 underscore new dot S Q L అంటే ఏ file రా?
+MALE: [panicked] అయ్యో! అది final కాదా? ఇప్పుడు నాకు కూడా గుర్తు లేదు!
+FEMALE: [tired] మీ project లో hundred S Q L files ఉంటే, కొత్త person కి ఏం అర్థం అవుతుంది?
+MALE: [curious] మరి ఇది ఎలా organize చేయాలి రా?
+FEMALE: [confident] D B T project structure! Models, seeds, snapshots, macros, tests… ప్రతి దానికి ఒక folder!
+MALE: [excited] Wow! మన bedroom లో cupboards పెట్టి organize చేసినట్టు!
+FEMALE: [confident] Exactly! ఆ cupboards నే D B T init తో ready!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

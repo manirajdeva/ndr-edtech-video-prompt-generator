@@ -1,0 +1,36 @@
+FEMALE: [curious] రా, మ్యాగీ చేసే time ఎంత?
+MALE: [confident] Two minutes రా! Fast!
+FEMALE: [sarcastic] మరి manager customer wise total table కావాలి అంటే, నువ్వు CREATE TABLE రాసి, insert రాసి, refresh చేసి… two hours పడుతుంది!
+MALE: [tired] అవును రా… మ్యాగీ కన్నా S Q L కష్టం!
+FEMALE: [excited] D B T లో అయితే ఒక SELECT రాస్తే చాలు! CREATE statement D B T రాస్తుంది!
+MALE: [shocked] నిజంగా? అంటే D B T run అంటే two-minute మ్యాగీ ఆ?
+FEMALE: [excited] Almost రా! Models folder లో SELECT రాసి, D B T run చేస్తే view ready!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఒక model అంటే models folder లో ఉన్న ఒక S Q L file.
+NARRATOR: ఆ file లో మనం ఒక్క SELECT statement మాత్రమే రాస్తాం. CREATE TABLE or CREATE VIEW రాయాల్సిన అవసరం లేదు.
+NARRATOR: Model name అంటే file name.
+NARRATOR: D B T run command run చేసినప్పుడు D B T ఆ SELECT కి CREATE statement జోడించి Snowflake లో run చేస్తుంది.
+NARRATOR: By default D B T models ని views గా create చేస్తుంది.
+NARRATOR: D B T compile చేస్తే, D B T generate చేసిన final S Q L target folder లో save అవుతుంది. Debugging కోసం ఇది చాలా useful.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన TRANSACTIONS table లో ప్రతి customer total transaction amount కావాలి.
+NARRATOR: models folder లో customer underscore total dot S Q L file create చేస్తాం:
+NARRATOR: SELECT, CUSTOMER underscore I D, SUM open bracket TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT, FROM BANK underscore D B dot RAW dot TRANSACTIONS, GROUP BY CUSTOMER underscore I D
+NARRATOR: ఇప్పుడు model run చేద్దాం:
+NARRATOR: D B T run
+NARRATOR: ఒక్క model మాత్రమే run చేయాలంటే:
+NARRATOR: D B T run dash dash select customer underscore total
+NARRATOR: ఇప్పుడు Snowflake లో result check చేద్దాం:
+NARRATOR: SELECT star FROM BANK underscore D B dot D B T underscore DEV dot CUSTOMER underscore TOTAL.
+NARRATOR: అంతే! మనం CREATE VIEW statement రాయకుండానే view create అయ్యింది!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Model – One S Q L file with one SELECT statement.
+NARRATOR: D B T run – Builds the models in Snowflake.
+NARRATOR: By default, models are created as views.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Six!
+NARRATOR: Next video లో D B T Materializations గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

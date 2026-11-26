@@ -1,0 +1,38 @@
+FEMALE: [curious] రా, window shopping and actual shopping లో difference ఏంటి?
+MALE: [sarcastic] Window shopping అంటే చూసి వచ్చేస్తాము. Actual shopping అంటే ఇంటికి తీసుకువస్తాము!
+FEMALE: [excited] Correct! View అంటే window shopping, table అంటే actual shopping!
+MALE: [confused] అంటే view లో data store అవ్వదు, table లో data store అవుతుంది ఆ?
+FEMALE: [confident] అవును! ఇంకా incremental అంటే ప్రతి రోజు కొత్త వస్తువులు మాత్రమే కొనడం!
+MALE: [shocked] అయ్యో! ప్రతి రోజు మొత్తం shop ని మళ్లీ కొని వచ్చేస్తాం అంటే, ఇంట్లో place ఉండదు రా! [laughs]
+FEMALE: [excited] అదే! అందుకే D B T లో materializations ఉంటాయి!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో model ని Snowflake లో ఎలా create చేయాలో decide చేసే setting నే Materialization అంటారు.
+NARRATOR: Mainly four materializations ఉంటాయి.
+NARRATOR: First, View!
+NARRATOR: ఇది default option. Query run అయినప్పుడు logic execute అవుతుంది. Data storage use అవ్వదు.
+NARRATOR: Second, Table!
+NARRATOR: Model result ని table గా store చేస్తుంది. Reading fast గా ఉంటుంది, కానీ ప్రతి run లో table మళ్లీ build అవుతుంది.
+NARRATOR: Third, Incremental!
+NARRATOR: కొత్త or changed rows ని మాత్రమే process చేస్తుంది. Big tables కోసం best.
+NARRATOR: Fourth, Ephemeral!
+NARRATOR: Database object create చేయదు. ఆ model logic ఇంకో model లో C T E గా add అవుతుంది.
+NARRATOR: Materialization ని config block తో set చేస్తాం.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: మన customer underscore total model చిన్నది, reports కి fast గా కావాలి. అందుకే table గా create చేస్తాం.
+NARRATOR: Model file లో top లో ఈ config రాస్తాం:
+NARRATOR: double curly braces config open bracket materialized equals table close bracket double curly braces
+NARRATOR: SELECT, CUSTOMER underscore I D, SUM open bracket TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT, FROM BANK underscore D B dot RAW dot TRANSACTIONS, GROUP BY CUSTOMER underscore I D
+NARRATOR: ఇప్పుడు D B T run చేస్తే, CUSTOMER underscore TOTAL table గా create అవుతుంది.
+NARRATOR: Rules of thumb ఏంటి అంటే… Staging models views గా, reporting models tables గా, and చాలా పెద్ద transaction tables incremental గా set చేస్తాం.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: View – Default, no data stored.
+NARRATOR: Table – Result stored, fast reads.
+NARRATOR: Incremental – Processes only new or changed rows.
+NARRATOR: Ephemeral – No object, logic is reused as a C T E.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Seven!
+NARRATOR: Next video లో D B T ref function and DAG గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

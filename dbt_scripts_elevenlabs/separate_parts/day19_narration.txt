@@ -1,0 +1,68 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో ఇది Incremental Strategy తో control చేస్తాం.
+
+Snowflake లో mainly మూడు incremental strategies ఉంటాయి.
+
+First, merge!
+
+Snowflake లో ఇది default strategy. ఇది unique underscore key base చేసుకుని, matching rows ని update చేసి, కొత్త rows ని insert చేస్తుంది.
+
+Second, delete plus insert!
+
+ఇది matching rows ని first delete చేసి, తర్వాత కొత్త rows ని insert చేస్తుంది.
+
+Third, append!
+
+ఇది కొత్త rows ని మాత్రమే add చేస్తుంది. Existing rows ని update చేయదు. Logs and events లాంటి data కోసం, అంటే మారని data కోసం ఇది బాగుంటుంది.
+
+ఇంకో important setting on underscore schema underscore change. Source లో కొత్త column add అయితే ఏం చేయాలి అని ఇది decide చేస్తుంది.
+
+ignore, fail, append underscore new underscore columns and sync underscore all underscore columns options ఉంటాయి.
+
+ఒక Banking project example తీసుకుందాం.
+
+Transactions కి status మారుతుంది. అందుకే merge strategy use చేస్తాం:
+
+double curly braces config open bracket
+materialized equals incremental,
+unique underscore key equals TRANSACTION underscore I D,
+incremental underscore strategy equals merge,
+on underscore schema underscore change equals append underscore new underscore columns
+close bracket double curly braces
+
+SELECT
+TRANSACTION underscore I D,
+CUSTOMER underscore I D,
+STATUS,
+TRANSACTION underscore AMOUNT,
+UPDATED underscore T S
+FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces
+
+curly percent if is underscore incremental open bracket close bracket percent curly
+WHERE UPDATED underscore T S greater than open bracket SELECT MAX open bracket UPDATED underscore T S close bracket FROM double curly braces this double curly braces close bracket
+curly percent endif percent curly
+
+ఇప్పుడు PENDING transaction SUCCESS అయినప్పుడు, same TRANSACTION underscore I D ఉన్న row update అవుతుంది. Duplicate rows అవ్వవు.
+
+Audit log లాంటి అంటే మారని data అయితే, append strategy use చేయచ్చు.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+merge – Updates matching rows and inserts new rows.
+
+delete plus insert – Deletes matching rows, then inserts.
+
+append – Only adds new rows.
+
+on underscore schema underscore change – Controls what happens when columns change.
+
+ఇది మన Thirty Days of D B T series లో Day Nineteen!
+
+Next video లో D B T Snapshots గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

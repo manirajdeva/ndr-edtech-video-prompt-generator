@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, మీ friends నువ్వు ఎలా పిలుచుకుంటారు?
+MALE: [sarcastic] కొందరు చిన్న, కొందరు Boss అని రా!
+FEMALE: [excited] ఇదే alias! Table కి nickname!
+MALE: [confused] మరి WhatsApp groups లో అందరూ add అవుతారు కదా! అది ఏంటి?
+FEMALE: [confident] అదే tags! Models ని groups గా select చేయడానికి!
+MALE: [curious] మరి schema అంటే?
+FEMALE: [sarcastic] Society లో block number రా! Finance block, sales block లాగా!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

@@ -1,0 +1,40 @@
+FEMALE: [curious] రా, కొత్త recipe పెళ్లి లో guests కి ముందే try చేస్తావా?
+MALE: [shocked] అయ్యో! ముందు ఇంట్లో try చేస్తా! పెళ్లి లో failure అయితే పర్వాలేదా?
+FEMALE: [sarcastic] మరి కొత్త D B T model ని direct production లో run చేస్తే?
+MALE: [panicked] Live reports break అవుతాయి రా! [laughs]
+FEMALE: [confident] అందుకే dev and prod environments! Targets తో separate చేస్తాం!
+MALE: [excited] అంటే ఇంట్లో practice, పెళ్లి లో perfect serving ఆ?
+FEMALE: [excited] Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T లో ఇది Targets తో possible.
+NARRATOR: Target అంటే ఒక environment. మనం profiles dot Y M L లో ఒకే project కి dev and prod లాంటి multiple targets define చేస్తాం.
+NARRATOR: ప్రతి target కి separate schema, warehouse or role set చేయచ్చు.
+NARRATOR: By default, profiles dot Y M L లో target value లో ఉన్న environment run అవుతుంది. Prod run చేయాలి అంటే, target option తో చెప్పాలి.
+NARRATOR: ఇంకో useful concept Variables.
+NARRATOR: Variables ని D B T underscore project dot Y M L లో define చేసి, models లో var function తో use చేస్తాం. Command లో vars option తో values override చేయచ్చు.
+NARRATOR: Models లో target name check చేసి, dev లో only కొన్ని rows process చేయచ్చు. దీనివల్ల development fast గా, cheap గా ఉంటుంది.
+NARRATOR: Secrets ని env underscore var తో తీసుకోవాలి.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: profiles dot Y M L లో రెండు targets define చేస్తాం:
+NARRATOR: bank underscore project colon, target colon dev, outputs colon, dev colon, type colon snowflake, schema colon D B T underscore DEV, prod colon, type colon snowflake, schema colon ANALYTICS
+NARRATOR: ఈ example లో account, user and warehouse details short గా skip చేశాం, కానీ real file లో అన్ని ఉండాలి.
+NARRATOR: Production run కోసం:
+NARRATOR: D B T run dash dash target prod
+NARRATOR: ఇప్పుడు model లో dev data ని limit చేస్తాం:
+NARRATOR: SELECT star FROM double curly braces ref open bracket S T G underscore transactions close bracket double curly braces, curly percent if target dot name equals equals dev percent curly, LIMIT one thousand, curly percent endif percent curly
+NARRATOR: Variable కోసం D B T underscore project dot Y M L లో:
+NARRATOR: vars colon, start underscore date colon twenty twenty six dash zero one dash zero one
+NARRATOR: Model లో use చేయడానికి:
+NARRATOR: WHERE TRANSACTION underscore DATE greater than or equal to double curly braces var open bracket start underscore date close bracket double curly braces
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Target – An environment such as dev or prod.
+NARRATOR: target option – Chooses the environment for a run.
+NARRATOR: Variable – A reusable value read with the var function.
+NARRATOR: Production runs should use a separate schema.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Twenty-One!
+NARRATOR: Next video లో D B T Hooks and Grants గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

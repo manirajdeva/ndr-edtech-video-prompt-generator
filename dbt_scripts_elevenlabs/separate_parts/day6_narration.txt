@@ -1,0 +1,57 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో ఒక model అంటే models folder లో ఉన్న ఒక S Q L file.
+
+ఆ file లో మనం ఒక్క SELECT statement మాత్రమే రాస్తాం. CREATE TABLE or CREATE VIEW రాయాల్సిన అవసరం లేదు.
+
+Model name అంటే file name.
+
+D B T run command run చేసినప్పుడు D B T ఆ SELECT కి CREATE statement జోడించి Snowflake లో run చేస్తుంది.
+
+By default D B T models ని views గా create చేస్తుంది.
+
+D B T compile చేస్తే, D B T generate చేసిన final S Q L target folder లో save అవుతుంది. Debugging కోసం ఇది చాలా useful.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన TRANSACTIONS table లో ప్రతి customer total transaction amount కావాలి.
+
+models folder లో customer underscore total dot S Q L file create చేస్తాం:
+
+SELECT
+CUSTOMER underscore I D,
+SUM open bracket TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT
+FROM BANK underscore D B dot RAW dot TRANSACTIONS
+GROUP BY CUSTOMER underscore I D
+
+ఇప్పుడు model run చేద్దాం:
+
+D B T run
+
+ఒక్క model మాత్రమే run చేయాలంటే:
+
+D B T run dash dash select customer underscore total
+
+ఇప్పుడు Snowflake లో result check చేద్దాం:
+
+SELECT star FROM BANK underscore D B dot D B T underscore DEV dot CUSTOMER underscore TOTAL.
+
+అంతే! మనం CREATE VIEW statement రాయకుండానే view create అయ్యింది!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Model – One S Q L file with one SELECT statement.
+
+D B T run – Builds the models in Snowflake.
+
+By default, models are created as views.
+
+ఇది మన Thirty Days of D B T series లో Day Six!
+
+Next video లో D B T Materializations గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

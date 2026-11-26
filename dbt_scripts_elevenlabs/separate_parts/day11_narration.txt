@@ -1,0 +1,56 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T లో Seeds అంటే small C S V files ని D B T project నుంచి direct గా Snowflake table గా load చేయడం.
+
+Seed files ని project లో seeds folder లో save చేస్తాం.
+
+D B T seed command run చేస్తే, ప్రతి C S V file ఒక table గా create అవుతుంది.
+
+ఆ table ని models లో ref function తో use చేయచ్చు.
+
+Seeds ని ఏ data కోసం use చేయాలి? Branch codes, country codes, status mappings లాంటి small and static reference data కోసం.
+
+Important point ఏంటి అంటే…
+
+Seeds పెద్ద data files కోసం కాదు. Customer or transaction data లాంటి large or frequently changing data ని seeds గా load చేయకూడదు. అవి ingestion tools తో load చేయాలి.
+
+Seed C S V files Git లో version control లో ఉంటాయి. అందుకే changes track చేయచ్చు.
+
+ఒక Banking project example తీసుకుందాం.
+
+seeds folder లో branch underscore codes dot C S V file create చేస్తాం:
+
+BRANCH underscore CODE,BRANCH underscore NAME,CITY
+H Y D zero one,Hyderabad Main,Hyderabad
+B L R zero one,Bengaluru Central,Bengaluru
+C H E zero one,Chennai Main,Chennai
+
+ఇప్పుడు seed load చేద్దాం:
+
+D B T seed
+
+ఇప్పుడు Snowflake లో BRANCH underscore CODES table create అవుతుంది.
+
+ఆ table ని model లో ఇలా use చేస్తాం:
+
+SELECT star FROM double curly braces ref open bracket branch underscore codes close bracket double curly braces
+
+ఇప్పుడు branch details ని customer data తో join చేయచ్చు.
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+Seed – A small C S V file loaded as a table.
+
+D B T seed – Loads the seed files into Snowflake.
+
+Use seeds only for small, static reference data.
+
+ఇది మన Thirty Days of D B T series లో Day Eleven!
+
+Next video లో D B T Generic Tests గురించి real-time examples తో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

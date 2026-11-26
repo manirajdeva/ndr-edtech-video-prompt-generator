@@ -1,0 +1,111 @@
+she:
+[excited] Ra! Ee Thirty Days of dbt series last day ra!
+he:
+[shock] Appude aipoyinda! Ippudu nenu dbt expert ayyana?
+she:
+[playfully sarcastic] Expert aa? Practice cheyyakapothe, biryani chadivi vandatam nerchukunnattu!
+he:
+[tired] Ayyo! Biryani chadivithe pet nindadu ra! 😂
+she:
+[confident] Anduke ee End-to-End project! Source nunchi dashboard varaku anni kalipi!
+he:
+[excited] Wow! Complete banking pipeline!
+she:
+[energetic] Ready aa?
+he:
+[energetic] Adhe ippudu mana video lo chuddam!
+
+-----conversation end ------
+
+[Transition – Energetic]
+
+Welcome to NDR EdTech!
+
+[Explaining – Main Concept]
+
+Mana Banking project lo complete data flow:
+
+SQL Server nunchi data AWS S3 loki vasthundhi.
+
+AWS S3 nunchi Snowflake RAW schema loki load avuthundhi.
+
+dbt RAW data ni clean chesi, transform chesi, business-ready tables create chesthundhi.
+
+Airflow complete pipeline ni orchestrate chesthundhi.
+
+Finally, Power BI reports ANALYTICS schema nunchi data teesukuntayi.
+
+Mana dbt project lo ee components unnayi.
+
+Sources – RAW CUSTOMER and TRANSACTIONS tables.
+
+Staging models – stg_customers and stg_transactions.
+
+Marts – customer_summary and fct_transactions.
+
+Tests – unique, not_null, relationships and custom tests.
+
+Documentation – model and column descriptions with lineage.
+
+Snapshots – customer history tracking.
+
+Macros and packages – reusable logic.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Staging model:
+
+SELECT
+    CUSTOMER_ID,
+    UPPER(CUSTOMER_NAME) AS CUSTOMER_NAME,
+    CITY
+FROM {{ source('bank_raw', 'customer') }}
+
+Mart model:
+
+SELECT
+    c.CUSTOMER_ID,
+    c.CUSTOMER_NAME,
+    c.CITY,
+    COUNT(t.TRANSACTION_ID) AS TXN_COUNT,
+    SUM(t.TRANSACTION_AMOUNT) AS TOTAL_AMOUNT
+FROM {{ ref('stg_customers') }} c
+LEFT JOIN {{ ref('stg_transactions') }} t
+    ON c.CUSTOMER_ID = t.CUSTOMER_ID
+GROUP BY c.CUSTOMER_ID, c.CUSTOMER_NAME, c.CITY
+
+Production deployment kosam commands:
+
+dbt deps
+
+dbt source freshness
+
+dbt build --target prod
+
+dbt docs generate
+
+Build tests pass ayithe, ANALYTICS schema lo CUSTOMER_SUMMARY ready, and Power BI lo business reports update avuthayi!
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+dbt is the transformation layer of the modern data stack.
+
+Sources, staging and marts give a clean project structure.
+
+Tests, documentation and CI/CD give quality and trust.
+
+Airflow runs everything on schedule.
+
+Thank you so much for being part of this 30 Days of dbt journey!
+
+Mistakes cheyyandi… Practice cheyyandi… Learning aapoddu!
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

@@ -1,0 +1,35 @@
+FEMALE: [curious] రా, hotel లో food ఎలా ready అవుతుంది?
+MALE: [confident] First raw vegetables, తర్వాత chopped, తర్వాత cooked dish!
+FEMALE: [excited] Correct! ఇదే D B T layers! Staging, Intermediate, Marts!
+MALE: [confused] అంటే staging అంటే raw vegetables ఆ?
+FEMALE: [sarcastic] Light cleaning చేసిన vegetables! Marts అంటే serve చేయడానికి ready గా ఉన్న బిర్యానీ!
+MALE: [shocked] అయ్యో! బిర్యానీ ని direct గా dashboard కి serve చేస్తామా? [laughs]
+FEMALE: [excited] మరి ఈ layers వల్లే project clean గా ఉంటుంది!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: D B T projects లో models ని mainly three layers గా organize చేస్తాం.
+NARRATOR: First, Staging layer!
+NARRATOR: Raw source table కి one to one model ఉంటుంది. ఇక్కడ columns rename చేస్తాం, data types cast చేస్తాం, simple cleaning చేస్తాం. Naming convention S T G underscore.
+NARRATOR: Second, Intermediate layer!
+NARRATOR: ఇక్కడ business logic and joins ఉంటాయి. Naming convention int underscore.
+NARRATOR: Third, Marts layer!
+NARRATOR: Business-ready tables. Reports and dashboards ఈ layer నుంచి data తీసుకుంటాయి. Naming conventions dim underscore and F C T underscore.
+NARRATOR: Dim అంటే dimension tables, like customers. F C T అంటే fact tables, like transactions.
+NARRATOR: ఈ layers కి separate folders create చేస్తాం, and D B T underscore project dot Y M L లో materialization set చేస్తాం.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: models slash staging slash S T G underscore customers dot S Q L లో:
+NARRATOR: SELECT, CUSTOMER underscore I D, UPPER open bracket CUSTOMER underscore NAME close bracket AS CUSTOMER underscore NAME, CITY, CREATED underscore DATE, FROM double curly braces source open bracket bank underscore raw, customer close bracket double curly braces
+NARRATOR: ఇప్పుడు D B T underscore project dot Y M L లో layer wise materialization set చేస్తాం:
+NARRATOR: models colon, bank underscore project colon, staging colon, plus materialized colon view, marts colon, plus materialized colon table
+NARRATOR: ఇప్పుడు staging models views గా, marts models tables గా create అవుతాయి.
+NARRATOR: ఇది project ని clean గా, maintain చేయడానికి easy గా ఉంచుతుంది.
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: Staging – One model per source table, light cleaning.
+NARRATOR: Intermediate – Joins and business logic.
+NARRATOR: Marts – Business-ready dim and F C T tables.
+NARRATOR: ఇది మన Thirty Days of D B T series లో Day Ten!
+NARRATOR: Next video లో D B T Seeds గురించి real-time examples తో explain చేస్తాను.
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

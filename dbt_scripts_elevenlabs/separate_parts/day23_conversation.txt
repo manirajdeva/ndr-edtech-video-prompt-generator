@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, ఒక bulb fuse అయితే మొత్తం colony కి power cut చేస్తారా?
+MALE: [shocked] అయ్యో! లేదు రా! ఆ bulb ని మాత్రమే మార్చాలి!
+FEMALE: [sarcastic] మరి ఒక D B T model లో చిన్న change చేసి, two hundred models run చేస్తావా?
+MALE: [panicked] అయ్యో! Time and Snowflake bill waste రా! [laughs]
+FEMALE: [confident] అందుకే select option! Only అవసరమైన models ని run చేయచ్చు!
+MALE: [excited] Plus తో parents, children కూడా select చేయచ్చు ఆ?
+FEMALE: [excited] Yes రా! Exactly!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

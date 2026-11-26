@@ -1,0 +1,71 @@
+[excited] Welcome to N D R Ed Tech!
+
+D B T connection details ని profiles dot Y M L file లో store చేస్తుంది.
+
+ఈ file project folder బయట, మన home directory లో dot D B T folder లో ఉంటుంది. అందుకే credentials Git లోకి వెళ్లవు.
+
+Snowflake connection కోసం important fields ఏంటి అంటే…
+
+type – snowflake.
+
+account – మన Snowflake account identifier.
+
+user – D B T use చేసే user.
+
+password – లేదా safer method, environment variable.
+
+role – D B T use చేసే role.
+
+database and warehouse – D B T work చేసే place and compute.
+
+schema – D B T models create చేసే schema.
+
+threads – ఒకే time లో ఎంత models run చేయాలి.
+
+Best practice ఏంటి అంటే… D B T కోసం ఒక separate role and separate warehouse create చేయాలి. మన R B A C concepts ఇక్కడ use అవుతాయి.
+
+ఒక Banking project example తీసుకుందాం.
+
+మన role D B T underscore ROLE, warehouse D B T underscore W H, database BANK underscore D B.
+
+ఇప్పుడు profiles dot Y M L లో ఈ configuration రాస్తాం:
+
+bank underscore project colon
+target colon dev
+outputs colon
+dev colon
+type colon snowflake
+account colon your underscore account underscore identifier
+user colon D B T underscore USER
+password colon double curly braces env underscore var open bracket D B T underscore PASSWORD close bracket double curly braces
+role colon D B T underscore ROLE
+database colon BANK underscore D B
+warehouse colon D B T underscore W H
+schema colon D B T underscore DEV
+threads colon four
+
+Password ని direct గా రాయకుండా environment variable నుంచి తీసుకుంటున్నాం.
+
+ఇప్పుడు connection test చేద్దాం:
+
+D B T debug
+
+అన్ని checks pass అయితే, All checks passed అని వస్తుంది!
+
+[confident] So, simple గా గుర్తుపెట్టుకోండి!
+
+profiles dot Y M L – Stores the Snowflake connection details.
+
+env underscore var – Keeps passwords out of the code.
+
+D B T debug – Tests the connection.
+
+ఇది మన Thirty Days of D B T series లో Day Five!
+
+Next video లో మన first D B T model create చేసి D B T run command ఎలా work అవుతుందో explain చేస్తాను.
+
+ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+
+Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+
+Let's Learn and Grow Together!

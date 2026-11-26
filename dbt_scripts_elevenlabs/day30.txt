@@ -1,0 +1,45 @@
+FEMALE: [excited] రా! ఈ Thirty Days of D B T series last day రా!
+MALE: [shocked] అప్పుడే అయిపోయిందా! ఇప్పుడు నేను D B T expert అయ్యానా?
+FEMALE: [sarcastic] Expert ఆ? Practice చేయకపోతే, బిర్యానీ చదివి వండటం నేర్చుకున్నట్టు!
+MALE: [tired] అయ్యో! బిర్యానీ చదివితే పొట్ట నిండదు రా! [laughs]
+FEMALE: [confident] అందుకే ఈ End-to-End project! Source నుంచి dashboard వరకు అన్ని కలిపి!
+MALE: [excited] Wow! Complete banking pipeline!
+FEMALE: [excited] Ready ఆ?
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
+
+NARRATOR: [excited] Welcome to N D R Ed Tech!
+NARRATOR: మన Banking project లో complete data flow:
+NARRATOR: S Q L Server నుంచి data A W S S three లోకి వస్తుంది.
+NARRATOR: A W S S three నుంచి Snowflake RAW schema లోకి load అవుతుంది.
+NARRATOR: D B T RAW data ని clean చేసి, transform చేసి, business-ready tables create చేస్తుంది.
+NARRATOR: Airflow complete pipeline ని orchestrate చేస్తుంది.
+NARRATOR: Finally, Power B I reports ANALYTICS schema నుంచి data తీసుకుంటాయి.
+NARRATOR: మన D B T project లో ఈ components ఉన్నాయి.
+NARRATOR: Sources – RAW CUSTOMER and TRANSACTIONS tables.
+NARRATOR: Staging models – S T G underscore customers and S T G underscore transactions.
+NARRATOR: Marts – customer underscore summary and F C T underscore transactions.
+NARRATOR: Tests – unique, not underscore null, relationships and custom tests.
+NARRATOR: Documentation – model and column descriptions with lineage.
+NARRATOR: Snapshots – customer history tracking.
+NARRATOR: Macros and packages – reusable logic.
+NARRATOR: ఒక Banking project example తీసుకుందాం.
+NARRATOR: Staging model colon
+NARRATOR: SELECT, CUSTOMER underscore I D, UPPER open bracket CUSTOMER underscore NAME close bracket AS CUSTOMER underscore NAME, CITY, FROM double curly braces source open bracket bank underscore raw, customer close bracket double curly braces
+NARRATOR: Mart model colon
+NARRATOR: SELECT, c dot CUSTOMER underscore I D, c dot CUSTOMER underscore NAME, c dot CITY, COUNT open bracket t dot TRANSACTION underscore I D close bracket AS T X N underscore COUNT, SUM open bracket t dot TRANSACTION underscore AMOUNT close bracket AS TOTAL underscore AMOUNT, FROM double curly braces ref open bracket S T G underscore customers close bracket double curly braces c, LEFT JOIN double curly braces ref open bracket S T G underscore transactions close bracket double curly braces t, ON c dot CUSTOMER underscore I D equals t dot CUSTOMER underscore I D, GROUP BY c dot CUSTOMER underscore I D, c dot CUSTOMER underscore NAME, c dot CITY
+NARRATOR: Production deployment కోసం commands:
+NARRATOR: D B T deps
+NARRATOR: D B T source freshness
+NARRATOR: D B T build dash dash target prod
+NARRATOR: D B T docs generate
+NARRATOR: Build tests pass అయితే, ANALYTICS schema లో CUSTOMER underscore SUMMARY ready, and Power B I లో business reports update అవుతాయి!
+NARRATOR: [confident] So, simple గా గుర్తుపెట్టుకోండి!
+NARRATOR: D B T is the transformation layer of the modern data stack.
+NARRATOR: Sources, staging and marts give a clean project structure.
+NARRATOR: Tests, documentation and C I slash C D give quality and trust.
+NARRATOR: Airflow runs everything on schedule.
+NARRATOR: Thank you so much for being part of this thirty Days of D B T journey!
+NARRATOR: Mistakes చేయండి… Practice చేయండి… Learning ఆపొద్దు!
+NARRATOR: ఇలాంటి Data Engineering concepts తెలుగు లో నేర్చుకోవడానికి Instagram లో N D R Ed Tech ని Follow అవ్వండి!
+NARRATOR: Full course details కోసం N D R Ed Tech ని Contact అవ్వండి!
+NARRATOR: Let's Learn and Grow Together!

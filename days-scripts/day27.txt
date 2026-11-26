@@ -1,0 +1,85 @@
+[Professional – Production Scenario Opening]
+
+Welcome to NDR EdTech!
+
+Oka banking application lo customer address change ayyindhi anukondi.
+
+Inko customer account details update ayyayi.
+
+Maroka customer record delete ayyindhi.
+
+Ippudu mana Snowflake target table lo kuda ee changes automatically reflect avvali.
+
+Prathi sari entire table ni reload cheyyakunda, only changed records ni process cheyyali.
+
+Mari idhi ela achieve chestham?
+
+Streams and Tasks combination use chesi!
+
+Let's build a simple CDC pipeline!
+
+[Explaining – Main Concept]
+
+First, Stream!
+
+Stream source table lo jarigina INSERT, UPDATE and DELETE changes ni track chesthundhi.
+
+Second, Task!
+
+Task automatically SQL processing ni schedule chesthundhi or Stream lo changes available unnappudu execute chesthundhi.
+
+Ippudu ee rendu combine chesthe automated CDC pipeline build cheyyachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana CUSTOMER table source table.
+
+CUSTOMER_STREAM create chestham.
+
+CREATE STREAM CUSTOMER_STREAM
+ON TABLE CUSTOMER;
+
+Ippudu target table lo changes process cheyyadaniki Task create chestham.
+
+CREATE TASK CUSTOMER_CDC_TASK
+WAREHOUSE = ETL_WH
+SCHEDULE = '1 MINUTE'
+WHEN SYSTEM$STREAM_HAS_DATA('CUSTOMER_STREAM')
+AS
+INSERT INTO CUSTOMER_AUDIT
+SELECT
+    CUSTOMER_ID,
+    CUSTOMER_NAME,
+    METADATA$ACTION,
+    METADATA$ISUPDATE
+FROM CUSTOMER_STREAM;
+
+Ippudu Task ni RESUME chestham.
+
+ALTER TASK CUSTOMER_CDC_TASK RESUME;
+
+New changes vachinappudu Stream data available ga untundhi.
+
+Task schedule prakaram execute ayi changes ni target table ki process chesthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Streams capture changes.
+
+Tasks automate processing.
+
+Streams plus Tasks help build automated CDC pipelines without reprocessing the entire source table.
+
+Idi mana Thirty Days of Snowflake series lo Day Twenty-Seven!
+
+Next video lo Snowflake Stored Procedures gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

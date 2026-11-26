@@ -1,0 +1,8 @@
+FEMALE: [curious] రా, morning ఎలా లేస్తావ్?
+MALE: [sarcastic] అమ్మ alarm తో రా!
+FEMALE: [excited] మరి మన D B T build morning ఎలా run అవుతుంది?
+MALE: [confused] నేను manual గా run చేస్తాను!
+FEMALE: [shocked] రోజు morning manual గా ఆ? నువ్వు వెళ్లాక, holiday కి కూడా run అవ్వాలా?
+MALE: [panicked] అయ్యో! Holiday కి కూడా office కి వెళ్లాలా? [laughs]
+FEMALE: [confident] అందుకే orchestration! Airflow లాంటి tools schedule చేస్తాయి!
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!

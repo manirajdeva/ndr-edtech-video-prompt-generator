@@ -1,0 +1,71 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka interesting question!
+
+Mee daggara 10 crore transaction records unnayi anukondi.
+
+Meeku only yesterday transactions kavali.
+
+Ippudu Snowflake anni 10 crore records scan cheyyala?
+
+Leda required data unna portion matrame scan chesthundha?
+
+[pause]
+
+Exactly! Dheenine Partition Pruning antaru!
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+Welcome to NDR EdTech!
+
+Snowflake lo data automatically Micro-partitions lo store avuthundhi.
+
+Prathi Micro-partition ki metadata maintain chesthundhi.
+
+For example, minimum date and maximum date information untundhi.
+
+Ippudu manam WHERE condition use chesi specific date data adigithe, Snowflake metadata ni check chesthundhi.
+
+Required data leni Micro-partitions ni skip chesthundhi.
+
+Dheenine Partition Pruning antaru.
+
+Dheenivalla unnecessary data scanning reduce avuthundhi and query performance improve avvachu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana TRANSACTIONS table lo 10 crore records unnayi.
+
+Manaki November 18th transactions matrame kavali.
+
+SQL query chuddam!
+
+SELECT *
+FROM TRANSACTIONS
+WHERE TRANSACTION_DATE = '2026-11-18';
+
+Snowflake metadata ni use chesi, required data unna Micro-partitions ni identify chesthundhi.
+
+Migatha unnecessary Micro-partitions ni skip chesthundhi.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Partition Pruning means skipping unnecessary Micro-partitions to reduce data scanning.
+
+Idi mana Thirty Days of Snowflake series lo Day Seventeen!
+
+Next video lo Result Cache, Warehouse Cache and Metadata Cache madhya differences real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo NDR EdTech ni Follow avvandi!
+
+Full course details kosam NDR EdTech ni Contact avvandi!
+
+Let's Learn and Grow Together!

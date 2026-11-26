@@ -1,0 +1,10 @@
+FEMALE: [confused] రా, D B T install చేయాలి అని try చేస్తున్నా. Core use చేయాలా, Cloud use చేయాలా?
+MALE: [sarcastic] Core అంటే apple core ఆ? Cloud అంటే rain cloud ఆ?
+FEMALE: [tired] అరే! నీ jokes కి Wi-Fi కూడా disconnect అవుతుంది!
+MALE: [curious] సరే, serious గా అడుగుతా. Core అంటే ఏంటి?
+FEMALE: [confident] Core free command line tool. Cloud అంటే managed platform with I D E and scheduler!
+MALE: [shocked] అంటే Core ని నేనే install చేయాలి, Cloud లో already ready ఆ?
+FEMALE: [sarcastic] అవును! Install చేయడానికి just pip install D B T dash snowflake చాలు!
+MALE: [excited] Pip install ఆ! Pip అంటే pip pip hurray రా! [laughs]
+FEMALE: [tired] అయ్యో! నీ తో పని చేయడం కష్టం రా…
+MALE: [excited] అదే ఇప్పుడు మన video లో చూద్దాం!
