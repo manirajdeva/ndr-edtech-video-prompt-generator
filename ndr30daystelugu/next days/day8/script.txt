@@ -1,0 +1,67 @@
+[Curiosity – Storytelling Opening]
+
+Hello guys! Andaru ela unnaru?
+
+Oka small question… Mee mobile lo photos, videos anni folders lo organize cheskuntara? Leda anni okate place lo pettesthara?
+
+[pause]
+
+Same concept Snowflake lo kuda untundhi!
+
+Manam millions of records ni store chesthunnappudu, anni okate place lo maintain cheyyalem kada?
+
+Anduke Snowflake lo Database, Schema, Tables and Views ane structure untundhi.
+
+Let's understand!
+
+[Explaining – Main Concept]
+
+First, **Database!**
+
+Database ante mana data ni organize chese main container.
+
+Second, **Schema!**
+
+Schema anedhi Database lopala untundhi. Database objects ni logically organize cheyyadaniki use chestham.
+
+Third, **Tables!**
+
+Tables lo actual data rows and columns format lo store avuthundhi.
+
+For example, Customer Table lo customer details, Transactions Table lo transaction details maintain chestham.
+
+Fourth, **Views!**
+
+View ante oka SQL query based logical representation of data.
+
+Manam View create chesinappudu, normal view lo query definition store avuthundhi, separate physical copy of data kaadhu.
+
+[Real-Time Project Example]
+
+Oka Banking project example teesukundham.
+
+Mana Database name `BANK_DB`.
+
+Daani lopala `CUSTOMER_SCHEMA` ane Schema undhi.
+
+Aa Schema lopala `CUSTOMER` and `TRANSACTIONS` ane Tables unnayi.
+
+Ippudu customer reports kosam oka SQL query rasukoni `CUSTOMER_VIEW` create chestham.
+
+Ila Database, Schema, Tables and Views use chesi data ni properly organize cheyyachu.
+
+[Confident – Closing]
+
+So, simple ga gurthupettukondi!
+
+Database is a container, Schema organizes objects, Tables store data, and Views help us access data using SQL queries.
+
+Idi mana Thirty Days of Snowflake series lo Day Eight!
+
+Next video lo Snowflake Data Types gurinchi real-time examples tho explain chesthanu.
+
+Ilanti Data Engineering concepts Telugu lo nerchukovadaniki Instagram lo **NDR EdTech ni Follow avvandi!**
+
+Full course details kosam **NDR EdTech ni Contact avvandi!**
+
+**Let's Learn and Grow Together!**

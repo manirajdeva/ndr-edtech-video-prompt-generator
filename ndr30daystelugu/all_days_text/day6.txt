@@ -1,0 +1,562 @@
+# MASTER TASK: CREATE A PREMIUM TECHNICAL EXPLAINER VIDEO
+## NDR EdTech – 30 Days of Snowflake | Day 6
+
+### VIDEO TITLE: CLOUD STORAGE – AWS vs AZURE vs GOOGLE CLOUD
+
+Act as a world-class 3D motion graphics designer, cloud solutions architect, technical animation director and professional EdTech video creative director.
+
+Create a premium, cinematic, technically accurate educational video for NDR EdTech.
+
+This is Episode 6 of our educational campaign:
+
+30 DAYS OF SNOWFLAKE
+
+TOPIC:
+CLOUD STORAGE – AWS, AZURE AND GOOGLE CLOUD
+
+I have already prepared the Telugu-English voice-over.
+
+Use my existing voice-over as the original audio track.
+
+Your responsibility is to create the complete animated visual experience based on the supplied narration.
+
+Do not rewrite the narration or generate additional voice-over.
+
+---
+
+# 1. VIDEO SPECIFICATIONS
+
+- Platform: Instagram Reels / YouTube Shorts
+- Aspect ratio: 9:16 vertical
+- Resolution: 1080 × 1920
+- Frame rate: 30 FPS
+- Duration: Match the supplied voice-over
+- Style: Premium cinematic 3D technology explainer
+- Animation: Smooth, modern and professional
+- Typography: Modern sans-serif
+- Output: High-quality MP4
+
+# 2. OFFICIAL NDR EDTECH COLOUR PALETTE
+
+Use ONLY these three colours:
+
+MAGENTA – #D81B60
+SKYBLUE – #38BDF8
+PINK – #F472B6
+
+Colour distribution:
+
+Skyblue: 45%
+Pink: 40%
+Magenta: 15%
+
+Usage:
+
+MAGENTA :
+Cloud infrastructure, servers, cloud platforms, storage architecture and technical diagrams.
+
+SKYBLUE :
+Active data flows, important highlights, data transfers, animated connections and transitions.
+
+PINK :
+Backgrounds, interface panels, architecture diagrams and clean visual surfaces.
+
+Do not introduce purple, green, red or unrelated colours.
+
+Maintain consistent NDR EdTech branding throughout the entire video.
+
+---
+
+# 3. SCENE-BY-SCENE VIDEO PRODUCTION
+
+## SCENE 1 – FUNNY OPENING: WHERE DO COMPANIES STORE DATA?
+
+Create a visually engaging and humorous opening.
+
+Start with a person using a smartphone.
+
+Show:
+- Smartphone gallery.
+- Hundreds of photos.
+- Travel videos.
+- Family pictures.
+- Google Photos-style cloud backup concept.
+
+Then transition to a large business environment.
+
+Show:
+- Millions of customer records.
+- Banking transaction data.
+- Business reports.
+- Huge volumes of digital information.
+
+Create a funny visual showing a company trying to purchase hundreds of physical computer hard disks to store all its data.
+
+Show a comically large pile of hard disks.
+
+Then suddenly replace the physical hard disks with a beautiful cloud infrastructure animation.
+
+Display:
+
+MILLIONS OF RECORDS
+
+WHERE DOES ALL THIS DATA GO?
+
+INTRODUCING CLOUD STORAGE
+
+Use cinematic camera movement, humorous transitions and premium 3D illustrations.
+
+Do not use an exact Google Photos interface or logo. Create an original generic photo-cloud visualization.
+
+## SCENE 2 – WHAT IS CLOUD STORAGE?
+
+Create a professional 3D cloud storage explanation.
+
+Show a laptop containing customer data.
+
+Animate the data moving from the local computer through the internet into a large cloud infrastructure.
+
+Visual sequence:
+
+LOCAL COMPUTER
+      |
+      | Internet Connection
+      |
+      V
+CLOUD STORAGE
+
+Show the cloud environment containing:
+- Customer records.
+- Transaction files.
+- Images.
+- Videos.
+- Business datasets.
+
+Display:
+
+WHAT IS CLOUD STORAGE?
+
+STORE DATA IN CLOUD INFRASTRUCTURE
+
+ACCESS DATA THROUGH THE INTERNET
+
+Show the cloud infrastructure as a distributed, professional enterprise storage environment.
+
+Make the concept simple enough for beginners to understand.
+
+## SCENE 3 – AWS CLOUD STORAGE
+
+Create a premium 3D cloud infrastructure environment representing Amazon Web Services.
+
+Show a large cloud platform with data storage containers.
+
+Introduce:
+
+AMAZON WEB SERVICES
+
+AWS S3 – SIMPLE STORAGE SERVICE
+
+Create an animated S3 bucket visualization.
+
+Show:
+- Customer transaction files.
+- CSV files.
+- JSON files.
+- Parquet files.
+- Banking data records.
+
+Animate these files entering an S3 bucket.
+
+Show the bucket storing the files securely in cloud object storage.
+
+Display:
+
+AWS
+
+AMAZON S3
+
+OBJECT STORAGE
+
+Use the NDR EdTech blue and orange colour palette.
+
+The AWS identity may be represented with a professional text label, but do not distort official logos.
+
+## SCENE 4 – MICROSOFT AZURE BLOB STORAGE
+
+Create a smooth cinematic transition from AWS into Microsoft Azure.
+
+Show a professional cloud infrastructure environment.
+
+Introduce:
+
+MICROSOFT AZURE
+
+AZURE BLOB STORAGE
+
+Create a realistic animated Blob Storage visualization.
+
+Show:
+- Storage accounts.
+- Containers.
+- Blobs representing stored files.
+- Customer transaction datasets.
+- Business data files.
+
+Animate data files entering the storage container.
+
+Display:
+
+MICROSOFT AZURE
+
+AZURE BLOB STORAGE
+
+OBJECT STORAGE
+
+Use blue architecture and orange data movement highlights.
+
+Keep the scene visually distinct from AWS while maintaining the same NDR EdTech branding.
+
+## SCENE 5 – GOOGLE CLOUD STORAGE
+
+Transition into a modern Google Cloud infrastructure visualization.
+
+Introduce:
+
+GOOGLE CLOUD PLATFORM
+
+GOOGLE CLOUD STORAGE
+
+Show a professional cloud storage environment.
+
+Animate:
+- Storage buckets.
+- Customer datasets.
+- Transaction files.
+- Business records.
+- Uploaded data objects.
+
+Display:
+
+GOOGLE CLOUD
+
+CLOUD STORAGE
+
+OBJECT STORAGE
+
+Use the same NDR EdTech colour palette.
+
+Do not create inaccurate Google Cloud architecture.
+
+## SCENE 6 – THREE CLOUD PROVIDERS COMPARISON
+
+Create a premium three-column comparison animation.
+
+Display three large cloud architecture blocks side by side.
+
+LEFT:
+
+AWS
+
+AMAZON S3
+
+MIDDLE:
+
+MICROSOFT AZURE
+
+AZURE BLOB STORAGE
+
+RIGHT:
+
+GOOGLE CLOUD
+
+GOOGLE CLOUD STORAGE
+
+Show data files entering each cloud storage service.
+
+Connect all three platforms visually using animated data-flow lines.
+
+Display:
+
+THREE MAJOR CLOUD PLATFORMS
+
+AWS S3
+
+AZURE BLOB STORAGE
+
+GOOGLE CLOUD STORAGE
+
+Make the comparison clean, professional and easy to understand.
+
+## SCENE 7 – REAL-TIME BANKING DATA ENGINEERING PROJECT
+
+This should be the most impressive technical scene.
+
+Create a realistic enterprise banking environment.
+
+Show a banking company generating lakhs of customer transactions every day.
+
+Animate:
+- Customer payments.
+- Banking transactions.
+- Account updates.
+- Transaction records.
+- Daily business data.
+
+Show the complete Data Engineering pipeline.
+
+STEP 1 – BANKING DATA GENERATION
+
+Millions of banking transactions are generated.
+
+STEP 2 – AWS S3
+
+Show transaction files landing in an AWS S3 bucket.
+
+Display sample files:
+
+CUSTOMERS.CSV
+
+TRANSACTIONS.PARQUET
+
+ACCOUNTS.JSON
+
+STEP 3 – SNOWFLAKE DATA LOADING
+
+Animate data moving from AWS S3 into Snowflake.
+
+Show the pipeline:
+
+BANKING DATA
+     |
+     V
+AWS S3
+     |
+     V
+SNOWFLAKE STORAGE
+     |
+     V
+SQL PROCESSING
+     |
+     V
+BUSINESS ANALYTICS
+
+Show Snowflake storing and processing the incoming data.
+
+Animate SQL queries executing against the loaded data.
+
+Finally, display a professional banking analytics dashboard containing:
+- Transaction volume.
+- Customer analytics.
+- Daily banking reports.
+- Business performance metrics.
+
+Display:
+
+AWS S3 → SNOWFLAKE → BUSINESS ANALYTICS
+
+This scene must visually demonstrate a real-world Data Engineering workflow.
+
+## SCENE 8 – SNOWFLAKE MULTI-CLOUD SUPPORT
+
+Create a premium cloud architecture visualization.
+
+Show three separate cloud infrastructure environments:
+
+AWS
+
+MICROSOFT AZURE
+
+GOOGLE CLOUD
+
+In each environment, show Snowflake operating on the corresponding cloud infrastructure.
+
+Display:
+
+SNOWFLAKE
+
+AVAILABLE ON MULTIPLE CLOUD PLATFORMS
+
+AWS | AZURE | GOOGLE CLOUD
+
+Show a conceptual Snowflake Storage Layer using underlying cloud infrastructure.
+
+Animate data being stored and managed through Snowflake.
+
+Important:
+- Snowflake is a managed cloud data platform.
+- Do not show Snowflake as the owner of AWS, Azure or Google Cloud.
+- Do not suggest that one Snowflake account automatically spans all three providers.
+- Show the providers as alternative supported deployment platforms.
+
+Create a beautiful final architecture visualization.
+
+## SCENE 9 – RECAP AND NEXT EPISODE
+
+Create a clean white background.
+
+Display three cloud service blocks:
+
+AWS S3
+
+AZURE BLOB STORAGE
+
+GOOGLE CLOUD STORAGE
+
+Show all three connected to a central cloud data engineering visual.
+
+Display:
+
+CLOUD STORAGE
+
+STORE DATA IN THE CLOUD
+
+Then introduce the next episode:
+
+COMING NEXT
+
+SNOWFLAKE EDITIONS
+
+STANDARD
+
+ENTERPRISE
+
+BUSINESS CRITICAL
+
+Use smooth cinematic typography and professional transitions.
+
+# 4. FINAL NDR EDTECH BRANDING AND CONTACT DETAILS
+
+Create a premium branded outro.
+
+Show the original NDR EdTech logo prominently.
+
+Display:
+
+30 DAYS OF SNOWFLAKE
+
+DAY 06 – CLOUD STORAGE
+
+FOLLOW NDR EDTECH
+
+LET'S LEARN AND GROW TOGETHER!
+
+### OFFICIAL CONTACT INFORMATION
+
+PHONE:
++91 87223 55666
++91 81509 78999
+
+EMAIL:
+ndredtech@gmail.com
+info@ndredtech.com
+
+WEBSITE:
+www.ndredtech.com
+
+Use professional phone, email and website icons.
+
+Make all contact information clearly readable on mobile screens.
+
+Do not modify the original logo.
+
+Do not change, misspell or omit any contact details.
+
+Use blue and orange animated accents on a white background.
+
+End with a premium NDR EdTech logo reveal.
+
+---
+
+# 5. CINEMATIC ANIMATION REQUIREMENTS
+
+Use:
+
+- Premium 3D cloud infrastructure.
+- Realistic cloud storage buckets.
+- Animated customer records.
+- Floating CSV, JSON and Parquet file representations.
+- Data transfer animations.
+- Cloud provider architecture visualizations.
+- AWS S3 bucket animations.
+- Azure Blob Storage animations.
+- Google Cloud Storage animations.
+- Snowflake data loading animations.
+- Banking dashboards.
+- Smooth camera movements.
+- Cinematic transitions.
+- Kinetic typography.
+- Professional technical diagrams.
+- Realistic depth and shadows.
+
+Avoid:
+
+- Static PowerPoint slides.
+- Generic stock footage.
+- Cartoonish cloud illustrations.
+- Excessive text.
+- Incorrect cloud architecture.
+- Unrelated colour combinations.
+- Unnecessary decorative animations.
+
+Every animation must explain a concept from the narration.
+
+---
+
+# 6. TECHNICAL ACCURACY REQUIREMENTS
+
+Ensure the following concepts are represented correctly:
+
+1. Cloud Storage stores data on cloud infrastructure rather than only on local computer storage.
+2. Amazon S3 is AWS object storage.
+3. Azure Blob Storage is Microsoft Azure object storage.
+4. Google Cloud Storage is Google Cloud object storage.
+5. These services store files and data objects.
+6. Banking transaction files can land in AWS S3 before being loaded into Snowflake.
+7. Snowflake uses underlying cloud infrastructure for its storage layer.
+8. Snowflake is available on AWS, Microsoft Azure and Google Cloud.
+9. Different cloud providers represent different supported deployment environments.
+
+Do not introduce technically incorrect statements.
+
+---
+
+# 7. FINAL OUTPUT REQUIREMENTS
+
+Create the actual animated video production assets.
+
+Deliver:
+
+1. Complete animated scene sequence.
+2. Cloud storage 3D illustrations.
+3. AWS S3 animation.
+4. Azure Blob Storage animation.
+5. Google Cloud Storage animation.
+6. Banking Data Engineering architecture.
+7. Snowflake multi-cloud architecture visualization.
+8. NDR EdTech branded outro.
+9. Final MP4 video.
+
+Export:
+
+1080 × 1920
+30 FPS
+9:16 vertical
+High-quality MP4.
+
+If direct video rendering is unavailable, create a complete working HTML/CSS/JavaScript animation project or Python + FFmpeg rendering pipeline.
+
+Do not simply provide a storyboard.
+
+Build the actual visuals and production implementation wherever supported.
+
+FINAL CREATIVE DIRECTION:
+
+The opening must be funny and relatable.
+
+The cloud storage explanation must be simple.
+
+The three cloud providers must be visually distinguishable.
+
+The banking example must look like a real enterprise Data Engineering project.
+
+The final video must look like a premium technology education advertisement from NDR EdTech.

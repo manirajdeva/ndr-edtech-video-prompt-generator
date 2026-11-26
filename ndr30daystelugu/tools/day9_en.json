@@ -1,0 +1,1723 @@
+[
+{
+"start": 0.0,
+"end": 1.72,
+"text": "Hello guys, how are you all doing?",
+"words": [
+[
+0.0,
+0.38,
+"Hello"
+],
+[
+0.38,
+0.72,
+"guys,"
+],
+[
+0.96,
+1.4,
+"how"
+],
+[
+1.4,
+1.4,
+"are"
+],
+[
+1.4,
+1.4,
+"you"
+],
+[
+1.4,
+1.58,
+"all"
+],
+[
+1.58,
+1.72,
+"doing?"
+]
+]
+},
+{
+"start": 2.32,
+"end": 3.4,
+"text": "A small question.",
+"words": [
+[
+2.32,
+2.64,
+"A"
+],
+[
+2.64,
+2.96,
+"small"
+],
+[
+2.96,
+3.4,
+"question."
+]
+]
+},
+{
+"start": 3.96,
+"end": 5.34,
+"text": "If you want to store your age in a database,",
+"words": [
+[
+3.96,
+3.98,
+"If"
+],
+[
+3.98,
+3.98,
+"you"
+],
+[
+3.98,
+3.98,
+"want"
+],
+[
+3.98,
+3.98,
+"to"
+],
+[
+3.98,
+3.98,
+"store"
+],
+[
+3.98,
+4.04,
+"your"
+],
+[
+4.04,
+4.48,
+"age"
+],
+[
+4.48,
+4.7,
+"in"
+],
+[
+4.7,
+4.88,
+"a"
+],
+[
+4.88,
+5.34,
+"database,"
+]
+]
+},
+{
+"start": 6.3,
+"end": 9.12,
+"text": "will you use a watch or a number?",
+"words": [
+[
+6.3,
+6.72,
+"will"
+],
+[
+6.72,
+6.82,
+"you"
+],
+[
+6.82,
+6.82,
+"use"
+],
+[
+6.82,
+6.96,
+"a"
+],
+[
+6.96,
+7.12,
+"watch"
+],
+[
+7.12,
+7.96,
+"or"
+],
+[
+7.96,
+8.62,
+"a"
+],
+[
+8.62,
+9.12,
+"number?"
+]
+]
+},
+{
+"start": 9.9,
+"end": 12.0,
+"text": "Or will you store your date of birth in a number?",
+"words": [
+[
+9.9,
+10.46,
+"Or"
+],
+[
+10.46,
+10.58,
+"will"
+],
+[
+10.58,
+10.7,
+"you"
+],
+[
+10.7,
+10.7,
+"store"
+],
+[
+10.7,
+10.7,
+"your"
+],
+[
+10.7,
+10.96,
+"date"
+],
+[
+10.96,
+11.08,
+"of"
+],
+[
+11.08,
+11.36,
+"birth"
+],
+[
+11.36,
+11.56,
+"in"
+],
+[
+11.56,
+11.74,
+"a"
+],
+[
+11.74,
+12.0,
+"number?"
+]
+]
+},
+{
+"start": 14.08,
+"end": 14.98,
+"text": "If you don't select the correct data type,",
+"words": [
+[
+13.82,
+14.12,
+"If"
+],
+[
+14.12,
+14.2,
+"you"
+],
+[
+14.2,
+14.2,
+"don't"
+],
+[
+14.2,
+14.2,
+"select"
+],
+[
+14.2,
+14.2,
+"the"
+],
+[
+14.2,
+14.46,
+"correct"
+],
+[
+14.46,
+14.68,
+"data"
+],
+[
+14.68,
+14.98,
+"type,"
+]
+]
+},
+{
+"start": 16.1,
+"end": 16.88,
+"text": "problems can arise in the data processing.",
+"words": [
+[
+16.1,
+16.12,
+"problems"
+],
+[
+16.12,
+16.12,
+"can"
+],
+[
+16.12,
+16.12,
+"arise"
+],
+[
+16.12,
+16.12,
+"in"
+],
+[
+16.12,
+16.14,
+"the"
+],
+[
+16.14,
+16.4,
+"data"
+],
+[
+16.4,
+16.88,
+"processing."
+]
+]
+},
+{
+"start": 18.3,
+"end": 19.44,
+"text": "That's why today,",
+"words": [
+[
+18.3,
+18.82,
+"That's"
+],
+[
+18.82,
+18.82,
+"why"
+],
+[
+18.82,
+19.44,
+"today,"
+]
+]
+},
+{
+"start": 19.86,
+"end": 22.52,
+"text": "let's understand about Snowflake data types in a simple way.",
+"words": [
+[
+19.86,
+19.86,
+"let's"
+],
+[
+19.86,
+19.86,
+"understand"
+],
+[
+19.86,
+19.86,
+"about"
+],
+[
+19.86,
+20.32,
+"Snowflake"
+],
+[
+20.32,
+20.58,
+"data"
+],
+[
+20.58,
+21.2,
+"types"
+],
+[
+21.2,
+21.42,
+"in"
+],
+[
+21.42,
+21.54,
+"a"
+],
+[
+21.54,
+21.82,
+"simple"
+],
+[
+21.82,
+22.52,
+"way."
+]
+]
+},
+{
+"start": 23.3,
+"end": 25.04,
+"text": "Welcome to NDR EdTech.",
+"words": [
+[
+23.3,
+23.6,
+"Welcome"
+],
+[
+23.6,
+23.9,
+"to"
+],
+[
+23.9,
+24.5,
+"NDR"
+],
+[
+24.5,
+25.04,
+"EdTech."
+]
+]
+},
+{
+"start": 25.78,
+"end": 29.76,
+"text": "There are different types of data in Snowflake",
+"words": [
+[
+25.78,
+26.38,
+"There"
+],
+[
+26.38,
+26.46,
+"are"
+],
+[
+26.46,
+26.76,
+"different"
+],
+[
+26.76,
+27.0,
+"types"
+],
+[
+27.0,
+27.2,
+"of"
+],
+[
+27.2,
+27.48,
+"data"
+],
+[
+27.48,
+29.76,
+"in"
+],
+[
+29.76,
+29.76,
+"Snowflake"
+]
+]
+},
+{
+"start": 29.76,
+"end": 30.56,
+"text": "1.",
+"words": [
+[
+29.76,
+30.56,
+"1."
+]
+]
+},
+{
+"start": 31.0,
+"end": 31.38,
+"text": "Number",
+"words": [
+[
+31.0,
+31.38,
+"Number"
+]
+]
+},
+{
+"start": 31.38,
+"end": 32.44,
+"text": "Numbers",
+"words": [
+[
+31.38,
+32.44,
+"Numbers"
+]
+]
+},
+{
+"start": 32.44,
+"end": 33.24,
+"text": "Salary",
+"words": [
+[
+32.44,
+33.24,
+"Salary"
+]
+]
+},
+{
+"start": 33.24,
+"end": 34.2,
+"text": "Account Balance",
+"words": [
+[
+33.24,
+33.76,
+"Account"
+],
+[
+33.76,
+34.2,
+"Balance"
+]
+]
+},
+{
+"start": 34.2,
+"end": 35.52,
+"text": "and Transaction Amounts",
+"words": [
+[
+34.2,
+34.48,
+"and"
+],
+[
+34.48,
+35.04,
+"Transaction"
+],
+[
+35.04,
+35.52,
+"Amounts"
+]
+]
+},
+{
+"start": 35.52,
+"end": 36.16,
+"text": "Store Chedan",
+"words": [
+[
+35.52,
+35.78,
+"Store"
+],
+[
+35.78,
+36.16,
+"Chedan"
+]
+]
+},
+{
+"start": 36.16,
+"end": 36.42,
+"text": "2.",
+"words": [
+[
+36.16,
+36.42,
+"2."
+]
+]
+},
+{
+"start": 38.06,
+"end": 38.58,
+"text": "Varchar",
+"words": [
+[
+38.06,
+38.58,
+"Varchar"
+]
+]
+},
+{
+"start": 38.58,
+"end": 39.9,
+"text": "Customer Names",
+"words": [
+[
+38.58,
+39.38,
+"Customer"
+],
+[
+39.38,
+39.9,
+"Names"
+]
+]
+},
+{
+"start": 39.9,
+"end": 40.86,
+"text": "Email Addresses",
+"words": [
+[
+39.9,
+40.38,
+"Email"
+],
+[
+40.38,
+40.86,
+"Addresses"
+]
+]
+},
+{
+"start": 40.86,
+"end": 42.14,
+"text": "and City Names Lanty",
+"words": [
+[
+40.86,
+41.22,
+"and"
+],
+[
+41.22,
+41.5,
+"City"
+],
+[
+41.5,
+41.78,
+"Names"
+],
+[
+41.78,
+42.14,
+"Lanty"
+]
+]
+},
+{
+"start": 42.14,
+"end": 42.76,
+"text": "Text Data",
+"words": [
+[
+42.14,
+42.42,
+"Text"
+],
+[
+42.42,
+42.76,
+"Data"
+]
+]
+},
+{
+"start": 42.76,
+"end": 43.46,
+"text": "Store Chedan",
+"words": [
+[
+42.76,
+43.04,
+"Store"
+],
+[
+43.04,
+43.46,
+"Chedan"
+]
+]
+},
+{
+"start": 43.46,
+"end": 44.62,
+"text": "3.",
+"words": [
+[
+43.46,
+44.62,
+"3."
+]
+]
+},
+{
+"start": 45.2,
+"end": 46.26,
+"text": "Date and Timestamp",
+"words": [
+[
+45.2,
+45.4,
+"Date"
+],
+[
+45.4,
+45.72,
+"and"
+],
+[
+45.72,
+46.26,
+"Timestamp"
+]
+]
+},
+{
+"start": 46.26,
+"end": 47.4,
+"text": "Date of Birth",
+"words": [
+[
+46.26,
+46.92,
+"Date"
+],
+[
+46.92,
+47.12,
+"of"
+],
+[
+47.12,
+47.4,
+"Birth"
+]
+]
+},
+{
+"start": 47.4,
+"end": 48.48,
+"text": "Transaction Date",
+"words": [
+[
+47.4,
+48.2,
+"Transaction"
+],
+[
+48.2,
+48.48,
+"Date"
+]
+]
+},
+{
+"start": 48.48,
+"end": 49.92,
+"text": "and Transaction Timestamp",
+"words": [
+[
+48.48,
+48.76,
+"and"
+],
+[
+48.76,
+49.36,
+"Transaction"
+],
+[
+49.36,
+49.92,
+"Timestamp"
+]
+]
+},
+{
+"start": 49.92,
+"end": 50.34,
+"text": "Lanty",
+"words": [
+[
+49.92,
+50.34,
+"Lanty"
+]
+]
+},
+{
+"start": 50.34,
+"end": 51.54,
+"text": "Date and Time Information",
+"words": [
+[
+50.34,
+50.64,
+"Date"
+],
+[
+50.64,
+50.86,
+"and"
+],
+[
+50.86,
+51.08,
+"Time"
+],
+[
+51.08,
+51.54,
+"Information"
+]
+]
+},
+{
+"start": 51.54,
+"end": 52.34,
+"text": "Store Chedan",
+"words": [
+[
+51.54,
+51.92,
+"Store"
+],
+[
+51.92,
+52.34,
+"Chedan"
+]
+]
+},
+{
+"start": 52.34,
+"end": 53.52,
+"text": "4.",
+"words": [
+[
+52.34,
+53.52,
+"4."
+]
+]
+},
+{
+"start": 54.1,
+"end": 54.44,
+"text": "Boolean",
+"words": [
+[
+54.1,
+54.44,
+"Boolean"
+]
+]
+},
+{
+"start": 54.44,
+"end": 55.7,
+"text": "True or False",
+"words": [
+[
+54.44,
+55.08,
+"True"
+],
+[
+55.08,
+55.38,
+"or"
+],
+[
+55.38,
+55.7,
+"False"
+]
+]
+},
+{
+"start": 55.7,
+"end": 56.08,
+"text": "Value",
+"words": [
+[
+55.7,
+56.08,
+"Value"
+]
+]
+},
+{
+"start": 56.08,
+"end": 56.82,
+"text": "Store Chedan",
+"words": [
+[
+56.08,
+56.38,
+"Store"
+],
+[
+56.38,
+56.82,
+"Chedan"
+]
+]
+},
+{
+"start": 56.82,
+"end": 57.64,
+"text": "5.",
+"words": [
+[
+56.82,
+57.64,
+"5."
+]
+]
+},
+{
+"start": 57.64,
+"end": 59.1,
+"text": "Fifth, Variant.",
+"words": [
+[
+57.64,
+58.12,
+"Fifth,"
+],
+[
+58.56,
+59.1,
+"Variant."
+]
+]
+},
+{
+"start": 59.42,
+"end": 61.42,
+"text": "JSON is used to store semi-structured data.",
+"words": [
+[
+59.42,
+59.8,
+"JSON"
+],
+[
+59.8,
+60.18,
+"is"
+],
+[
+60.18,
+60.26,
+"used"
+],
+[
+60.26,
+60.26,
+"to"
+],
+[
+60.26,
+60.26,
+"store"
+],
+[
+60.26,
+60.52,
+"semi"
+],
+[
+60.52,
+60.96,
+"-structured"
+],
+[
+60.96,
+61.42,
+"data."
+]
+]
+},
+{
+"start": 62.86,
+"end": 64.86,
+"text": "Let's take a banking project example.",
+"words": [
+[
+62.86,
+63.36,
+"Let's"
+],
+[
+63.36,
+63.36,
+"take"
+],
+[
+63.36,
+63.44,
+"a"
+],
+[
+63.44,
+63.82,
+"banking"
+],
+[
+63.82,
+64.26,
+"project"
+],
+[
+64.26,
+64.86,
+"example."
+]
+]
+},
+{
+"start": 65.46,
+"end": 66.9,
+"text": "Let's store customer ID in the number.",
+"words": [
+[
+65.46,
+65.6,
+"Let's"
+],
+[
+65.6,
+65.6,
+"store"
+],
+[
+65.6,
+65.92,
+"customer"
+],
+[
+65.92,
+66.32,
+"ID"
+],
+[
+66.32,
+66.56,
+"in"
+],
+[
+66.56,
+66.68,
+"the"
+],
+[
+66.68,
+66.9,
+"number."
+]
+]
+},
+{
+"start": 67.94,
+"end": 69.54,
+"text": "Let's store customer name in the bar chart.",
+"words": [
+[
+67.94,
+68.0,
+"Let's"
+],
+[
+68.0,
+68.0,
+"store"
+],
+[
+68.0,
+68.4,
+"customer"
+],
+[
+68.4,
+68.76,
+"name"
+],
+[
+68.76,
+69.04,
+"in"
+],
+[
+69.04,
+69.2,
+"the"
+],
+[
+69.2,
+69.36,
+"bar"
+],
+[
+69.36,
+69.54,
+"chart."
+]
+]
+},
+{
+"start": 70.62,
+"end": 73.78,
+"text": "Let's store date underscore OF underscore birth in the date.",
+"words": [
+[
+70.62,
+70.76,
+"Let's"
+],
+[
+70.76,
+70.76,
+"store"
+],
+[
+70.76,
+71.0,
+"date"
+],
+[
+71.0,
+71.58,
+"underscore"
+],
+[
+71.58,
+72.08,
+"OF"
+],
+[
+72.08,
+72.72,
+"underscore"
+],
+[
+72.72,
+73.1,
+"birth"
+],
+[
+73.1,
+73.34,
+"in"
+],
+[
+73.34,
+73.54,
+"the"
+],
+[
+73.54,
+73.78,
+"date."
+]
+]
+},
+{
+"start": 74.66,
+"end": 77.64,
+"text": "Let's store transaction underscore timestamp in the timestamp.",
+"words": [
+[
+74.66,
+74.92,
+"Let's"
+],
+[
+74.92,
+74.92,
+"store"
+],
+[
+74.92,
+75.3,
+"transaction"
+],
+[
+75.3,
+76.16,
+"underscore"
+],
+[
+76.16,
+76.78,
+"timestamp"
+],
+[
+76.78,
+76.96,
+"in"
+],
+[
+76.96,
+77.12,
+"the"
+],
+[
+77.12,
+77.64,
+"timestamp."
+]
+]
+},
+{
+"start": 78.62,
+"end": 80.84,
+"text": "Let's store IS underscore active in Boolean.",
+"words": [
+[
+78.62,
+78.74,
+"Let's"
+],
+[
+78.74,
+78.74,
+"store"
+],
+[
+78.74,
+79.02,
+"IS"
+],
+[
+79.02,
+79.62,
+"underscore"
+],
+[
+79.62,
+80.12,
+"active"
+],
+[
+80.12,
+80.4,
+"in"
+],
+[
+80.4,
+80.84,
+"Boolean."
+]
+]
+},
+{
+"start": 81.82,
+"end": 85.36,
+"text": "Let's store JSON data from the customer API in the variant column.",
+"words": [
+[
+81.82,
+82.02,
+"Let's"
+],
+[
+82.02,
+82.02,
+"store"
+],
+[
+82.02,
+82.04,
+"JSON"
+],
+[
+82.04,
+82.04,
+"data"
+],
+[
+82.04,
+82.04,
+"from"
+],
+[
+82.04,
+82.04,
+"the"
+],
+[
+82.04,
+82.36,
+"customer"
+],
+[
+82.36,
+82.84,
+"API"
+],
+[
+82.84,
+84.36,
+"in"
+],
+[
+84.36,
+84.64,
+"the"
+],
+[
+84.64,
+84.92,
+"variant"
+],
+[
+84.92,
+85.36,
+"column."
+]
+]
+},
+{
+"start": 86.04,
+"end": 90.98,
+"text": "So, it is very important to select the correct data type when storing data.",
+"words": [
+[
+86.04,
+86.68,
+"So,"
+],
+[
+87.26,
+87.68,
+"it"
+],
+[
+87.68,
+87.68,
+"is"
+],
+[
+87.68,
+87.68,
+"very"
+],
+[
+87.68,
+87.68,
+"important"
+],
+[
+87.68,
+87.68,
+"to"
+],
+[
+87.68,
+88.14,
+"select"
+],
+[
+88.14,
+88.82,
+"the"
+],
+[
+88.82,
+88.96,
+"correct"
+],
+[
+88.96,
+89.22,
+"data"
+],
+[
+89.22,
+90.1,
+"type"
+],
+[
+90.1,
+90.98,
+"when"
+],
+[
+90.98,
+90.98,
+"storing"
+],
+[
+90.98,
+90.98,
+"data."
+]
+]
+},
+{
+"start": 91.42,
+"end": 94.32,
+"text": "This is our 30 days of Snowflake series, day 9.",
+"words": [
+[
+91.42,
+91.6,
+"This"
+],
+[
+91.6,
+91.7,
+"is"
+],
+[
+91.7,
+91.78,
+"our"
+],
+[
+91.78,
+92.2,
+"30"
+],
+[
+92.2,
+92.46,
+"days"
+],
+[
+92.46,
+92.62,
+"of"
+],
+[
+92.62,
+93.06,
+"Snowflake"
+],
+[
+93.06,
+93.34,
+"series,"
+],
+[
+93.58,
+93.86,
+"day"
+],
+[
+93.86,
+94.32,
+"9."
+]
+]
+},
+{
+"start": 94.58,
+"end": 100.04,
+"text": "In the next video, I will explain the differences between permanent, transient and temporary tables with real-time examples.",
+"words": [
+[
+94.58,
+94.66,
+"In"
+],
+[
+94.66,
+94.76,
+"the"
+],
+[
+94.76,
+94.9,
+"next"
+],
+[
+94.9,
+95.24,
+"video,"
+],
+[
+95.72,
+95.78,
+"I"
+],
+[
+95.78,
+95.78,
+"will"
+],
+[
+95.78,
+95.78,
+"explain"
+],
+[
+95.78,
+95.78,
+"the"
+],
+[
+95.78,
+95.78,
+"differences"
+],
+[
+95.78,
+95.78,
+"between"
+],
+[
+95.78,
+96.04,
+"permanent,"
+],
+[
+96.4,
+96.8,
+"transient"
+],
+[
+96.8,
+97.1,
+"and"
+],
+[
+97.1,
+97.52,
+"temporary"
+],
+[
+97.52,
+98.08,
+"tables"
+],
+[
+98.08,
+98.96,
+"with"
+],
+[
+98.96,
+99.28,
+"real"
+],
+[
+99.28,
+99.48,
+"-time"
+],
+[
+99.48,
+100.04,
+"examples."
+]
+]
+},
+{
+"start": 101.14,
+"end": 106.36,
+"text": "To learn such data engineering concepts in Telugu, follow NDR Ed Technique on Instagram.",
+"words": [
+[
+101.14,
+101.34,
+"To"
+],
+[
+101.34,
+101.34,
+"learn"
+],
+[
+101.34,
+101.54,
+"such"
+],
+[
+101.54,
+101.82,
+"data"
+],
+[
+101.82,
+102.24,
+"engineering"
+],
+[
+102.24,
+102.76,
+"concepts"
+],
+[
+102.76,
+102.92,
+"in"
+],
+[
+102.92,
+103.68,
+"Telugu,"
+],
+[
+103.8,
+104.62,
+"follow"
+],
+[
+104.62,
+105.52,
+"NDR"
+],
+[
+105.52,
+105.76,
+"Ed"
+],
+[
+105.76,
+106.18,
+"Technique"
+],
+[
+106.18,
+106.36,
+"on"
+],
+[
+106.36,
+106.36,
+"Instagram."
+]
+]
+},
+{
+"start": 106.96,
+"end": 111.92,
+"text": "For full course details, contact NDR Ed Technique. Let's learn and grow together.",
+"words": [
+[
+106.96,
+107.02,
+"For"
+],
+[
+107.02,
+107.32,
+"full"
+],
+[
+107.32,
+107.58,
+"course"
+],
+[
+107.58,
+107.92,
+"details,"
+],
+[
+108.32,
+108.52,
+"contact"
+],
+[
+108.52,
+108.88,
+"NDR"
+],
+[
+108.88,
+109.14,
+"Ed"
+],
+[
+109.14,
+109.44,
+"Technique."
+],
+[
+110.28,
+110.74,
+"Let's"
+],
+[
+110.74,
+111.0,
+"learn"
+],
+[
+111.0,
+111.34,
+"and"
+],
+[
+111.34,
+111.58,
+"grow"
+],
+[
+111.58,
+111.92,
+"together."
+]
+]
+}
+]

@@ -1,0 +1,293 @@
+# DAY 7 – SNOWFLAKE EDITIONS
+## Premium Cinematic Technical Explainer Video – NDR EdTech
+
+Act as a world-class cinematic video director, 3D motion graphics artist, technical visualization specialist, and professional educational video editor.
+
+Create a premium, visually engaging Instagram Reel for NDR EdTech's **30 Days of Snowflake** educational series.
+
+**IMPORTANT: I have already recorded the complete Telugu-English voice-over. Use my uploaded voice-over as the master audio. Do not rewrite, replace, shorten, paraphrase, or generate any narration. Build the visuals around the exact voice-over, synchronizing every scene with the spoken content and pauses.**
+
+## 1. Video specifications
+
+- Format: Vertical 9:16
+- Resolution: 1080 × 1920
+- Frame rate: 30 FPS
+- Style: Premium enterprise technology commercial
+- Visual quality: Cinematic 3D, polished motion graphics, realistic lighting
+- Audio: Use the original uploaded voice-over
+- Duration: Match the complete voice-over exactly
+- Captions: Accurate English technical terms and readable Telugu-English captions where appropriate
+- Transitions: Smooth cinematic transitions, animated diagrams, subtle camera movements
+
+Do not create a basic PowerPoint-style slideshow. Every scene should have purposeful animation and visual storytelling.
+
+## 2. Fresh colour palette – Day 7
+
+Use this palette consistently throughout the video:
+
+- Deep Navy: #101827 – background and enterprise atmosphere
+- Teal: #00BFA6 – Standard Edition highlights
+- Amber: #FFCA58 – Enterprise Edition highlights
+- Ice White: #F4F7FA – typography and diagrams
+
+Use distinct visual treatments for the three editions while maintaining one consistent brand identity.
+
+Do not reuse the colour palettes from previous episodes.
+
+## 3. Scene-by-scene visual direction
+
+### Scene 1 – Curiosity and audience engagement
+
+Voice-over begins with the greeting and asks viewers to comment on how they feel about the series.
+
+Visuals:
+- Open with a cinematic dark navy technology environment.
+- Show a 3D digital Snowflake-inspired data environment.
+- Display animated comment bubbles, social engagement icons and subtle floating data particles.
+- Show a modern interface with a comment field and animated reactions.
+- Transition into a cinematic split-screen showing two very different companies.
+
+The audience should immediately feel that this is an interactive educational series.
+
+### Scene 2 – Small startup vs multinational banking company
+
+Voice-over introduces a small startup and a multinational banking company both using Snowflake.
+
+Visuals:
+- Left: A modern startup office with a small team working on analytics dashboards.
+- Right: A large multinational banking headquarters with analysts, secure data infrastructure and financial dashboards.
+- Show both organizations connecting to a central Snowflake-inspired cloud data platform.
+- Animate data flowing from both organizations into their respective environments.
+
+On-screen text:
+"STARTUP vs GLOBAL BANK"
+
+Create a dramatic visual question:
+
+"Same Platform. Same Features?"
+
+Use a cinematic camera push-in before revealing the answer.
+
+### Scene 3 – Introduction to Snowflake Editions
+
+When the narration explains that the features and security options may not necessarily be the same, introduce the concept of Snowflake Editions.
+
+Visuals:
+- Display three premium 3D digital cards emerging from a cloud platform.
+- Each card represents a different edition.
+- Use distinct palette accents for each card.
+
+On-screen title:
+
+"SNOWFLAKE EDITIONS"
+
+Subheading:
+
+"Choose Based on Your Requirements"
+
+### Scene 4 – Standard Edition
+
+When the voice-over explains Standard Edition:
+
+Visual concept:
+- Show a small company working in a clean modern office.
+- Animate a basic data warehouse dashboard.
+- Display SQL query execution and structured data tables.
+- Show simple analytics charts and reporting dashboards.
+
+On-screen title:
+
+"01 – STANDARD EDITION"
+
+Supporting labels:
+- Core Data Warehousing
+- SQL Queries
+- Core Snowflake Features
+
+Use teal accents (#00BFA6).
+
+The scene should communicate a practical foundation for core data warehousing and analytics.
+
+### Scene 5 – Enterprise Edition
+
+When the narration introduces Enterprise Edition:
+
+Visual concept:
+- Transition into a larger enterprise data environment.
+- Show multiple virtual warehouse clusters processing different workloads.
+- Animate several compute clusters operating in parallel.
+- Display multiple workload streams and advanced enterprise data protection visuals.
+
+On-screen title:
+
+"02 – ENTERPRISE EDITION"
+
+Supporting labels:
+- Advanced Features
+- Multi-Cluster Warehouses
+- Additional Data Protection Capabilities
+
+Use amber accents (#FFCA58).
+
+Make the multi-cluster warehouse concept visually clear: show multiple compute clusters working with shared underlying data storage.
+
+### Scene 6 – Business Critical Edition
+
+When the voice-over introduces Business Critical Edition:
+
+Visual concept:
+- Show a premium banking data centre environment.
+- Display secure financial transactions, protected customer records and sensitive healthcare information.
+- Show layered security shields around data.
+- Animate access-control checkpoints, encryption symbols and secure data flows.
+- Use a sophisticated enterprise security visual treatment.
+
+On-screen title:
+
+"03 – BUSINESS CRITICAL EDITION"
+
+Supporting labels:
+- Sensitive Data
+- Additional Security Capabilities
+- Compliance Requirements
+
+Use a gold/amber security accent with deep navy backgrounds.
+
+Do not depict every security feature as exclusive to this edition. Communicate that it offers additional security and compliance capabilities for organizations with demanding requirements.
+
+### Scene 7 – Real-time project example
+
+When the voice-over compares the three organizations:
+
+Create a cinematic three-column comparison.
+
+LEFT – SMALL COMPANY
+- Basic analytics dashboard
+- Standard Edition
+- Teal visual accents
+
+MIDDLE – GROWING ORGANIZATION
+- Multiple workload dashboards
+- Enterprise Edition
+- Amber visual accents
+
+RIGHT – BANKING ORGANIZATION
+- Sensitive customer information
+- Strong security requirements
+- Business Critical Edition
+- Gold security accents
+
+Show all three organizations connected to Snowflake, but with different requirements and edition choices.
+
+On-screen title:
+
+"REAL-WORLD EDITION SELECTION"
+
+Make this comparison visually simple and understandable within a few seconds.
+
+### Scene 8 – Confident closing and recap
+
+When the voice-over explains that edition selection depends on business requirements, security needs and workload:
+
+Visuals:
+- Bring all three edition cards into one premium composition.
+- Animate three floating labels:
+  1. Business Requirements
+  2. Security Needs
+  3. Business Workloads
+- Show a decision-making interface connecting these requirements to edition selection.
+
+On-screen message:
+
+"THE RIGHT EDITION FOR THE RIGHT REQUIREMENTS"
+
+### Scene 9 – Day 7 identity and next episode
+
+When the narration announces Day 7 and introduces the next topic:
+
+Show a premium 3D Snowflake-inspired digital environment.
+
+Main title:
+
+"30 DAYS OF SNOWFLAKE"
+
+Large episode title:
+
+"DAY 07 – SNOWFLAKE EDITIONS"
+
+Then animate the next episode title:
+
+"COMING NEXT"
+
+"Database | Schema | Tables | Views"
+
+Use a clean transition with a 3D database icon, schema structure, table grids and view icons.
+
+### Scene 10 – NDR EdTech branded outro
+
+Create a premium final brand reveal.
+
+Use the original uploaded NDR EdTech logo exactly as provided.
+
+STRICT LOGO REQUIREMENTS:
+- Do not redesign the logo.
+- Do not change its colours, proportions, typography or layout.
+- Do not add effects that distort the original logo.
+- Keep the logo sharp and clearly visible.
+
+Display:
+
+"NDR EdTech"
+
+"Learn Data Engineering. Build Your Future."
+
+Contact details:
+
+📞 +91 87223 55666 | +91 81509 78999
+
+✉ ndredtech@gmail.com
+
+✉ info@ndredtech.com
+
+🌐 www.ndredtech.com
+
+Instagram: Follow NDR EdTech
+
+Final tagline:
+
+"LET'S LEARN AND GROW TOGETHER!"
+
+Keep all contact details readable on a mobile screen. Use a clean layout with sufficient display time.
+
+## 4. Technical accuracy requirements
+
+- Present Standard, Enterprise and Business Critical as different Snowflake editions.
+- Do not imply that every organization automatically receives identical features across editions.
+- Explain multi-cluster warehouses visually in the Enterprise Edition section.
+- Do not suggest that Business Critical Edition is a substitute for an organization's entire security or compliance program.
+- Do not invent specific feature entitlements or claim that a feature is exclusive to an edition unless verified against current Snowflake documentation.
+- Keep all technical labels accurate and readable.
+
+## 5. Editing and production quality
+
+- Synchronize each scene with the actual voice-over.
+- Use cinematic 3D transitions rather than abrupt cuts.
+- Animate SQL queries, cloud infrastructure, warehouse clusters, security layers and dashboards.
+- Keep captions away from the Instagram Reel interface's top and bottom overlay areas.
+- Use consistent typography and visual hierarchy.
+- Use subtle sound effects only where they do not interfere with the voice-over.
+- Keep background music low and professional.
+- Do not add any extra narration.
+- Do not cut off the final voice-over sentence.
+
+## 6. Final deliverable
+
+Produce a complete vertical video matching the supplied audio.
+
+Also provide:
+- Final rendered MP4.
+- Editable project or scene assets where supported.
+- A thumbnail design for Day 7.
+- A final quality check for spelling, logo accuracy, audio synchronization and contact details.
+
+The final video should feel like a premium technology advertisement combined with a professional Snowflake educational explainer—not a generic AI slideshow.
